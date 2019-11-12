@@ -1,0 +1,2 @@
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\Section 3\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\Definitions.BattleStarship.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\Section 3\BattleStarship\Source\BattleStarship\BattleStarship.h

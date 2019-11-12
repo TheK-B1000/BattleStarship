@@ -1,0 +1,3 @@
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\Section 3\BattleStarship\Source\BattleStarship\BattleStarship.Build.cs
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\Section 3\BattleStarship\Source\BattleStarship.Target.cs
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\Section 3\BattleStarship\Source\BattleStarshipEditor.Target.cs

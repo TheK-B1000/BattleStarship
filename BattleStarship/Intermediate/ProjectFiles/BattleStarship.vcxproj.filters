@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BattleStarship.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C9912912-49E9-4193-B375-99309D3BE4E7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BattleStarship.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BattleStarshipEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D393BD60-561A-4750-8E9F-B2B2D4E0736B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{EF558ECF-DDFE-4112-8937-B1C7FCB3BAF7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{7A4D0388-599A-478A-B31E-393F96DFCDC2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{4AABA20D-75B9-4AC3-B106-10309C17A2A1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{0F833647-5EFA-4D1C-BD1D-C36B0D5A74DA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{C1A72C65-5388-4560-B89A-E6D31DF37CCD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{FA9799F9-366B-4576-B39D-C5E966721FB5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{B93525D8-A076-47BD-8C01-D73CA8BD6CB7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{D846678B-C4F3-4822-8ADC-CAC6CCDB4CD0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\BattleStarship">
+      <UniqueIdentifier>{61A68100-0209-4F11-A24B-1647083B9089}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BattleStarship\BattleStarship.Build.cs">
+      <Filter>Source\BattleStarship</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BattleStarship\BattleStarship.cpp">
+      <Filter>Source\BattleStarship</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BattleStarship\BattleStarship.h">
+      <Filter>Source\BattleStarship</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BattleStarship\BattleStarshipGameModeBase.cpp">
+      <Filter>Source\BattleStarship</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BattleStarship\BattleStarshipGameModeBase.h">
+      <Filter>Source\BattleStarship</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
