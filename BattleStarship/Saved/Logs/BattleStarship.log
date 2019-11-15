@@ -999,3 +999,668 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.15-04.01.38:410][236]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Space' took 2.582
 [2019.11.15-04.01.38:410][236]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.582
 [2019.11.15-04.04.14:754][904]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-04.06.01:035][374]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.06.01:076][374]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.01:083][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.06.01:113][374]PIE: New page: PIE session: Space (Nov 14, 2019, 6:06:01 PM)
+[2019.11.15-04.06.01:155][374]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.11.15-04.06.01:175][374]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.06.01:255][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078686s)
+[2019.11.15-04.06.01:327][374]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.06.01:344][374]LogPlayLevel: PIE: World Init took: (0.088305s)
+[2019.11.15-04.06.01:345][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.170801s)
+[2019.11.15-04.06.01:409][374]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2019.11.15-04.06.01:477][374]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.06.01:612][374]LogInit: FAudioDevice initialized.
+[2019.11.15-04.06.01:712][374]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.06.01:778][374]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.06.01
+[2019.11.15-04.06.01:784][374]LogWorld: Bringing up level for play took: 0.027358
+[2019.11.15-04.06.01:792][374]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2019.11.15-04.06.02:020][374]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0161 seconds. Added 20 classes and 0 folders.
+[2019.11.15-04.06.02:027][374]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=112.001] for [Starship_BP_C]
+[2019.11.15-04.06.02:029][374]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 112.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.06.02:043][374]PIE: Play in editor start time for /Game/UEDPIE_0_Space 1.719
+[2019.11.15-04.06.02:067][374]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.04:926][430]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.04:933][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.06.04:933][430]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.06.04:937][430]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.06.04:963][430]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.06.04:965][430]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.05:050][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.06.05:503][430]LogUObjectHash: Compacting FUObjectHashTables data took   8.79ms
+[2019.11.15-04.06.05:539][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.06.05:540][431]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.11.15-04.06.08:739][587]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.06.08:814][591]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.06.08:854][591]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.08:855][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.06.08:855][591]PIE: New page: PIE session: Space (Nov 14, 2019, 6:06:08 PM)
+[2019.11.15-04.06.08:856][591]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.06.08:859][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002820s)
+[2019.11.15-04.06.08:866][591]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.06.08:867][591]LogPlayLevel: PIE: World Init took: (0.007919s)
+[2019.11.15-04.06.08:867][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.010979s)
+[2019.11.15-04.06.08:985][591]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2019.11.15-04.06.09:010][591]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.06.09:132][591]LogInit: FAudioDevice initialized.
+[2019.11.15-04.06.09:147][591]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.06.09:149][591]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.06.09
+[2019.11.15-04.06.09:149][591]LogWorld: Bringing up level for play took: 0.000697
+[2019.11.15-04.06.09:150][591]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2019.11.15-04.06.09:152][591]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=112.001] for [Starship_BP_C]
+[2019.11.15-04.06.09:152][591]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 112.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.06.09:153][591]PIE: Play in editor start time for /Game/UEDPIE_0_Space 0.83
+[2019.11.15-04.06.09:153][591]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.09:489][608]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.09:490][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.06.09:490][608]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.06.09:490][608]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.06.09:503][608]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.06.09:503][608]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.09:692][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.06.09:701][608]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2019.11.15-04.06.09:722][609]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.11.15-04.06.09:991][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.11.15-04.06.11:368][620]LogSlate: Window 'Save Content' being destroyed
+[2019.11.15-04.06.11:383][620]LogPlayLevel: Warning: PIE failed because map save was canceled
+[2019.11.15-04.06.11:384][620]PIE: Warning: PIE failed because map save was canceled
+[2019.11.15-04.06.13:958][761]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.06.13:993][761]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.13:994][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.06.13:995][761]PIE: New page: PIE session: Space (Nov 14, 2019, 6:06:13 PM)
+[2019.11.15-04.06.13:995][761]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.06.13:999][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003937s)
+[2019.11.15-04.06.14:002][761]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.06.14:003][761]LogPlayLevel: PIE: World Init took: (0.003168s)
+[2019.11.15-04.06.14:003][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.007391s)
+[2019.11.15-04.06.14:064][761]LogUObjectHash: Compacting FUObjectHashTables data took   6.65ms
+[2019.11.15-04.06.14:088][761]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.06.14:216][761]LogInit: FAudioDevice initialized.
+[2019.11.15-04.06.14:234][761]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.06.14:236][761]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.06.14
+[2019.11.15-04.06.14:236][761]LogWorld: Bringing up level for play took: 0.000698
+[2019.11.15-04.06.14:236][761]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2019.11.15-04.06.14:239][761]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=112.001] for [Starship_BP_C]
+[2019.11.15-04.06.14:239][761]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 112.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.06.14:239][761]PIE: Play in editor start time for /Game/UEDPIE_0_Space -0.084
+[2019.11.15-04.06.14:239][761]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.17:955][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.06.33:728][698]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.33:729][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.06.33:729][698]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.06.33:735][698]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.06.33:749][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.06.33:749][698]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.33:816][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.06.33:824][698]LogUObjectHash: Compacting FUObjectHashTables data took   7.92ms
+[2019.11.15-04.06.33:867][699]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.11.15-04.06.36:280][827]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.15-04.06.40:796][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.06.40:913][ 84]BlueprintLog: New page: Compile BattleStarshipGameMode_BP
+[2019.11.15-04.06.41:273][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   7.87ms
+[2019.11.15-04.06.41:626][ 95]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Saved/BattleStarshipGameMode_BPAE2B51274790A81B58832D95730A7A63.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Player_StarShip/BattleStarshipGameMode_BP.uasset'
+[2019.11.15-04.06.52:806][663]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2019.11.15-04.06.53:118][663]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Saved/SpaceCFE28936496A2E4C2FAD7F901DCEFFA6.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Space.umap'
+[2019.11.15-04.06.53:161][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Space_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Space_BuiltData.uasset" SILENT=true
+[2019.11.15-04.06.53:201][663]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Saved/Space_BuiltDataC16A02C54DDB1B2C54E14B9C3A0B4D46.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Space_BuiltData.uasset'
+[2019.11.15-04.06.55:543][773]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.06.55:573][773]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.55:574][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.06.55:574][773]PIE: New page: PIE session: Space (Nov 14, 2019, 6:06:55 PM)
+[2019.11.15-04.06.55:574][773]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.06.55:580][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006558s)
+[2019.11.15-04.06.55:583][773]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.06.55:584][773]LogPlayLevel: PIE: World Init took: (0.003187s)
+[2019.11.15-04.06.55:584][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.010040s)
+[2019.11.15-04.06.55:645][773]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2019.11.15-04.06.55:670][773]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.06.55:802][773]LogInit: FAudioDevice initialized.
+[2019.11.15-04.06.55:821][773]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.06.55:822][773]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.06.55
+[2019.11.15-04.06.55:823][773]LogWorld: Bringing up level for play took: 0.000801
+[2019.11.15-04.06.55:823][773]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2019.11.15-04.06.55:828][773]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=112.001] for [Starship_BP_C]
+[2019.11.15-04.06.55:828][773]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 112.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.06.55:831][773]PIE: Play in editor start time for /Game/UEDPIE_0_Space -0.493
+[2019.11.15-04.06.55:832][773]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.56:887][826]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.56:887][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.06.56:887][826]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.06.56:888][826]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.06.56:909][826]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.06.56:909][826]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.06.56:989][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.06.56:998][826]LogUObjectHash: Compacting FUObjectHashTables data took   7.72ms
+[2019.11.15-04.06.57:035][827]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.11.15-04.07.25:056][941]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-04.07.28:236][ 67]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.15-04.07.44:208][830]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2019.11.15-04.07.44:535][830]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Saved/Space02619409417FE9A11EA530BD869A6CFB.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Space.umap'
+[2019.11.15-04.07.44:563][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Space_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Space_BuiltData.uasset" SILENT=true
+[2019.11.15-04.07.44:578][830]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Saved/Space_BuiltDataCA96DE624D846C6EB27D2CA0644F657A.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Space_BuiltData.uasset'
+[2019.11.15-04.07.46:819][930]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.07.46:848][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.07.46:848][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.07.46:849][930]PIE: New page: PIE session: Space (Nov 14, 2019, 6:07:46 PM)
+[2019.11.15-04.07.46:849][930]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.07.46:852][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003586s)
+[2019.11.15-04.07.46:854][930]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.07.46:854][930]LogPlayLevel: PIE: World Init took: (0.001819s)
+[2019.11.15-04.07.46:854][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.005636s)
+[2019.11.15-04.07.46:912][930]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2019.11.15-04.07.46:937][930]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.07.47:090][930]LogInit: FAudioDevice initialized.
+[2019.11.15-04.07.47:104][930]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.07.47:106][930]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.07.47
+[2019.11.15-04.07.47:107][930]LogWorld: Bringing up level for play took: 0.001338
+[2019.11.15-04.07.47:107][930]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2019.11.15-04.07.47:110][930]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=112.001] for [Starship_BP_C]
+[2019.11.15-04.07.47:112][930]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 112.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.07.47:114][930]PIE: Play in editor start time for /Game/UEDPIE_0_Space 0.791
+[2019.11.15-04.07.47:114][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.07.50:954][142]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.07.50:959][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.07.50:959][142]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.07.50:960][142]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.07.50:973][142]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.07.50:974][142]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.07.51:057][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.07.51:066][142]LogUObjectHash: Compacting FUObjectHashTables data took   7.47ms
+[2019.11.15-04.07.51:091][143]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.11.15-04.07.52:006][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.07.52:101][196]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.07.52:144][196]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.07.52:146][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.07.52:146][196]PIE: New page: PIE session: Space (Nov 14, 2019, 6:07:52 PM)
+[2019.11.15-04.07.52:147][196]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.07.52:149][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002893s)
+[2019.11.15-04.07.52:151][196]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.07.52:151][196]LogPlayLevel: PIE: World Init took: (0.001746s)
+[2019.11.15-04.07.52:152][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.004905s)
+[2019.11.15-04.07.52:207][196]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2019.11.15-04.07.52:231][196]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.07.52:351][196]LogInit: FAudioDevice initialized.
+[2019.11.15-04.07.52:367][196]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.07.52:369][196]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.07.52
+[2019.11.15-04.07.52:369][196]LogWorld: Bringing up level for play took: 0.000953
+[2019.11.15-04.07.52:369][196]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2019.11.15-04.07.52:373][196]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=112.001] for [Starship_BP_C]
+[2019.11.15-04.07.52:374][196]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 112.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.07.52:374][196]PIE: Play in editor start time for /Game/UEDPIE_0_Space 0.051
+[2019.11.15-04.07.52:375][196]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.07.56:874][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.07.56:911][414]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.07.56:912][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.07.56:912][414]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.07.56:918][414]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.07.56:933][414]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.07.56:933][414]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.07.57:002][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.07.57:012][414]LogUObjectHash: Compacting FUObjectHashTables data took   8.23ms
+[2019.11.15-04.07.57:048][415]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.11.15-04.07.59:536][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.08.06:771][947]BlueprintLog: New page: Compile Starship_BP
+[2019.11.15-04.08.07:115][947]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2019.11.15-04.08.07:445][957]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Saved/Starship_BP871487F24868F6AFE0887CAEE50A1E87.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Player_StarShip/Starship_BP.uasset'
+[2019.11.15-04.08.08:842][ 23]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.08.08:875][ 23]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.08.08:875][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.08.08:875][ 23]PIE: New page: PIE session: Space (Nov 14, 2019, 6:08:08 PM)
+[2019.11.15-04.08.08:875][ 23]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.08.08:879][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003467s)
+[2019.11.15-04.08.08:880][ 23]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.08.08:881][ 23]LogPlayLevel: PIE: World Init took: (0.001953s)
+[2019.11.15-04.08.08:881][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.005704s)
+[2019.11.15-04.08.08:944][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2019.11.15-04.08.08:965][ 23]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.08.09:096][ 23]LogInit: FAudioDevice initialized.
+[2019.11.15-04.08.09:111][ 23]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.08.09:112][ 23]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.08.09
+[2019.11.15-04.08.09:113][ 23]LogWorld: Bringing up level for play took: 0.000683
+[2019.11.15-04.08.09:113][ 23]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2019.11.15-04.08.09:116][ 23]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2019.11.15-04.08.09:116][ 23]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=112.001] for [Starship_BP_C]
+[2019.11.15-04.08.09:116][ 23]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 112.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.08.09:116][ 23]PIE: Play in editor start time for /Game/UEDPIE_0_Space 0.794
+[2019.11.15-04.08.09:117][ 23]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.08.14:032][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.08.14:114][240]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.08.14:116][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.08.14:116][240]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.08.14:120][240]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.08.14:133][240]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.08.14:134][240]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.08.14:209][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.08.14:215][240]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2019.11.15-04.08.14:249][241]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.11.15-04.08.20:321][563]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.15-04.08.24:414][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2019.11.15-04.08.24:710][763]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Saved/Space1E8CF3B345C831B5C6AE7CBBB7CD529D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Space.umap'
+[2019.11.15-04.08.24:738][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Space_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Space_BuiltData.uasset" SILENT=true
+[2019.11.15-04.08.24:752][763]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Saved/Space_BuiltDataE15C95CA452055268BDC64B4CCF27B19.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Space_BuiltData.uasset'
+[2019.11.15-04.08.25:255][789]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.08.25:278][789]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.08.25:279][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.08.25:279][789]PIE: New page: PIE session: Space (Nov 14, 2019, 6:08:25 PM)
+[2019.11.15-04.08.25:279][789]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.08.25:286][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006500s)
+[2019.11.15-04.08.25:287][789]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.08.25:288][789]LogPlayLevel: PIE: World Init took: (0.001839s)
+[2019.11.15-04.08.25:288][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.008743s)
+[2019.11.15-04.08.25:350][789]LogUObjectHash: Compacting FUObjectHashTables data took   7.22ms
+[2019.11.15-04.08.25:371][789]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.08.25:491][789]LogInit: FAudioDevice initialized.
+[2019.11.15-04.08.25:503][789]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.08.25:505][789]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.08.25
+[2019.11.15-04.08.25:505][789]LogWorld: Bringing up level for play took: 0.000599
+[2019.11.15-04.08.25:505][789]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2019.11.15-04.08.25:507][789]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2019.11.15-04.08.25:508][789]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=112.001] for [Starship_BP_C]
+[2019.11.15-04.08.25:508][789]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 112.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.08.25:508][789]PIE: Play in editor start time for /Game/UEDPIE_0_Space 1.185
+[2019.11.15-04.08.25:508][789]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.08.26:555][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.08.26:556][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.08.26:556][840]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.08.26:556][840]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.08.26:576][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.08.26:576][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.08.26:651][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.08.26:658][840]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2019.11.15-04.08.26:693][841]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.11.15-04.08.27:410][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.08.43:073][287]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.15-04.08.48:725][506]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.15-04.08.49:480][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.08.49:625][543]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2019.11.15-04.08.49:931][543]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Saved/Space62B20E2A424EA87ADD693B8BB87854E4.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Space.umap'
+[2019.11.15-04.08.49:961][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Space_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Space_BuiltData.uasset" SILENT=true
+[2019.11.15-04.08.49:976][543]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Saved/Space_BuiltData765D83EE4E96DA246F43E7839C8C1F7A.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 3/BattleStarship/Content/Space_BuiltData.uasset'
+[2019.11.15-04.09.21:553][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.09.21:887][127]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.09.21:906][127]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.09.21:906][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.09.21:906][127]PIE: New page: PIE session: Space (Nov 14, 2019, 6:09:21 PM)
+[2019.11.15-04.09.21:906][127]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.09.21:909][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002728s)
+[2019.11.15-04.09.21:911][127]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.09.21:911][127]LogPlayLevel: PIE: World Init took: (0.002066s)
+[2019.11.15-04.09.21:911][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.005192s)
+[2019.11.15-04.09.21:959][127]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2019.11.15-04.09.21:974][127]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.09.22:078][127]LogInit: FAudioDevice initialized.
+[2019.11.15-04.09.22:088][127]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.09.22:090][127]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.09.22
+[2019.11.15-04.09.22:097][127]LogWorld: Bringing up level for play took: 0.007884
+[2019.11.15-04.09.22:097][127]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2019.11.15-04.09.22:100][127]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2019.11.15-04.09.22:100][127]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=112.001] for [Starship_BP_C]
+[2019.11.15-04.09.22:100][127]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 112.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.09.22:100][127]PIE: Play in editor start time for /Game/UEDPIE_0_Space -0.222
+[2019.11.15-04.09.22:101][127]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.09.26:817][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.09.26:818][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.09.26:818][404]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.09.26:819][404]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.09.26:834][404]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.09.26:834][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.09.26:888][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.09.26:894][404]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.11.15-04.09.26:915][405]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.11.15-04.09.29:401][546]LogEditorViewport: Clicking on Actor (LMB): Starship_BP_C (Starship_BP)
+[2019.11.15-04.09.31:549][670]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.11.15-04.09.33:027][756]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.11.15-04.09.33:523][783]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.09.33:623][789]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.09.33:639][789]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.09.33:639][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.09.33:639][789]PIE: New page: PIE session: Space (Nov 14, 2019, 6:09:33 PM)
+[2019.11.15-04.09.33:639][789]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.09.33:643][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004073s)
+[2019.11.15-04.09.33:645][789]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.09.33:646][789]LogPlayLevel: PIE: World Init took: (0.002090s)
+[2019.11.15-04.09.33:646][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.006401s)
+[2019.11.15-04.09.33:696][789]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.11.15-04.09.33:713][789]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.09.33:814][789]LogInit: FAudioDevice initialized.
+[2019.11.15-04.09.33:825][789]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.09.33:827][789]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.09.33
+[2019.11.15-04.09.33:827][789]LogWorld: Bringing up level for play took: 0.000776
+[2019.11.15-04.09.33:827][789]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2019.11.15-04.09.33:830][789]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2019.11.15-04.09.33:830][789]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-400.000 Y=0.000 Z=112.001] for [Starship_BP_C]
+[2019.11.15-04.09.33:830][789]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: -400.000000 0.000000 112.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.09.33:830][789]PIE: Play in editor start time for /Game/UEDPIE_0_Space -0.493
+[2019.11.15-04.09.33:830][789]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.09.38:163][ 45]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.09.38:163][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.09.38:163][ 45]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.09.38:164][ 45]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.09.38:179][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.09.38:180][ 45]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.09.38:247][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.09.38:254][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2019.11.15-04.09.38:277][ 46]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.11.15-04.09.54:518][114]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.15-04.09.55:969][163]LogSlate: Took 0.002807 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.11.15-04.11.31:275][632]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.11.31:307][632]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.11.31:307][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.11.31:308][632]PIE: New page: PIE session: Space (Nov 14, 2019, 6:11:31 PM)
+[2019.11.15-04.11.31:308][632]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.11.31:312][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003972s)
+[2019.11.15-04.11.31:314][632]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.11.31:315][632]LogPlayLevel: PIE: World Init took: (0.002030s)
+[2019.11.15-04.11.31:315][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.006650s)
+[2019.11.15-04.11.31:378][632]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2019.11.15-04.11.31:408][632]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.11.31:534][632]LogInit: FAudioDevice initialized.
+[2019.11.15-04.11.31:549][632]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.11.31:550][632]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.11.31
+[2019.11.15-04.11.31:551][632]LogWorld: Bringing up level for play took: 0.001348
+[2019.11.15-04.11.31:554][632]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2019.11.15-04.11.31:557][632]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2019.11.15-04.11.31:557][632]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-400.000 Y=0.000 Z=112.001] for [Starship_BP_C]
+[2019.11.15-04.11.31:558][632]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: -400.000000 0.000000 112.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.11.31:558][632]PIE: Play in editor start time for /Game/UEDPIE_0_Space 1.235
+[2019.11.15-04.11.31:559][632]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.11.38:914][ 66]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.11.38:916][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.11.38:917][ 66]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.11.38:918][ 66]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.11.38:937][ 66]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.11.38:937][ 66]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.11.39:008][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.11.39:013][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2019.11.15-04.11.39:046][ 67]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.11.15-04.11.40:168][126]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.11.15-04.11.40:988][168]LogEditorViewport: Clicking on Actor (LMB): Starship_BP_C (Starship_BP)
+[2019.11.15-04.11.43:824][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.11.43:908][325]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.11.43:935][325]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.11.43:937][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.11.43:938][325]PIE: New page: PIE session: Space (Nov 14, 2019, 6:11:43 PM)
+[2019.11.15-04.11.43:939][325]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.11.43:944][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004491s)
+[2019.11.15-04.11.43:946][325]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.11.43:949][325]LogPlayLevel: PIE: World Init took: (0.003818s)
+[2019.11.15-04.11.43:949][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.009990s)
+[2019.11.15-04.11.44:010][325]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.11.15-04.11.44:034][325]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.11.44:168][325]LogInit: FAudioDevice initialized.
+[2019.11.15-04.11.44:179][325]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.11.44:183][325]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.11.44
+[2019.11.15-04.11.44:184][325]LogWorld: Bringing up level for play took: 0.005073
+[2019.11.15-04.11.44:185][325]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2019.11.15-04.11.44:189][325]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2019.11.15-04.11.44:189][325]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-400.000 Y=0.000 Z=112.001] for [Starship_BP_C]
+[2019.11.15-04.11.44:190][325]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: -400.000000 0.000000 112.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.11.44:191][325]PIE: Play in editor start time for /Game/UEDPIE_0_Space -0.132
+[2019.11.15-04.11.44:191][325]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.11.45:559][398]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.11.45:560][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.11.45:561][398]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.11.45:561][398]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.11.45:578][398]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.11.45:579][398]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.11.45:654][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.11.45:661][398]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2019.11.15-04.11.45:692][399]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.11.15-04.11.48:405][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.15-04.11.50:483][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.11.53:245][792]Cmd: TRANSACTION UNDO
+[2019.11.15-04.11.53:247][792]LogEditorTransaction: Undo Scale Actors
+[2019.11.15-04.11.54:908][876]Cmd: TRANSACTION UNDO
+[2019.11.15-04.11.54:908][876]LogEditorTransaction: Undo Scale Actors
+[2019.11.15-04.11.59:671][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.12.02:251][263]LogEditorViewport: Clicking on Actor (LMB): Starship_BP_C (Starship_BP)
+[2019.11.15-04.12.04:334][372]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.15-04.12.04:789][397]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.12.04:813][397]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.12.04:814][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.12.04:814][397]PIE: New page: PIE session: Space (Nov 14, 2019, 6:12:04 PM)
+[2019.11.15-04.12.04:814][397]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.12.04:819][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004225s)
+[2019.11.15-04.12.04:821][397]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.12.04:821][397]LogPlayLevel: PIE: World Init took: (0.002001s)
+[2019.11.15-04.12.04:821][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.006982s)
+[2019.11.15-04.12.04:881][397]LogUObjectHash: Compacting FUObjectHashTables data took   7.32ms
+[2019.11.15-04.12.04:901][397]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.12.05:018][397]LogInit: FAudioDevice initialized.
+[2019.11.15-04.12.05:031][397]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.12.05:033][397]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.12.05
+[2019.11.15-04.12.05:033][397]LogWorld: Bringing up level for play took: 0.000937
+[2019.11.15-04.12.05:034][397]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2019.11.15-04.12.05:036][397]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2019.11.15-04.12.05:036][397]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-400.000 Y=0.000 Z=112.001] for [Starship_BP_C]
+[2019.11.15-04.12.05:037][397]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: -400.000000 0.000000 112.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.12.05:037][397]PIE: Play in editor start time for /Game/UEDPIE_0_Space 0.715
+[2019.11.15-04.12.05:038][397]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.12.07:504][539]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.12.07:505][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.12.07:506][539]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.12.07:507][539]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.12.07:528][539]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.12.07:529][539]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.12.07:596][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.12.07:601][539]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.11.15-04.12.07:621][540]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.11.15-04.12.22:846][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.12.38:311][ 94]BlueprintLog: New page: Compile Starship_BP
+[2019.11.15-04.12.38:674][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2019.11.15-04.12.46:084][525]LogEditorViewport: Clicking on Actor (LMB): Starship_BP_C (Starship_BP)
+[2019.11.15-04.12.47:636][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.12.56:036][ 74]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.11.15-04.12.57:497][153]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.11.15-04.12.58:399][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.12.58:531][205]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.12.58:553][205]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.12.58:553][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.12.58:554][205]PIE: New page: PIE session: Space (Nov 14, 2019, 6:12:58 PM)
+[2019.11.15-04.12.58:554][205]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.12.58:563][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009243s)
+[2019.11.15-04.12.58:565][205]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.12.58:566][205]LogPlayLevel: PIE: World Init took: (0.002161s)
+[2019.11.15-04.12.58:566][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.012196s)
+[2019.11.15-04.12.58:628][205]LogUObjectHash: Compacting FUObjectHashTables data took   8.04ms
+[2019.11.15-04.12.58:649][205]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.12.58:770][205]LogInit: FAudioDevice initialized.
+[2019.11.15-04.12.58:782][205]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.12.58:783][205]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.12.58
+[2019.11.15-04.12.58:784][205]LogWorld: Bringing up level for play took: 0.000931
+[2019.11.15-04.12.58:784][205]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2019.11.15-04.12.58:786][205]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2019.11.15-04.12.58:787][205]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-400.000 Y=0.000 Z=162.001] for [Starship_BP_C]
+[2019.11.15-04.12.58:787][205]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: -400.000000 0.000000 162.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.12.58:788][205]PIE: Play in editor start time for /Game/UEDPIE_0_Space 0.465
+[2019.11.15-04.12.58:790][205]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.02:825][434]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.02:827][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.13.02:828][434]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.13.02:829][434]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.13.02:850][434]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.13.02:850][434]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.02:929][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.13.02:936][434]LogUObjectHash: Compacting FUObjectHashTables data took   5.20ms
+[2019.11.15-04.13.02:980][435]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.11.15-04.13.03:495][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.13.03:563][466]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.13.03:584][466]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.03:589][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.13.03:590][466]PIE: New page: PIE session: Space (Nov 14, 2019, 6:13:03 PM)
+[2019.11.15-04.13.03:590][466]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.13.03:594][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003632s)
+[2019.11.15-04.13.03:597][466]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.13.03:598][466]LogPlayLevel: PIE: World Init took: (0.002816s)
+[2019.11.15-04.13.03:598][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.007419s)
+[2019.11.15-04.13.03:659][466]LogUObjectHash: Compacting FUObjectHashTables data took   7.63ms
+[2019.11.15-04.13.03:680][466]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.13.03:811][466]LogInit: FAudioDevice initialized.
+[2019.11.15-04.13.03:830][466]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.13.03:833][466]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.13.03
+[2019.11.15-04.13.03:833][466]LogWorld: Bringing up level for play took: 0.002140
+[2019.11.15-04.13.03:833][466]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2019.11.15-04.13.03:840][466]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2019.11.15-04.13.03:840][466]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-400.000 Y=0.000 Z=162.001] for [Starship_BP_C]
+[2019.11.15-04.13.03:841][466]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: -400.000000 0.000000 162.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.13.03:842][466]PIE: Play in editor start time for /Game/UEDPIE_0_Space -0.481
+[2019.11.15-04.13.03:842][466]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.07:732][640]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.07:733][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.13.07:733][640]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.13.07:737][640]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.13.07:757][640]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.13.07:758][640]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.07:823][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.13.07:829][640]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2019.11.15-04.13.07:857][641]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.11.15-04.13.08:630][684]LogEditorViewport: Clicking on Actor (LMB): Starship_BP_C (Starship_BP)
+[2019.11.15-04.13.23:026][512]Cmd: DELETE
+[2019.11.15-04.13.23:026][512]Cmd: ACTOR DELETE
+[2019.11.15-04.13.23:055][512]LogEditorActor: Deleted Actor: Starship_BP_C
+[2019.11.15-04.13.23:126][512]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2019.11.15-04.13.23:127][512]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2019.11.15-04.13.24:709][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.13.24:810][605]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.13.24:840][605]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.24:840][605]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.13.24:840][605]PIE: New page: PIE session: Space (Nov 14, 2019, 6:13:24 PM)
+[2019.11.15-04.13.24:841][605]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.13.24:843][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002671s)
+[2019.11.15-04.13.24:847][605]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.13.24:849][605]LogPlayLevel: PIE: World Init took: (0.005070s)
+[2019.11.15-04.13.24:849][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.008493s)
+[2019.11.15-04.13.24:906][605]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2019.11.15-04.13.24:926][605]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.13.25:045][605]LogInit: FAudioDevice initialized.
+[2019.11.15-04.13.25:056][605]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.13.25:058][605]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.13.25
+[2019.11.15-04.13.25:058][605]LogWorld: Bringing up level for play took: 0.000792
+[2019.11.15-04.13.25:058][605]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2019.11.15-04.13.25:061][605]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2019.11.15-04.13.25:061][605]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-400.000 Y=0.000 Z=162.001] for [Starship_BP_C]
+[2019.11.15-04.13.25:061][605]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Starship_BP_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: -400.000000 0.000000 162.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.11.15-04.13.25:062][605]PIE: Play in editor start time for /Game/UEDPIE_0_Space 0.739
+[2019.11.15-04.13.25:063][605]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.27:628][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.13.31:430][939]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.13.31:507][943]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.31:509][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.13.31:510][943]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.13.31:513][943]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.13.31:528][943]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.13.31:533][943]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.31:599][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.13.31:604][943]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2019.11.15-04.13.31:624][944]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.11.15-04.13.38:703][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.15-04.13.40:547][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.13.40:636][450]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.13.40:668][450]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.40:668][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.13.40:669][450]PIE: New page: PIE session: Space (Nov 14, 2019, 6:13:40 PM)
+[2019.11.15-04.13.40:669][450]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.13.40:672][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003234s)
+[2019.11.15-04.13.40:677][450]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.13.40:677][450]LogPlayLevel: PIE: World Init took: (0.004553s)
+[2019.11.15-04.13.40:678][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.008533s)
+[2019.11.15-04.13.40:746][450]LogUObjectHash: Compacting FUObjectHashTables data took   8.19ms
+[2019.11.15-04.13.40:767][450]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.13.40:885][450]LogInit: FAudioDevice initialized.
+[2019.11.15-04.13.40:900][450]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.13.40:902][450]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.13.40
+[2019.11.15-04.13.40:902][450]LogWorld: Bringing up level for play took: 0.000783
+[2019.11.15-04.13.40:902][450]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2019.11.15-04.13.40:911][450]PIE: Play in editor start time for /Game/UEDPIE_0_Space 0.588
+[2019.11.15-04.13.40:911][450]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.45:299][705]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.45:305][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.13.45:305][705]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.13.45:305][705]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.13.45:321][705]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.13.45:322][705]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.13.45:397][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.13.45:403][705]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2019.11.15-04.13.45:438][706]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.11.15-04.13.49:268][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.15-04.13.50:618][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.13.57:322][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.14.01:754][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-04.14.04:387][640]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.15-04.14.04:861][659]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.15-04.14.04:884][659]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.14.04:884][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-04.14.04:884][659]PIE: New page: PIE session: Space (Nov 14, 2019, 6:14:04 PM)
+[2019.11.15-04.14.04:885][659]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
+[2019.11.15-04.14.04:896][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011005s)
+[2019.11.15-04.14.04:897][659]LogAIModule: Creating AISystem for world Space
+[2019.11.15-04.14.04:897][659]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2019.11.15-04.14.04:897][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.012829s)
+[2019.11.15-04.14.04:956][659]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2019.11.15-04.14.04:978][659]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-04.14.05:096][659]LogInit: FAudioDevice initialized.
+[2019.11.15-04.14.05:110][659]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.11.15-04.14.05:112][659]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.11.14-23.14.05
+[2019.11.15-04.14.05:113][659]LogWorld: Bringing up level for play took: 0.001080
+[2019.11.15-04.14.05:113][659]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2019.11.15-04.14.05:120][659]PIE: Play in editor start time for /Game/UEDPIE_0_Space 0.798
+[2019.11.15-04.14.05:121][659]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.14.07:864][814]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.14.07:871][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.14.07:872][814]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Space
+[2019.11.15-04.14.07:872][814]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.11.15-04.14.07:891][814]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-04.14.07:891][814]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
+[2019.11.15-04.14.07:957][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-04.14.07:963][814]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2019.11.15-04.14.07:996][815]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.11.15-04.14.08:224][827]Cmd: SELECT NONE
