@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BattleStarship.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C9912912-49E9-4193-B375-99309D3BE4E7}</UniqueIdentifier>
+      <UniqueIdentifier>{882FC473-A1F1-4A9B-836E-4D473721B105}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleStarship.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\BattleStarshipEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{D393BD60-561A-4750-8E9F-B2B2D4E0736B}</UniqueIdentifier>
+      <UniqueIdentifier>{678689AC-A878-4E34-BE59-2C41114FC588}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,56 +24,59 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Config\Android">
-      <UniqueIdentifier>{EF558ECF-DDFE-4112-8937-B1C7FCB3BAF7}</UniqueIdentifier>
+      <UniqueIdentifier>{DE08DE8A-6637-49CC-888C-4FF3347BF174}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Android\AndroidEngine.ini">
       <Filter>Config\Android</Filter>
     </None>
     <Filter Include="Config\IOS">
-      <UniqueIdentifier>{7A4D0388-599A-478A-B31E-393F96DFCDC2}</UniqueIdentifier>
+      <UniqueIdentifier>{4E567C6D-4FA5-4A89-B738-E6C3F4565D64}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\IOS\IOSEngine.ini">
       <Filter>Config\IOS</Filter>
     </None>
     <Filter Include="Config\Linux">
-      <UniqueIdentifier>{4AABA20D-75B9-4AC3-B106-10309C17A2A1}</UniqueIdentifier>
+      <UniqueIdentifier>{20231CDA-CB5B-4730-8A05-C4CC11578543}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Linux\LinuxEngine.ini">
       <Filter>Config\Linux</Filter>
     </None>
     <Filter Include="Config\Mac">
-      <UniqueIdentifier>{0F833647-5EFA-4D1C-BD1D-C36B0D5A74DA}</UniqueIdentifier>
+      <UniqueIdentifier>{6627AFEB-3D43-4394-81CB-A5E2A58FA695}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Mac\MacEngine.ini">
       <Filter>Config\Mac</Filter>
     </None>
     <Filter Include="Config\PS4">
-      <UniqueIdentifier>{C1A72C65-5388-4560-B89A-E6D31DF37CCD}</UniqueIdentifier>
+      <UniqueIdentifier>{78E745C4-2B27-4913-BF0E-199872927A05}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\PS4\PS4Engine.ini">
       <Filter>Config\PS4</Filter>
     </None>
     <Filter Include="Config\Switch">
-      <UniqueIdentifier>{FA9799F9-366B-4576-B39D-C5E966721FB5}</UniqueIdentifier>
+      <UniqueIdentifier>{83276AB5-D31A-46E5-8DE3-EFA80FDF0E4A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Switch\SwitchEngine.ini">
       <Filter>Config\Switch</Filter>
     </None>
     <Filter Include="Config\Windows">
-      <UniqueIdentifier>{B93525D8-A076-47BD-8C01-D73CA8BD6CB7}</UniqueIdentifier>
+      <UniqueIdentifier>{9C489603-373A-4228-9766-B54D6A69D899}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Windows\WindowsEngine.ini">
       <Filter>Config\Windows</Filter>
     </None>
     <Filter Include="Config\XboxOne">
-      <UniqueIdentifier>{D846678B-C4F3-4822-8ADC-CAC6CCDB4CD0}</UniqueIdentifier>
+      <UniqueIdentifier>{154798F5-12EC-4110-9DC3-8111CFDAB69C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
       <Filter>Config\XboxOne</Filter>
     </None>
     <Filter Include="Source\BattleStarship">
-      <UniqueIdentifier>{61A68100-0209-4F11-A24B-1647083B9089}</UniqueIdentifier>
+      <UniqueIdentifier>{467B83CF-570D-4F54-B3A6-769409450AF4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleStarship\BattleStarship.Build.cs">
       <Filter>Source\BattleStarship</Filter>
@@ -89,5 +93,27 @@
     <ClInclude Include="..\..\Source\BattleStarship\BattleStarshipGameModeBase.h">
       <Filter>Source\BattleStarship</Filter>
     </ClInclude>
+    <Filter Include="Source\BattleStarship\Private">
+      <UniqueIdentifier>{176C9A87-DDBA-41BC-9E62-074F63E0F5EA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BattleStarship\Private\Starship.cpp">
+      <Filter>Source\BattleStarship\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\BattleStarship\Public">
+      <UniqueIdentifier>{6062FCC2-C46F-4E7A-87AA-828AE82077E1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\BattleStarship\Public\Starship.h">
+      <Filter>Source\BattleStarship\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BattleStarship\Public\StarshipPlayerController.h">
+      <Filter>Source\BattleStarship\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BattleStarship\Private\StarshipPlayerController.cpp">
+      <Filter>Source\BattleStarship\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
