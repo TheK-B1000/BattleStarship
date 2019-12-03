@@ -90,23 +90,23 @@
     <ClInclude Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Source\ThirdParty\Itoo\ircinterface.h"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Source\ThirdParty\Itoo\Itoo.Build.cs"/>
     <ClInclude Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Source\ThirdParty\Itoo\itreesinterface.H"/>
-    <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Source\Developer\Datasmith\DatasmithFacade\DatasmithFacade.Build.cs"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Source\Developer\Datasmith\DatasmithExporter\DatasmithExporter.Build.cs"/>
+    <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Source\Developer\Datasmith\DatasmithFacade\DatasmithFacade.Build.cs"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Source\Developer\Datasmith\DatasmithCore\DatasmithCore.Build.cs"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithC4DImporter\Source\DatasmithC4DImporter\DatasmithC4DImporter.Build.cs"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithCADImporter\Source\DatasmithCADTranslator\DatasmithCADTranslator.Build.cs"/>
-    <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithDeltaGenImporter\DatasmithDeltaGenImporter.Build.cs"/>
-    <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithFBXImporter\DatasmithFBXImporter.Build.cs"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithVREDImporter\DatasmithVREDImporter.Build.cs"/>
+    <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithFBXImporter\DatasmithFBXImporter.Build.cs"/>
+    <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithDeltaGenImporter\DatasmithDeltaGenImporter.Build.cs"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithGLTFImporter\Source\DatasmithGLTFImporter\DatasmithGLTFImporter.Build.cs"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithIFCImporter\Source\DatasmithIFCImporter\DatasmithIFCImporter.Build.cs"/>
-    <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithImporter\Source\DatasmithImporter\DatasmithImporter.Build.cs"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithImporter\Source\DatasmithCoreTechExtension\DatasmithCoreTechExtension.Build.cs"/>
+    <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithImporter\Source\DatasmithImporter\DatasmithImporter.Build.cs"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithImporter\Source\DatasmithNativeTranslator\DatasmithNativeTranslator.Build.cs"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\DatasmithImporter\Source\DatasmithOpenNurbsTranslator\DatasmithOpenNurbsTranslator.Build.cs"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\MDLImporter\Source\MDLImporter\MDLImporter.Build.cs"/>
-    <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\StaticMeshEditorExtension\Source\MeshProcessingLibrary\MeshProcessingLibrary.Build.cs"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\StaticMeshEditorExtension\Source\StaticMeshEditorExtension\StaticMeshEditorExtension.Build.cs"/>
+    <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Editor\StaticMeshEditorExtension\Source\MeshProcessingLibrary\MeshProcessingLibrary.Build.cs"/>
     <None Include="..\..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Enterprise\Plugins\Runtime\VariantManager\Source\VariantManager\VariantManager.Build.cs"/>
   </ItemGroup>
   <PropertyGroup>
