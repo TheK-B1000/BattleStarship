@@ -1119,3 +1119,1093 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.12-16.59.27:299][ 62]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2019.12.12-16.59.28:238][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
 [2019.12.12-16.59.29:267][ 76]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu13B6616543F6F60D70F0228FDD70796C.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap'
+[2019.12.12-17.17.08:674][225]LogSlate: Took 0.002063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.12-17.18.27:805][242]BlueprintLog: New page: Compile MainMenu_BP
+[2019.12.12-17.18.28:121][242]LogUObjectHash: Compacting FUObjectHashTables data took  32.69ms
+[2019.12.12-17.18.28:336][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu_BP" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset" SILENT=true
+[2019.12.12-17.18.28:385][245]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu_BPAB31D7854C3074527D40B8B2695A0898.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset'
+[2019.12.12-17.18.29:441][272]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.18.29:480][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.18.29:481][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.18.29:481][272]PIE: New page: PIE session: MainMenu (Dec 12, 2019, 7:18:29 AM)
+[2019.12.12-17.18.29:481][272]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.18.29:483][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002049s)
+[2019.12.12-17.18.29:499][272]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.18.29:499][272]LogPlayLevel: PIE: World Init took: (0.015921s)
+[2019.12.12-17.18.29:500][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/MainMenu.MainMenu to /Game/_Levels/UEDPIE_0_MainMenu.MainMenu (0.018328s)
+[2019.12.12-17.18.29:582][272]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2019.12.12-17.18.29:679][272]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.18.29:937][272]LogInit: FAudioDevice initialized.
+[2019.12.12-17.18.30:001][272]LogLoad: Game class is 'GameMode'
+[2019.12.12-17.18.30:003][272]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.12.12-12.18.30
+[2019.12.12-17.18.30:004][272]LogWorld: Bringing up level for play took: 0.001543
+[2019.12.12-17.18.30:005][272]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2019.12.12-17.18.30:013][272]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.18.30:013][272]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.18.30:013][272]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.18.30:017][272]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.18.30:017][272]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_MainMenu 0.612
+[2019.12.12-17.18.30:018][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.18.31:083][312]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.18.31:085][312]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.18.31:086][312]LogNet: Browse: /Game/_Levels/Space
+[2019.12.12-17.18.31:088][312]LogLoad: LoadMap: /Game/_Levels/Space
+[2019.12.12-17.18.31:088][312]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.18.31:094][312]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.18.31:206][312]LogUObjectHash: Compacting FUObjectHashTables data took   9.19ms
+[2019.12.12-17.18.31:382][312]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.18.31:383][312]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.18.31:422][312]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.18.31
+[2019.12.12-17.18.31:433][312]LogWorld: Bringing up level for play took: 0.045810
+[2019.12.12-17.18.31:438][312]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.18.31:443][312]LogLoad: Took 0.354995 seconds to LoadMap(/Game/_Levels/Space)
+[2019.12.12-17.18.33:233][363]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.18.33:233][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.18.33:233][363]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.18.33:238][363]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.18.33:257][363]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.18.33:260][363]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.18.33:351][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.18.33:365][363]LogUObjectHash: Compacting FUObjectHashTables data took   9.57ms
+[2019.12.12-17.18.33:397][364]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.12.12-17.20.16:934][594]LogUObjectHash: Compacting FUObjectHashTables data took  18.64ms
+[2019.12.12-17.20.16:934][594]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Levels/MainMenu' took 0.221
+[2019.12.12-17.20.16:945][594]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MainMenu_BP] ([1] browsable assets)...
+[2019.12.12-17.20.16:945][594]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainMenu_BP]
+[2019.12.12-17.20.17:281][594]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu_BP_Auto2E7ED575C45BD6BD2CAF3AAAF908D0E76.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Autosaves/Game/MainMenu_BP_Auto2.uasset'
+[2019.12.12-17.20.17:285][594]LogFileHelpers: Auto-saving content packages took 0.349
+[2019.12.12-17.20.36:544][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.12-17.20.36:544][ 63]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.22.04:176][195]BlueprintLog: New page: Compile MainMenu_BP
+[2019.12.12-17.22.04:440][195]LogUObjectHash: Compacting FUObjectHashTables data took   6.75ms
+[2019.12.12-17.22.04:805][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu_BP" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset" SILENT=true
+[2019.12.12-17.22.04:837][210]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu_BPA13E49584E88545BDB57189920B1F35D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset'
+[2019.12.12-17.22.42:163][815]BlueprintLog: New page: Compile MainMenu
+[2019.12.12-17.22.42:666][815]LogUObjectHash: Compacting FUObjectHashTables data took   6.06ms
+[2019.12.12-17.22.42:980][823]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2019.12.12-17.22.43:208][823]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu5A21C81C4B5BFF29AE3F1887A0DD8E29.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap'
+[2019.12.12-17.22.43:231][823]LogFileHelpers: Saving map 'MainMenu' took 0.297
+[2019.12.12-17.24.25:715][631]BlueprintLog: New page: Compile MainMenu
+[2019.12.12-17.24.26:009][631]LogUObjectHash: Compacting FUObjectHashTables data took   7.72ms
+[2019.12.12-17.24.26:235][635]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.12.12-17.24.26:529][635]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu0C72714943121D6F35D3D695C2B6F2CF.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap'
+[2019.12.12-17.24.26:559][635]LogFileHelpers: Saving map 'MainMenu' took 0.377
+[2019.12.12-17.25.22:627][726]BlueprintLog: New page: Compile MainMenu_BP
+[2019.12.12-17.25.22:675][726]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2019.12.12-17.25.23:547][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu_BP" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset" SILENT=true
+[2019.12.12-17.25.23:575][765]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu_BP26FA423D476F0B8851EE57824B73184E.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset'
+[2019.12.12-17.26.13:609][128]BlueprintLog: New page: Compile MainMenu_BP
+[2019.12.12-17.26.13:657][128]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2019.12.12-17.26.14:403][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu_BP" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset" SILENT=true
+[2019.12.12-17.26.14:440][159]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu_BP4E253AEB495745072DF9588E0FA7B786.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset'
+[2019.12.12-17.26.20:123][462]BlueprintLog: New page: Compile MainMenu_BP
+[2019.12.12-17.26.20:172][462]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2019.12.12-17.26.20:803][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu_BP" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset" SILENT=true
+[2019.12.12-17.26.20:839][491]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu_BPFD6AD2C94C3D82B7CBA158843FBE367B.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset'
+[2019.12.12-17.27.25:348][817]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.12.12-17.27.25:365][817]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.12.12-17.27.29:670][894]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.12.12-17.29.11:274][335]LogSlate: Window 'Project Settings' being destroyed
+[2019.12.12-17.29.11:301][335]LogSlate: Window 'Project Settings' being destroyed
+[2019.12.12-17.29.11:653][342]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.29.11:710][342]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.29.11:712][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.29.11:712][342]PIE: New page: PIE session: MainMenu (Dec 12, 2019, 7:29:11 AM)
+[2019.12.12-17.29.11:713][342]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.29.11:716][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003081s)
+[2019.12.12-17.29.11:718][342]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.29.11:718][342]LogPlayLevel: PIE: World Init took: (0.002253s)
+[2019.12.12-17.29.11:718][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/MainMenu.MainMenu to /Game/_Levels/UEDPIE_0_MainMenu.MainMenu (0.005735s)
+[2019.12.12-17.29.12:082][342]LogUObjectHash: Compacting FUObjectHashTables data took  11.37ms
+[2019.12.12-17.29.12:119][342]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.29.12:387][342]LogInit: FAudioDevice initialized.
+[2019.12.12-17.29.12:404][342]LogLoad: Game class is 'GameMode'
+[2019.12.12-17.29.12:406][342]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.12.12-12.29.12
+[2019.12.12-17.29.12:406][342]LogWorld: Bringing up level for play took: 0.000546
+[2019.12.12-17.29.12:406][342]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2019.12.12-17.29.12:413][342]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.29.12:413][342]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.29.12:413][342]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.29.12:416][342]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.29.12:416][342]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_MainMenu 1.011
+[2019.12.12-17.29.12:417][342]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.29.13:395][378]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.29.13:395][378]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.29.13:396][378]LogNet: Browse: /Game/_Levels/Space
+[2019.12.12-17.29.13:400][378]LogLoad: LoadMap: /Game/_Levels/Space
+[2019.12.12-17.29.13:401][378]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.29.13:402][378]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.29.13:566][378]LogUObjectHash: Compacting FUObjectHashTables data took  23.35ms
+[2019.12.12-17.29.13:602][378]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.29.13:603][378]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.29.13:606][378]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.29.13
+[2019.12.12-17.29.13:608][378]LogWorld: Bringing up level for play took: 0.004437
+[2019.12.12-17.29.13:614][378]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.29.13:614][378]LogLoad: Took 0.214198 seconds to LoadMap(/Game/_Levels/Space)
+[2019.12.12-17.29.15:256][435]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.29.15:257][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.29.15:258][435]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.29.15:259][435]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.29.15:280][435]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.29.15:280][435]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.29.15:380][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.29.15:386][435]LogUObjectHash: Compacting FUObjectHashTables data took   5.52ms
+[2019.12.12-17.29.15:418][436]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.12.12-17.30.02:738][810]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.30.02:754][810]LogAssetEditorManager: Opening Asset editor for World /Game/_Levels/Space.Space
+[2019.12.12-17.30.02:810][810]LogUObjectHash: Compacting FUObjectHashTables data took   6.81ms
+[2019.12.12-17.30.04:088][810]LogSlate: Window 'Save Content' being destroyed
+[2019.12.12-17.30.04:106][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BMSPA___" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/BMSPA___.uasset" SILENT=true
+[2019.12.12-17.30.04:115][810]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/BMSPA___3010588D4E07672C6D1253A3D1AD450D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/BMSPA___.uasset'
+[2019.12.12-17.30.04:118][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BMSPA____Font" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/BMSPA____Font.uasset" SILENT=true
+[2019.12.12-17.30.04:122][810]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/BMSPA____Font77B551214191457CB82CC8B58BED5AA5.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/BMSPA____Font.uasset'
+[2019.12.12-17.30.04:183][810]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-17.30.04:184][810]LightingResults: New page: Lighting Build
+[2019.12.12-17.30.04:195][810]LoadErrors: New page: Loading map: Space.umap
+[2019.12.12-17.30.04:265][810]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.30.04:699][810]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.30.04:701][810]MapCheck: New page: Map Check
+[2019.12.12-17.30.04:701][810]LightingResults: New page: Lighting Build
+[2019.12.12-17.30.04:779][810]LogUObjectHash: Compacting FUObjectHashTables data took   8.18ms
+[2019.12.12-17.30.05:014][810]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-17.30.05:078][810]LogUObjectHash: Compacting FUObjectHashTables data took   8.38ms
+[2019.12.12-17.30.05:103][810]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-17.30.05:103][810]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.163ms to complete.
+[2019.12.12-17.30.05:103][810]LogFileHelpers: Loading map 'Space' took 0.958
+[2019.12.12-17.30.08:278][920]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.12-17.30.08:929][937]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Levels/Space.Space:PersistentLevel.Space
+[2019.12.12-17.30.34:636][173]BlueprintLog: New page: Compile Space
+[2019.12.12-17.30.34:909][173]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2019.12.12-17.30.35:204][183]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2019.12.12-17.30.35:488][183]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/SpaceC6C7904A4AF4D744955B9C893104D4C2.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap'
+[2019.12.12-17.30.35:515][183]LogFileHelpers: Saving map 'Space' took 0.359
+[2019.12.12-17.30.40:184][408]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.30.40:188][408]LogAssetEditorManager: Opening Asset editor for World /Game/_Levels/MainMenu.MainMenu
+[2019.12.12-17.30.40:237][408]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
+[2019.12.12-17.30.40:239][408]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-17.30.40:239][408]LightingResults: New page: Lighting Build
+[2019.12.12-17.30.40:239][408]LoadErrors: New page: Loading map: MainMenu.umap
+[2019.12.12-17.30.40:253][408]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.30.40:299][408]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.30.40:299][408]MapCheck: New page: Map Check
+[2019.12.12-17.30.40:299][408]LightingResults: New page: Lighting Build
+[2019.12.12-17.30.40:355][408]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2019.12.12-17.30.40:526][408]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-17.30.40:577][408]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2019.12.12-17.30.40:603][408]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-17.30.40:603][408]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.217ms to complete.
+[2019.12.12-17.30.40:603][408]LogFileHelpers: Loading map 'MainMenu' took 0.365
+[2019.12.12-17.30.41:957][465]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2019.12.12-17.33.02:086][ 29]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.33.02:094][ 29]LogAssetEditorManager: Opening Asset editor for World /Game/_Levels/Space.Space
+[2019.12.12-17.33.02:144][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2019.12.12-17.33.02:146][ 29]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-17.33.02:146][ 29]LightingResults: New page: Lighting Build
+[2019.12.12-17.33.02:146][ 29]LoadErrors: New page: Loading map: Space.umap
+[2019.12.12-17.33.02:161][ 29]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.33.02:212][ 29]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.33.02:212][ 29]MapCheck: New page: Map Check
+[2019.12.12-17.33.02:212][ 29]LightingResults: New page: Lighting Build
+[2019.12.12-17.33.02:260][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2019.12.12-17.33.02:444][ 29]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-17.33.02:503][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2019.12.12-17.33.02:524][ 29]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-17.33.02:525][ 29]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.225ms to complete.
+[2019.12.12-17.33.02:525][ 29]LogFileHelpers: Loading map 'Space' took 0.380
+[2019.12.12-17.33.04:892][159]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Levels/Space.Space:PersistentLevel.Space
+[2019.12.12-17.33.23:401][195]BlueprintLog: New page: Compile Space
+[2019.12.12-17.33.23:691][195]LogUObjectHash: Compacting FUObjectHashTables data took   6.12ms
+[2019.12.12-17.33.23:919][202]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2019.12.12-17.33.24:231][202]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Space53F22CF2478D20B3944DE9BCAED90D40.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap'
+[2019.12.12-17.33.24:255][202]LogFileHelpers: Saving map 'Space' took 0.393
+[2019.12.12-17.33.27:086][345]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.33.27:108][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.27:108][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.33.27:109][345]PIE: New page: PIE session: Space (Dec 12, 2019, 7:33:27 AM)
+[2019.12.12-17.33.27:109][345]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.27:116][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006990s)
+[2019.12.12-17.33.27:117][345]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.33.27:118][345]LogPlayLevel: PIE: World Init took: (0.002028s)
+[2019.12.12-17.33.27:118][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/Space.Space to /Game/_Levels/UEDPIE_0_Space.Space (0.009241s)
+[2019.12.12-17.33.27:173][345]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2019.12.12-17.33.27:193][345]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.33.27:306][345]LogInit: FAudioDevice initialized.
+[2019.12.12-17.33.27:326][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.27:326][345]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.33.27:328][345]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.33.27
+[2019.12.12-17.33.27:328][345]LogWorld: Bringing up level for play took: 0.001096
+[2019.12.12-17.33.27:328][345]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2019.12.12-17.33.27:331][345]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.33.27:334][345]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_Space -0.071
+[2019.12.12-17.33.27:335][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.27:336][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.27:336][345]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.27:336][345]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.27:349][345]LogSlate: Window 'BattleStarship Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.12-17.33.27:376][345]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.33.27:389][345]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.33.27:390][345]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.27:457][345]LogUObjectHash: Compacting FUObjectHashTables data took   6.49ms
+[2019.12.12-17.33.27:481][346]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.12.12-17.33.30:674][528]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.33.30:692][528]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.30:692][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.33.30:692][528]PIE: New page: PIE session: Space (Dec 12, 2019, 7:33:30 AM)
+[2019.12.12-17.33.30:692][528]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.30:698][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005656s)
+[2019.12.12-17.33.30:699][528]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.33.30:700][528]LogPlayLevel: PIE: World Init took: (0.001945s)
+[2019.12.12-17.33.30:700][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/Space.Space to /Game/_Levels/UEDPIE_0_Space.Space (0.007785s)
+[2019.12.12-17.33.30:744][528]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2019.12.12-17.33.30:763][528]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.33.30:859][528]LogInit: FAudioDevice initialized.
+[2019.12.12-17.33.30:876][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.30:876][528]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.33.30:878][528]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.33.30
+[2019.12.12-17.33.30:878][528]LogWorld: Bringing up level for play took: 0.000928
+[2019.12.12-17.33.30:878][528]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2019.12.12-17.33.30:882][528]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.33.30:883][528]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_Space -0.522
+[2019.12.12-17.33.30:884][528]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.30:885][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.30:885][528]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.30:885][528]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.30:897][528]LogSlate: Window 'BattleStarship Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.12-17.33.30:930][528]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.33.30:944][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.33.30:944][528]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.31:030][528]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2019.12.12-17.33.31:057][529]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.12.12-17.33.32:292][598]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.33.32:309][598]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.32:309][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.33.32:309][598]PIE: New page: PIE session: Space (Dec 12, 2019, 7:33:32 AM)
+[2019.12.12-17.33.32:310][598]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.32:313][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003178s)
+[2019.12.12-17.33.32:319][598]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.33.32:320][598]LogPlayLevel: PIE: World Init took: (0.006798s)
+[2019.12.12-17.33.32:320][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/Space.Space to /Game/_Levels/UEDPIE_0_Space.Space (0.010299s)
+[2019.12.12-17.33.32:366][598]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.12.12-17.33.32:383][598]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.33.32:479][598]LogInit: FAudioDevice initialized.
+[2019.12.12-17.33.32:495][598]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.32:495][598]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.33.32:496][598]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.33.32
+[2019.12.12-17.33.32:497][598]LogWorld: Bringing up level for play took: 0.001021
+[2019.12.12-17.33.32:497][598]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2019.12.12-17.33.32:500][598]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.33.32:502][598]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_Space 1.098
+[2019.12.12-17.33.32:503][598]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.32:506][598]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.32:506][598]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.32:506][598]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.32:517][598]LogSlate: Window 'BattleStarship Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.12-17.33.32:542][598]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.33.32:552][598]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.33.32:554][598]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.32:621][598]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2019.12.12-17.33.32:637][599]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.12.12-17.33.35:124][748]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.33.35:144][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.35:144][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.33.35:144][748]PIE: New page: PIE session: Space (Dec 12, 2019, 7:33:35 AM)
+[2019.12.12-17.33.35:145][748]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.35:147][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002748s)
+[2019.12.12-17.33.35:149][748]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.33.35:149][748]LogPlayLevel: PIE: World Init took: (0.001583s)
+[2019.12.12-17.33.35:149][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/Space.Space to /Game/_Levels/UEDPIE_0_Space.Space (0.004697s)
+[2019.12.12-17.33.35:199][748]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.12.12-17.33.35:217][748]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.33.35:314][748]LogInit: FAudioDevice initialized.
+[2019.12.12-17.33.35:333][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.35:334][748]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.33.35:336][748]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.33.35
+[2019.12.12-17.33.35:336][748]LogWorld: Bringing up level for play took: 0.001159
+[2019.12.12-17.33.35:337][748]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2019.12.12-17.33.35:341][748]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.33.35:343][748]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_Space -0.062
+[2019.12.12-17.33.35:343][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.35:344][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.35:344][748]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.35:344][748]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.35:356][748]LogSlate: Window 'BattleStarship Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.12-17.33.35:379][748]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.33.35:391][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.33.35:391][748]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.35:453][748]LogUObjectHash: Compacting FUObjectHashTables data took   5.63ms
+[2019.12.12-17.33.35:478][749]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.12.12-17.33.36:469][798]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.33.36:496][798]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.36:496][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.33.36:496][798]PIE: New page: PIE session: Space (Dec 12, 2019, 7:33:36 AM)
+[2019.12.12-17.33.36:496][798]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.36:502][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005341s)
+[2019.12.12-17.33.36:503][798]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.33.36:503][798]LogPlayLevel: PIE: World Init took: (0.001708s)
+[2019.12.12-17.33.36:504][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/Space.Space to /Game/_Levels/UEDPIE_0_Space.Space (0.007304s)
+[2019.12.12-17.33.36:564][798]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2019.12.12-17.33.36:582][798]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.33.36:685][798]LogInit: FAudioDevice initialized.
+[2019.12.12-17.33.36:699][798]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.33.36:701][798]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.33.36
+[2019.12.12-17.33.36:701][798]LogWorld: Bringing up level for play took: 0.000944
+[2019.12.12-17.33.36:701][798]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2019.12.12-17.33.36:704][798]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.33.36:704][798]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_Space -0.7
+[2019.12.12-17.33.36:705][798]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.36:705][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.36:705][798]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.36:705][798]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.36:706][798]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.33.36:738][798]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.33.36:738][798]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.36:801][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.36:806][798]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2019.12.12-17.33.36:825][799]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.12.12-17.33.41:368][ 67]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.33.41:385][ 67]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.41:385][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.33.41:386][ 67]PIE: New page: PIE session: Space (Dec 12, 2019, 7:33:41 AM)
+[2019.12.12-17.33.41:386][ 67]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.41:389][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002821s)
+[2019.12.12-17.33.41:390][ 67]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.33.41:390][ 67]LogPlayLevel: PIE: World Init took: (0.001546s)
+[2019.12.12-17.33.41:390][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/Space.Space to /Game/_Levels/UEDPIE_0_Space.Space (0.004706s)
+[2019.12.12-17.33.41:435][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2019.12.12-17.33.41:453][ 67]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.33.41:551][ 67]LogInit: FAudioDevice initialized.
+[2019.12.12-17.33.41:569][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.41:569][ 67]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.33.41:570][ 67]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.33.41
+[2019.12.12-17.33.41:571][ 67]LogWorld: Bringing up level for play took: 0.001006
+[2019.12.12-17.33.41:571][ 67]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2019.12.12-17.33.41:574][ 67]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.33.41:575][ 67]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_Space 0.17
+[2019.12.12-17.33.41:575][ 67]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.41:576][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.41:576][ 67]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.41:576][ 67]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.41:589][ 67]LogSlate: Window 'BattleStarship Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.12-17.33.41:614][ 67]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.33.41:626][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.33.41:626][ 67]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.41:689][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2019.12.12-17.33.41:708][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.12.12-17.33.44:104][202]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.33.44:124][202]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.44:124][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.33.44:125][202]PIE: New page: PIE session: Space (Dec 12, 2019, 7:33:44 AM)
+[2019.12.12-17.33.44:125][202]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.44:128][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003376s)
+[2019.12.12-17.33.44:130][202]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.33.44:130][202]LogPlayLevel: PIE: World Init took: (0.002088s)
+[2019.12.12-17.33.44:130][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/Space.Space to /Game/_Levels/UEDPIE_0_Space.Space (0.005687s)
+[2019.12.12-17.33.44:176][202]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2019.12.12-17.33.44:195][202]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.33.44:296][202]LogInit: FAudioDevice initialized.
+[2019.12.12-17.33.44:314][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.44:314][202]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.33.44:316][202]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.33.44
+[2019.12.12-17.33.44:316][202]LogWorld: Bringing up level for play took: 0.001366
+[2019.12.12-17.33.44:316][202]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2019.12.12-17.33.44:320][202]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.33.44:321][202]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_Space 0.917
+[2019.12.12-17.33.44:322][202]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.44:322][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.44:323][202]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.44:323][202]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.44:335][202]LogSlate: Window 'BattleStarship Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.12-17.33.44:362][202]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.33.44:376][202]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.33.44:376][202]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.33.44:444][202]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2019.12.12-17.33.44:477][203]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.12.12-17.33.48:135][400]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.33.48:138][400]LogAssetEditorManager: Opening Asset editor for World /Game/_Levels/MainMenu.MainMenu
+[2019.12.12-17.33.48:187][400]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2019.12.12-17.33.48:189][400]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-17.33.48:189][400]LightingResults: New page: Lighting Build
+[2019.12.12-17.33.48:190][400]LoadErrors: New page: Loading map: MainMenu.umap
+[2019.12.12-17.33.48:203][400]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.33.48:252][400]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.33.48:252][400]MapCheck: New page: Map Check
+[2019.12.12-17.33.48:252][400]LightingResults: New page: Lighting Build
+[2019.12.12-17.33.48:299][400]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2019.12.12-17.33.48:544][400]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-17.33.48:599][400]LogUObjectHash: Compacting FUObjectHashTables data took   9.04ms
+[2019.12.12-17.33.48:620][400]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-17.33.48:621][400]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.17ms to complete.
+[2019.12.12-17.33.48:621][400]LogFileHelpers: Loading map 'MainMenu' took 0.433
+[2019.12.12-17.33.49:137][422]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.33.49:157][422]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.33.49:157][422]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.33.49:157][422]PIE: New page: PIE session: MainMenu (Dec 12, 2019, 7:33:49 AM)
+[2019.12.12-17.33.49:157][422]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.33.49:158][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001127s)
+[2019.12.12-17.33.49:159][422]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.33.49:159][422]LogPlayLevel: PIE: World Init took: (0.001124s)
+[2019.12.12-17.33.49:160][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/MainMenu.MainMenu to /Game/_Levels/UEDPIE_0_MainMenu.MainMenu (0.002414s)
+[2019.12.12-17.33.49:204][422]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2019.12.12-17.33.49:223][422]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.33.49:364][422]LogInit: FAudioDevice initialized.
+[2019.12.12-17.33.49:374][422]LogLoad: Game class is 'GameMode'
+[2019.12.12-17.33.49:375][422]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.12.12-12.33.49
+[2019.12.12-17.33.49:375][422]LogWorld: Bringing up level for play took: 0.000535
+[2019.12.12-17.33.49:376][422]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2019.12.12-17.33.49:378][422]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.33.49:378][422]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.33.49:378][422]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.33.49:380][422]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.33.49:380][422]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_MainMenu -0.025
+[2019.12.12-17.33.49:380][422]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.33.50:367][475]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.33.50:367][475]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.33.50:367][475]LogNet: Browse: /Game/_Levels/Space
+[2019.12.12-17.33.50:367][475]LogLoad: LoadMap: /Game/_Levels/Space
+[2019.12.12-17.33.50:368][475]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.33.50:368][475]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.33.50:424][475]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2019.12.12-17.33.50:439][475]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.33.50:440][475]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.33.50:443][475]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.33.50
+[2019.12.12-17.33.50:444][475]LogWorld: Bringing up level for play took: 0.003133
+[2019.12.12-17.33.50:446][475]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.33.50:446][475]LogLoad: Took 0.079206 seconds to LoadMap(/Game/_Levels/Space)
+[2019.12.12-17.33.50:447][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.50:447][475]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.33.50:447][475]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.33.50:447][475]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.33.50:484][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.33.50:485][475]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.33.50:541][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.33.50:547][475]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2019.12.12-17.33.50:574][476]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.12.12-17.33.58:297][919]Cmd: SELECT NONE
+[2019.12.12-17.33.58:979][955]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.33.58:997][955]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.33.58:997][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.33.58:997][955]PIE: New page: PIE session: MainMenu (Dec 12, 2019, 7:33:58 AM)
+[2019.12.12-17.33.59:002][955]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.33.59:003][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001128s)
+[2019.12.12-17.33.59:004][955]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.33.59:005][955]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2019.12.12-17.33.59:005][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/MainMenu.MainMenu to /Game/_Levels/UEDPIE_0_MainMenu.MainMenu (0.002521s)
+[2019.12.12-17.33.59:049][955]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2019.12.12-17.33.59:067][955]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.33.59:249][955]LogInit: FAudioDevice initialized.
+[2019.12.12-17.33.59:258][955]LogLoad: Game class is 'GameMode'
+[2019.12.12-17.33.59:259][955]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.12.12-12.33.59
+[2019.12.12-17.33.59:260][955]LogWorld: Bringing up level for play took: 0.001026
+[2019.12.12-17.33.59:260][955]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2019.12.12-17.33.59:262][955]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.33.59:262][955]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.33.59:262][955]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.33.59:263][955]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.33.59:264][955]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_MainMenu -0.141
+[2019.12.12-17.33.59:264][955]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.34.00:234][998]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.34.00:234][998]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.34.00:234][998]LogNet: Browse: /Game/_Levels/Space
+[2019.12.12-17.34.00:234][998]LogLoad: LoadMap: /Game/_Levels/Space
+[2019.12.12-17.34.00:234][998]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.34.00:235][998]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.34.00:295][998]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2019.12.12-17.34.00:308][998]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.34.00:308][998]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.34.00:312][998]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.34.00
+[2019.12.12-17.34.00:313][998]LogWorld: Bringing up level for play took: 0.003284
+[2019.12.12-17.34.00:314][998]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.34.00:314][998]LogLoad: Took 0.079503 seconds to LoadMap(/Game/_Levels/Space)
+[2019.12.12-17.34.00:315][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.34.00:315][998]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.34.00:315][998]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.34.00:315][998]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.34.00:361][998]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.34.00:362][998]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.34.00:437][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.34.00:442][998]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2019.12.12-17.34.00:471][999]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.12.12-17.34.01:444][ 46]Cmd: SELECT NONE
+[2019.12.12-17.34.11:517][607]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2019.12.12-17.34.16:343][864]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.34.16:350][864]LogAssetEditorManager: Opening Asset editor for World /Game/_Levels/Space.Space
+[2019.12.12-17.34.16:399][864]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2019.12.12-17.34.16:400][864]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-17.34.16:400][864]LightingResults: New page: Lighting Build
+[2019.12.12-17.34.16:401][864]LoadErrors: New page: Loading map: Space.umap
+[2019.12.12-17.34.16:414][864]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.34.16:459][864]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.34.16:459][864]MapCheck: New page: Map Check
+[2019.12.12-17.34.16:459][864]LightingResults: New page: Lighting Build
+[2019.12.12-17.34.16:507][864]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2019.12.12-17.34.16:824][864]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-17.34.16:876][864]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2019.12.12-17.34.16:896][864]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-17.34.16:896][864]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.163ms to complete.
+[2019.12.12-17.34.16:896][864]LogFileHelpers: Loading map 'Space' took 0.497
+[2019.12.12-17.34.19:244][986]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Levels/Space.Space:PersistentLevel.Space
+[2019.12.12-17.34.22:595][157]BlueprintLog: New page: Compile Space
+[2019.12.12-17.34.22:871][157]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2019.12.12-17.34.23:236][170]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2019.12.12-17.34.23:508][170]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Space438134DA4E6BCF3493ED318517A7028D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap'
+[2019.12.12-17.34.23:536][170]LogFileHelpers: Saving map 'Space' took 0.368
+[2019.12.12-17.34.24:977][226]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.34.24:997][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.34.24:997][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.34.24:997][226]PIE: New page: PIE session: Space (Dec 12, 2019, 7:34:24 AM)
+[2019.12.12-17.34.24:997][226]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.34.25:000][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002946s)
+[2019.12.12-17.34.25:001][226]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.34.25:002][226]LogPlayLevel: PIE: World Init took: (0.001322s)
+[2019.12.12-17.34.25:002][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/Space.Space to /Game/_Levels/UEDPIE_0_Space.Space (0.004462s)
+[2019.12.12-17.34.25:051][226]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2019.12.12-17.34.25:080][226]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.34.25:194][226]LogInit: FAudioDevice initialized.
+[2019.12.12-17.34.25:204][226]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.34.25:205][226]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.34.25
+[2019.12.12-17.34.25:206][226]LogWorld: Bringing up level for play took: 0.000864
+[2019.12.12-17.34.25:206][226]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2019.12.12-17.34.25:213][226]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.34.25:213][226]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_Space -0.191
+[2019.12.12-17.34.25:213][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.34.26:087][263]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.34.26:088][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.34.26:088][263]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.34.26:088][263]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.34.26:104][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.34.26:104][263]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.34.26:160][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.34.26:165][263]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2019.12.12-17.34.26:189][264]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.12.12-17.34.26:499][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.12-17.34.28:225][358]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.34.28:243][358]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.34.28:243][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.34.28:243][358]PIE: New page: PIE session: Space (Dec 12, 2019, 7:34:28 AM)
+[2019.12.12-17.34.28:243][358]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.34.28:246][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003000s)
+[2019.12.12-17.34.28:248][358]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.34.28:248][358]LogPlayLevel: PIE: World Init took: (0.001350s)
+[2019.12.12-17.34.28:248][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/Space.Space to /Game/_Levels/UEDPIE_0_Space.Space (0.004576s)
+[2019.12.12-17.34.28:312][358]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2019.12.12-17.34.28:329][358]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.34.28:514][358]LogInit: FAudioDevice initialized.
+[2019.12.12-17.34.28:534][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.34.28:534][358]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.34.28:536][358]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.34.28
+[2019.12.12-17.34.28:536][358]LogWorld: Bringing up level for play took: 0.001014
+[2019.12.12-17.34.28:536][358]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2019.12.12-17.34.28:540][358]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.34.28:541][358]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_Space 1.136
+[2019.12.12-17.34.28:542][358]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.34.29:294][389]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.34.29:294][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.34.29:294][389]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.34.29:311][389]LogSlate: Window 'BattleStarship Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.12-17.34.29:321][389]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.34.29:332][389]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.34.29:333][389]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-17.34.29:415][389]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2019.12.12-17.34.29:435][390]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2019.12.12-17.34.34:160][630]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.34.34:164][630]LogAssetEditorManager: Opening Asset editor for World /Game/_Levels/MainMenu.MainMenu
+[2019.12.12-17.34.34:224][630]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2019.12.12-17.34.34:225][630]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-17.34.34:225][630]LightingResults: New page: Lighting Build
+[2019.12.12-17.34.34:225][630]LoadErrors: New page: Loading map: MainMenu.umap
+[2019.12.12-17.34.34:239][630]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.34.34:284][630]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.34.34:284][630]MapCheck: New page: Map Check
+[2019.12.12-17.34.34:284][630]LightingResults: New page: Lighting Build
+[2019.12.12-17.34.34:330][630]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2019.12.12-17.34.34:671][630]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-17.34.34:722][630]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2019.12.12-17.34.34:747][630]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-17.34.34:748][630]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.39ms to complete.
+[2019.12.12-17.34.34:748][630]LogFileHelpers: Loading map 'MainMenu' took 0.524
+[2019.12.12-17.34.35:122][649]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.34.35:139][649]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.34.35:139][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.34.35:139][649]PIE: New page: PIE session: MainMenu (Dec 12, 2019, 7:34:35 AM)
+[2019.12.12-17.34.35:145][649]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.34.35:146][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001108s)
+[2019.12.12-17.34.35:147][649]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.34.35:147][649]LogPlayLevel: PIE: World Init took: (0.001323s)
+[2019.12.12-17.34.35:148][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/MainMenu.MainMenu to /Game/_Levels/UEDPIE_0_MainMenu.MainMenu (0.002760s)
+[2019.12.12-17.34.35:194][649]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2019.12.12-17.34.35:213][649]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.34.35:312][649]LogInit: FAudioDevice initialized.
+[2019.12.12-17.34.35:326][649]LogLoad: Game class is 'GameMode'
+[2019.12.12-17.34.35:327][649]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.12.12-12.34.35
+[2019.12.12-17.34.35:327][649]LogWorld: Bringing up level for play took: 0.000392
+[2019.12.12-17.34.35:328][649]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2019.12.12-17.34.35:330][649]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.34.35:330][649]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.34.35:330][649]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.34.35:331][649]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.34.35:331][649]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_MainMenu -0.073
+[2019.12.12-17.34.35:331][649]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.34.36:287][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.12-17.34.37:443][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.12-17.34.37:519][774]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.34.37:519][774]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.34.37:519][774]LogNet: Browse: /Game/_Levels/Space
+[2019.12.12-17.34.37:519][774]LogLoad: LoadMap: /Game/_Levels/Space
+[2019.12.12-17.34.37:519][774]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.34.37:520][774]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.34.37:572][774]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2019.12.12-17.34.37:587][774]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.34.37:587][774]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.34.37:591][774]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.34.37
+[2019.12.12-17.34.37:591][774]LogWorld: Bringing up level for play took: 0.003337
+[2019.12.12-17.34.37:593][774]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.34.37:593][774]LogLoad: Took 0.073251 seconds to LoadMap(/Game/_Levels/Space)
+[2019.12.12-17.34.38:160][801]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.34.38:160][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.34.38:161][801]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.34.38:161][801]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.34.38:175][801]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.34.38:175][801]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.34.38:250][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.34.38:256][801]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2019.12.12-17.34.38:272][802]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.12.12-17.35.07:798][624]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2019.12.12-17.35.11:373][738]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.35.12:525][787]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.35.14:113][860]LogAssetEditorManager: Opening Asset editor for World /Game/_Levels/Space.Space
+[2019.12.12-17.35.14:179][860]LogUObjectHash: Compacting FUObjectHashTables data took   5.90ms
+[2019.12.12-17.35.14:181][860]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-17.35.14:181][860]LightingResults: New page: Lighting Build
+[2019.12.12-17.35.14:182][860]LoadErrors: New page: Loading map: Space.umap
+[2019.12.12-17.35.14:182][860]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.35.14:183][860]MapCheck: New page: Map Check
+[2019.12.12-17.35.14:183][860]LightingResults: New page: Lighting Build
+[2019.12.12-17.35.14:244][860]LogUObjectHash: Compacting FUObjectHashTables data took   6.24ms
+[2019.12.12-17.35.14:775][860]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-17.35.14:843][860]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2019.12.12-17.35.15:521][860]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-17.35.15:529][860]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 7.49ms to complete.
+[2019.12.12-17.35.15:532][860]LogFileHelpers: Loading map 'Space' took 1.353
+[2019.12.12-17.35.16:891][913]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Levels/Space.Space:PersistentLevel.Space
+[2019.12.12-17.35.26:755][416]BlueprintLog: New page: Compile Space
+[2019.12.12-17.35.27:159][416]LogUObjectHash: Compacting FUObjectHashTables data took   8.59ms
+[2019.12.12-17.35.27:385][417]LogUObjectHash: Compacting FUObjectHashTables data took   7.37ms
+[2019.12.12-17.35.27:758][417]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Space368622E34FC39C5DA6C2C7B54C027A7B.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap'
+[2019.12.12-17.35.27:788][417]LogFileHelpers: Saving map 'Space' took 0.516
+[2019.12.12-17.35.29:405][470]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2019.12.12-17.35.29:771][470]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Space9E21E4B94BFB029A67662FA5BB8C835C.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap'
+[2019.12.12-17.35.29:802][470]LogFileHelpers: Saving map 'Space' took 0.466
+[2019.12.12-17.35.34:098][641]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.35.34:104][641]LogAssetEditorManager: Opening Asset editor for World /Game/_Levels/MainMenu.MainMenu
+[2019.12.12-17.35.34:185][641]LogUObjectHash: Compacting FUObjectHashTables data took  10.58ms
+[2019.12.12-17.35.34:188][641]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-17.35.34:188][641]LightingResults: New page: Lighting Build
+[2019.12.12-17.35.34:189][641]LoadErrors: New page: Loading map: MainMenu.umap
+[2019.12.12-17.35.34:206][641]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.35.34:282][641]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.35.34:282][641]MapCheck: New page: Map Check
+[2019.12.12-17.35.34:282][641]LightingResults: New page: Lighting Build
+[2019.12.12-17.35.34:358][641]LogUObjectHash: Compacting FUObjectHashTables data took   6.78ms
+[2019.12.12-17.35.35:036][641]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-17.35.35:106][641]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2019.12.12-17.35.35:142][641]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-17.35.35:142][641]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.356ms to complete.
+[2019.12.12-17.35.35:142][641]LogFileHelpers: Loading map 'MainMenu' took 0.957
+[2019.12.12-17.35.36:406][682]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.35.36:438][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.35.36:438][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.35.36:438][682]PIE: New page: PIE session: MainMenu (Dec 12, 2019, 7:35:36 AM)
+[2019.12.12-17.35.36:438][682]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.35.36:440][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001446s)
+[2019.12.12-17.35.36:441][682]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.35.36:441][682]LogPlayLevel: PIE: World Init took: (0.001088s)
+[2019.12.12-17.35.36:441][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/MainMenu.MainMenu to /Game/_Levels/UEDPIE_0_MainMenu.MainMenu (0.002729s)
+[2019.12.12-17.35.36:526][682]LogUObjectHash: Compacting FUObjectHashTables data took   5.96ms
+[2019.12.12-17.35.36:557][682]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.35.36:837][682]LogInit: FAudioDevice initialized.
+[2019.12.12-17.35.36:857][682]LogLoad: Game class is 'GameMode'
+[2019.12.12-17.35.36:859][682]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.12.12-12.35.36
+[2019.12.12-17.35.36:859][682]LogWorld: Bringing up level for play took: 0.000604
+[2019.12.12-17.35.36:860][682]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2019.12.12-17.35.36:866][682]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.35.36:866][682]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.35.36:866][682]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.35.36:868][682]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.35.36:868][682]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_MainMenu -0.537
+[2019.12.12-17.35.36:868][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.35.37:433][702]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.35.37:433][702]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.35.37:433][702]LogNet: Browse: /Game/_Levels/Space
+[2019.12.12-17.35.37:434][702]LogLoad: LoadMap: /Game/_Levels/Space
+[2019.12.12-17.35.37:434][702]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.35.37:434][702]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.35.37:504][702]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2019.12.12-17.35.37:525][702]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.35.37:526][702]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.35.37:533][702]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.35.37
+[2019.12.12-17.35.37:534][702]LogWorld: Bringing up level for play took: 0.006455
+[2019.12.12-17.35.37:536][702]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.35.37:537][702]LogLoad: Took 0.102934 seconds to LoadMap(/Game/_Levels/Space)
+[2019.12.12-17.35.39:024][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.35.39:024][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.35.39:025][760]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.35.39:025][760]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.35.39:049][760]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.35.39:049][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.35.39:130][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.35.39:136][760]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2019.12.12-17.35.39:157][761]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2019.12.12-17.35.41:021][842]Cmd: SELECT NONE
+[2019.12.12-17.35.43:700][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2019.12.12-17.37.13:189][ 77]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.37.13:203][ 77]LogAssetEditorManager: Opening Asset editor for World /Game/_Levels/Space.Space
+[2019.12.12-17.37.13:285][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   8.83ms
+[2019.12.12-17.37.13:291][ 77]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-17.37.13:291][ 77]LightingResults: New page: Lighting Build
+[2019.12.12-17.37.13:293][ 77]LoadErrors: New page: Loading map: Space.umap
+[2019.12.12-17.37.13:306][ 77]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.37.13:307][ 77]MapCheck: New page: Map Check
+[2019.12.12-17.37.13:307][ 77]LightingResults: New page: Lighting Build
+[2019.12.12-17.37.13:375][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   7.85ms
+[2019.12.12-17.37.14:101][ 77]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-17.37.14:169][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   7.27ms
+[2019.12.12-17.37.14:203][ 77]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-17.37.14:204][ 77]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.797ms to complete.
+[2019.12.12-17.37.14:204][ 77]LogFileHelpers: Loading map 'Space' took 0.918
+[2019.12.12-17.37.18:217][226]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Levels/Space.Space:PersistentLevel.Space
+[2019.12.12-17.38.08:235][870]BlueprintLog: New page: Compile Space
+[2019.12.12-17.38.08:654][870]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2019.12.12-17.38.08:945][876]LogUObjectHash: Compacting FUObjectHashTables data took   6.43ms
+[2019.12.12-17.38.09:352][876]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Space76E8A8CB4E56C19A4818CFA61C9476CB.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap'
+[2019.12.12-17.38.09:383][876]LogFileHelpers: Saving map 'Space' took 0.500
+[2019.12.12-17.38.11:119][941]LogTemp: Repeating last play command: Standalone Game
+[2019.12.12-17.38.11:204][941]LogUObjectHash: Compacting FUObjectHashTables data took   6.94ms
+[2019.12.12-17.39.05:036][597]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.39.05:044][597]LogAssetEditorManager: Opening Asset editor for World /Game/_Levels/MainMenu.MainMenu
+[2019.12.12-17.39.05:104][597]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2019.12.12-17.39.05:108][597]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-17.39.05:109][597]LightingResults: New page: Lighting Build
+[2019.12.12-17.39.05:109][597]LoadErrors: New page: Loading map: MainMenu.umap
+[2019.12.12-17.39.05:127][597]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.39.05:203][597]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.39.05:203][597]MapCheck: New page: Map Check
+[2019.12.12-17.39.05:203][597]LightingResults: New page: Lighting Build
+[2019.12.12-17.39.05:269][597]LogUObjectHash: Compacting FUObjectHashTables data took   7.44ms
+[2019.12.12-17.39.05:987][597]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-17.39.06:051][597]LogUObjectHash: Compacting FUObjectHashTables data took   5.70ms
+[2019.12.12-17.39.06:084][597]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-17.39.06:084][597]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.165ms to complete.
+[2019.12.12-17.39.06:084][597]LogFileHelpers: Loading map 'MainMenu' took 0.978
+[2019.12.12-17.39.57:004][391]LogTemp: Repeating last play command: Standalone Game
+[2019.12.12-17.39.57:078][391]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2019.12.12-17.41.46:501][652]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2019.12.12-17.41.55:128][ 59]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.41.55:143][ 59]LogAssetEditorManager: Opening Asset editor for World /Game/_Levels/Space.Space
+[2019.12.12-17.41.55:207][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   9.15ms
+[2019.12.12-17.41.55:209][ 59]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-17.41.55:209][ 59]LightingResults: New page: Lighting Build
+[2019.12.12-17.41.55:209][ 59]LoadErrors: New page: Loading map: Space.umap
+[2019.12.12-17.41.55:225][ 59]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.41.55:287][ 59]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.41.55:288][ 59]MapCheck: New page: Map Check
+[2019.12.12-17.41.55:292][ 59]LightingResults: New page: Lighting Build
+[2019.12.12-17.41.55:352][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   7.57ms
+[2019.12.12-17.41.56:077][ 59]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-17.41.56:138][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   6.76ms
+[2019.12.12-17.41.56:171][ 59]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-17.41.56:172][ 59]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.198ms to complete.
+[2019.12.12-17.41.56:172][ 59]LogFileHelpers: Loading map 'Space' took 0.964
+[2019.12.12-17.42.07:809][701]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Levels/Space.Space:PersistentLevel.Space
+[2019.12.12-17.42.21:946][454]BlueprintLog: New page: Compile Space
+[2019.12.12-17.42.22:363][454]LogUObjectHash: Compacting FUObjectHashTables data took   9.49ms
+[2019.12.12-17.42.22:551][455]LogUObjectHash: Compacting FUObjectHashTables data took   6.79ms
+[2019.12.12-17.42.22:920][455]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/SpaceF73972CE42A0A2CE1C8C9E81E22403C3.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap'
+[2019.12.12-17.42.22:966][455]LogFileHelpers: Saving map 'Space' took 0.483
+[2019.12.12-17.42.25:334][540]LogTemp: Repeating last play command: Standalone Game
+[2019.12.12-17.42.25:416][540]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2019.12.12-17.43.16:607][966]LogTemp: Repeating last play command: Standalone Game
+[2019.12.12-17.43.16:629][966]LogTemp: Repeating last play command: Standalone Game
+[2019.12.12-17.43.16:704][966]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.12.12-17.43.16:780][969]LogTemp: Repeating last play command: Standalone Game
+[2019.12.12-17.43.16:851][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2019.12.12-17.43.56:610][406]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.43.56:616][406]LogAssetEditorManager: Opening Asset editor for World /Game/_Levels/MainMenu.MainMenu
+[2019.12.12-17.43.56:686][406]LogUObjectHash: Compacting FUObjectHashTables data took   6.17ms
+[2019.12.12-17.43.56:687][406]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-17.43.56:687][406]LightingResults: New page: Lighting Build
+[2019.12.12-17.43.56:688][406]LoadErrors: New page: Loading map: MainMenu.umap
+[2019.12.12-17.43.56:711][406]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.43.56:781][406]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.43.56:782][406]MapCheck: New page: Map Check
+[2019.12.12-17.43.56:782][406]LightingResults: New page: Lighting Build
+[2019.12.12-17.43.56:846][406]LogUObjectHash: Compacting FUObjectHashTables data took   8.70ms
+[2019.12.12-17.43.57:544][406]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-17.43.57:606][406]LogUObjectHash: Compacting FUObjectHashTables data took  11.23ms
+[2019.12.12-17.43.57:634][406]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-17.43.57:635][406]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.179ms to complete.
+[2019.12.12-17.43.57:635][406]LogFileHelpers: Loading map 'MainMenu' took 0.948
+[2019.12.12-17.44.02:611][640]LogTemp: Repeating last play command: Standalone Game
+[2019.12.12-17.44.02:679][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.12.12-17.45.17:757][874]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.45.17:759][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.45.17:760][874]PIE: New page: PIE session: MainMenu (Dec 12, 2019, 7:45:17 AM)
+[2019.12.12-17.45.17:764][874]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.45.17:768][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003069s)
+[2019.12.12-17.45.17:769][874]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.45.17:770][874]LogPlayLevel: PIE: World Init took: (0.002200s)
+[2019.12.12-17.45.17:770][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/MainMenu.MainMenu to /Game/_Levels/UEDPIE_0_MainMenu.MainMenu (0.006145s)
+[2019.12.12-17.45.17:834][874]LogUObjectHash: Compacting FUObjectHashTables data took   8.19ms
+[2019.12.12-17.45.17:877][874]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.45.18:091][874]LogInit: FAudioDevice initialized.
+[2019.12.12-17.45.18:126][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.45.18:128][874]LogLoad: Game class is 'GameMode'
+[2019.12.12-17.45.18:131][874]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.12.12-12.45.18
+[2019.12.12-17.45.18:132][874]LogWorld: Bringing up level for play took: 0.001168
+[2019.12.12-17.45.18:134][874]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2019.12.12-17.45.18:143][874]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.12.12-17.45.18:145][874]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.45.18:145][874]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.45.18:145][874]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.45.18:151][874]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.45.18:154][874]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_MainMenu 0.75
+[2019.12.12-17.45.18:155][874]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.45.19:892][937]LogSlate: Window 'BattleStarship Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.12-17.45.19:908][937]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.45.19:909][937]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.45.19:910][937]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.45.19:929][937]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.45.19:930][937]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.45.20:026][937]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2019.12.12-17.45.20:056][938]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2019.12.12-17.45.20:658][964]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.45.20:690][964]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.45.20:690][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.45.20:690][964]PIE: New page: PIE session: MainMenu (Dec 12, 2019, 7:45:20 AM)
+[2019.12.12-17.45.20:694][964]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.45.20:697][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003437s)
+[2019.12.12-17.45.20:700][964]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.45.20:700][964]LogPlayLevel: PIE: World Init took: (0.002369s)
+[2019.12.12-17.45.20:700][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/MainMenu.MainMenu to /Game/_Levels/UEDPIE_0_MainMenu.MainMenu (0.006326s)
+[2019.12.12-17.45.20:754][964]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.12.12-17.45.20:818][964]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.45.20:986][964]LogInit: FAudioDevice initialized.
+[2019.12.12-17.45.21:021][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.45.21:021][964]LogLoad: Game class is 'GameMode'
+[2019.12.12-17.45.21:023][964]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.12.12-12.45.21
+[2019.12.12-17.45.21:023][964]LogWorld: Bringing up level for play took: 0.000638
+[2019.12.12-17.45.21:023][964]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2019.12.12-17.45.21:025][964]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.12.12-17.45.21:026][964]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.45.21:026][964]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.45.21:026][964]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.45.21:028][964]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.45.21:030][964]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_MainMenu -0.375
+[2019.12.12-17.45.21:030][964]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.45.21:686][989]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.45.21:686][989]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.45.21:687][989]LogNet: Browse: /Game/_Levels/Space
+[2019.12.12-17.45.21:687][989]LogLoad: LoadMap: /Game/_Levels/Space
+[2019.12.12-17.45.21:687][989]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.45.21:688][989]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.45.21:759][989]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2019.12.12-17.45.21:791][989]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.45.21:791][989]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.45.21:799][989]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.45.21
+[2019.12.12-17.45.21:800][989]LogWorld: Bringing up level for play took: 0.007202
+[2019.12.12-17.45.21:807][989]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.45.21:808][989]LogLoad: Took 0.120279 seconds to LoadMap(/Game/_Levels/Space)
+[2019.12.12-17.45.22:999][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.12-17.45.25:314][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.12-17.45.25:320][ 43]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.45.25:321][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.45.25:321][ 43]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.45.25:441][ 43]LogSlate: Window 'BattleStarship Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.12-17.45.25:450][ 43]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.45.25:459][ 43]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.45.25:459][ 43]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.45.25:576][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2019.12.12-17.45.25:601][ 44]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2019.12.12-17.45.27:821][133]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.45.27:842][133]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.45.27:842][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.45.27:842][133]PIE: New page: PIE session: MainMenu (Dec 12, 2019, 7:45:27 AM)
+[2019.12.12-17.45.27:849][133]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.45.27:851][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001220s)
+[2019.12.12-17.45.27:852][133]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.45.27:852][133]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2019.12.12-17.45.27:852][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/MainMenu.MainMenu to /Game/_Levels/UEDPIE_0_MainMenu.MainMenu (0.002610s)
+[2019.12.12-17.45.27:915][133]LogUObjectHash: Compacting FUObjectHashTables data took   8.30ms
+[2019.12.12-17.45.27:937][133]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.45.28:056][133]LogInit: FAudioDevice initialized.
+[2019.12.12-17.45.28:102][133]LogLoad: Game class is 'GameMode'
+[2019.12.12-17.45.28:104][133]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.12.12-12.45.28
+[2019.12.12-17.45.28:104][133]LogWorld: Bringing up level for play took: 0.000633
+[2019.12.12-17.45.28:105][133]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2019.12.12-17.45.28:108][133]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.45.28:108][133]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.45.28:108][133]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.45.28:111][133]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.45.28:112][133]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_MainMenu 0.706
+[2019.12.12-17.45.28:112][133]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.45.29:253][179]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.45.29:253][179]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.12-17.45.29:254][179]LogNet: Browse: /Game/_Levels/Space
+[2019.12.12-17.45.29:254][179]LogLoad: LoadMap: /Game/_Levels/Space
+[2019.12.12-17.45.29:254][179]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.45.29:254][179]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.45.29:319][179]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2019.12.12-17.45.29:340][179]LogAIModule: Creating AISystem for world Space
+[2019.12.12-17.45.29:340][179]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-17.45.29:348][179]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-12.45.29
+[2019.12.12-17.45.29:349][179]LogWorld: Bringing up level for play took: 0.007304
+[2019.12.12-17.45.29:350][179]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-17.45.29:351][179]LogLoad: Took 0.096177 seconds to LoadMap(/Game/_Levels/Space)
+[2019.12.12-17.45.30:188][211]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.45.30:188][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.45.30:189][211]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-17.45.30:189][211]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.45.30:208][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.45.30:208][211]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.45.30:305][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.45.30:315][211]LogUObjectHash: Compacting FUObjectHashTables data took   7.93ms
+[2019.12.12-17.45.30:338][212]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2019.12.12-17.45.31:048][243]Cmd: SELECT NONE
+[2019.12.12-17.45.31:238][252]Cmd: SELECT NONE
+[2019.12.12-17.45.31:373][259]Cmd: SELECT NONE
+[2019.12.12-17.45.31:565][261]Cmd: SELECT NONE
+[2019.12.12-17.45.31:707][269]Cmd: SELECT NONE
+[2019.12.12-17.55.49:443][ 94]LogEditorViewport: Clicking Background
+[2019.12.12-17.55.50:166][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.12-17.56.05:630][422]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/TheK-B1000/Desktop/TEST.jpg)
+[2019.12.12-17.56.05:679][422]LogTexture: Display: Building textures: TEST (BGRA8, 728X410)
+[2019.12.12-17.56.38:912][352]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.12-17.56.54:357][258]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.12-17.57.08:234][ 71]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.12-17.57.12:572][319]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.12-17.57.17:567][599]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.12-17.57.21:083][797]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.12-17.57.44:447][175]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.12-17.57.51:296][569]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.12-17.58.00:795][ 92]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.12-17.58.06:289][410]LogEditorTransaction: Undo Edit Size
+[2019.12.12-17.58.06:725][423]Cmd: TRANSACTION UNDO
+[2019.12.12-17.58.06:725][423]LogEditorTransaction: Undo Edit Size
+[2019.12.12-17.58.17:207][997]LogEditorTransaction: Undo Move Widget
+[2019.12.12-17.58.28:266][640]LogEditorTransaction: Undo Edit Text
+[2019.12.12-17.59.06:925][832]BlueprintLog: New page: Compile MainMenu_BP
+[2019.12.12-17.59.07:010][832]LogUObjectHash: Compacting FUObjectHashTables data took   7.73ms
+[2019.12.12-17.59.07:420][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu_BP" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset" SILENT=true
+[2019.12.12-17.59.07:469][848]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu_BP7ADC50964479981168E86296C3C60378.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset'
+[2019.12.12-17.59.07:903][866]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.59.07:951][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.59.07:951][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.59.07:951][866]PIE: New page: PIE session: MainMenu (Dec 12, 2019, 7:59:07 AM)
+[2019.12.12-17.59.07:952][866]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.59.07:954][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001659s)
+[2019.12.12-17.59.07:955][866]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.59.07:956][866]LogPlayLevel: PIE: World Init took: (0.001488s)
+[2019.12.12-17.59.07:956][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/MainMenu.MainMenu to /Game/_Levels/UEDPIE_0_MainMenu.MainMenu (0.003385s)
+[2019.12.12-17.59.08:003][866]LogUObjectHash: Compacting FUObjectHashTables data took   6.00ms
+[2019.12.12-17.59.08:026][866]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.59.08:314][866]LogInit: FAudioDevice initialized.
+[2019.12.12-17.59.08:332][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.59.08:332][866]LogLoad: Game class is 'GameMode'
+[2019.12.12-17.59.08:333][866]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.12.12-12.59.08
+[2019.12.12-17.59.08:334][866]LogWorld: Bringing up level for play took: 0.000682
+[2019.12.12-17.59.08:334][866]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2019.12.12-17.59.08:336][866]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.12.12-17.59.08:336][866]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.59.08:336][866]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.59.08:336][866]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.59.08:338][866]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.59.08:339][866]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_MainMenu 0.934
+[2019.12.12-17.59.08:340][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.59.11:262][995]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 60225
+[2019.12.12-17.59.11:308][995]LogSlate: Took 0.002101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.12-17.59.14:695][995]LogRenderer: Reallocating scene render targets to support 1408x792 Format 10 NumSamples 1 (Frame:254).
+[2019.12.12-17.59.16:911][995]LogSlate: Took 0.004445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.12-17.59.16:913][995]LogSlate: Took 0.001619 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.12-17.59.16:917][995]LogSlate: Took 0.001037 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.12-17.59.16:922][995]LogSlate: Took 0.002012 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.12-17.59.17:927][ 42]LogSlate: Window 'BattleStarship Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.12-17.59.17:935][ 42]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.59.17:935][ 42]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.59.17:935][ 42]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.59.17:943][ 42]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.59.17:943][ 42]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.59.18:027][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2019.12.12-17.59.18:054][ 43]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2019.12.12-17.59.19:353][103]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.59.19:385][103]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.59.19:683][103]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.12-17.59.20:783][155]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-17.59.20:795][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.59.20:795][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.59.20:795][155]PIE: New page: PIE session: MainMenu (Dec 12, 2019, 7:59:20 AM)
+[2019.12.12-17.59.20:796][155]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.59.20:798][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001223s)
+[2019.12.12-17.59.20:799][155]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.59.20:799][155]LogPlayLevel: PIE: World Init took: (0.001278s)
+[2019.12.12-17.59.20:799][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/MainMenu.MainMenu to /Game/_Levels/UEDPIE_0_MainMenu.MainMenu (0.002731s)
+[2019.12.12-17.59.21:034][155]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2019.12.12-17.59.21:053][155]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.59.21:153][155]LogInit: FAudioDevice initialized.
+[2019.12.12-17.59.21:169][155]LogLoad: Game class is 'GameMode'
+[2019.12.12-17.59.21:170][155]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.12.12-12.59.21
+[2019.12.12-17.59.21:170][155]LogWorld: Bringing up level for play took: 0.000496
+[2019.12.12-17.59.21:170][155]LogOnline: OSS: Creating online subsystem instance for: :Context_50
+[2019.12.12-17.59.21:173][155]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.59.21:173][155]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.59.21:173][155]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.59.21:174][155]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.59.21:175][155]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_MainMenu -0.23
+[2019.12.12-17.59.21:175][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.59.23:731][303]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.59.23:732][303]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.59.23:732][303]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.59.23:732][303]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-17.59.23:744][303]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-17.59.23:744][303]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.59.23:815][303]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.59.23:941][303]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2019.12.12-17.59.23:955][304]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2019.12.12-17.59.33:060][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.59.33:060][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-17.59.33:060][794]PIE: New page: PIE session: MainMenu (Dec 12, 2019, 7:59:33 AM)
+[2019.12.12-17.59.33:064][794]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-17.59.33:065][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001073s)
+[2019.12.12-17.59.33:067][794]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-17.59.33:067][794]LogPlayLevel: PIE: World Init took: (0.001510s)
+[2019.12.12-17.59.33:067][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/MainMenu.MainMenu to /Game/_Levels/UEDPIE_0_MainMenu.MainMenu (0.002769s)
+[2019.12.12-17.59.33:103][794]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2019.12.12-17.59.33:121][794]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-17.59.33:216][794]LogInit: FAudioDevice initialized.
+[2019.12.12-17.59.33:231][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-17.59.33:232][794]LogLoad: Game class is 'GameMode'
+[2019.12.12-17.59.33:233][794]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.12.12-12.59.33
+[2019.12.12-17.59.33:233][794]LogWorld: Bringing up level for play took: 0.000480
+[2019.12.12-17.59.33:233][794]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2019.12.12-17.59.33:235][794]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.59.33:236][794]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-17.59.33:236][794]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.59.33:237][794]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-17.59.33:251][794]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_MainMenu -0.154
+[2019.12.12-17.59.33:251][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-17.59.33:301][795]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 800
+[2019.12.12-17.59.33:347][796]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.12-17.59.33:351][796]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.12-17.59.33:355][796]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.12-17.59.33:358][796]LogSlate: Took 0.000786 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.12-17.59.34:255][834]LogRenderer: Reallocating scene render targets to support 1536x800 Format 10 NumSamples 1 (Frame:41).
+[2019.12.12-18.01.45:253][745]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-18.01.45:254][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-18.01.45:254][745]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-18.01.45:266][745]LogSlate: Window 'BattleStarship Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.12-18.01.45:278][745]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-18.01.45:315][745]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-18.01.45:316][745]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-18.01.45:730][745]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2019.12.12-18.01.45:758][746]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2019.12.12-18.01.48:429][754]LogSlate: Took 0.000618 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.12-18.01.48:487][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.12.12-18.01.48:759][754]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenuDE80DE884051AC8E895E9C95B09153F3.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap'
