@@ -3,6 +3,7 @@
 #include "Starship.h"
 #include "StarshipPlayerController.h"
 
+
 void AStarshipPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
@@ -20,8 +21,23 @@ void AStarshipPlayerController::BeginPlay()
 	}
 }
 
+void AStarshipPlayerController::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	AimTowardsCrosshair();
+
+}
+
 AStarship* AStarshipPlayerController::GetControlledStarship() const
 {
 	return Cast<AStarship>(GetPawn());
 }
 
+void AStarshipPlayerController::AimTowardsCrosshair()
+{
+	if (!GetControlledStarship()) { return; }
+
+	// Get world location if linetrace through crosshair
+	// if it hits the landscape
+		// Tell controlled starship to aim at this point
+}

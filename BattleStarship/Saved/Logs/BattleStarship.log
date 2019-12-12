@@ -1,4 +1,4 @@
-﻿Log file open, 12/11/19 10:47:57
+﻿Log file open, 12/12/19 11:21:42
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: BattleStarship
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.114469
+LogStats: Stats thread started at 0.111624
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -173,415 +173,524 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
-[2019.12.11-15.47.57:768][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.12.11-15.47.57:768][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.12.11-15.47.57:769][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.12.11-15.47.57:769][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.12.11-15.47.57:769][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.12.11-15.47.57:769][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.12.11-15.47.57:769][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.12.11-15.47.57:769][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.12.11-15.47.57:769][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.12.11-15.47.57:769][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.12.11-15.47.57:769][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.12.11-15.47.57:769][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.12.11-15.47.57:769][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
-[2019.12.11-15.47.57:769][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
-[2019.12.11-15.47.57:774][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.11-15.47.57:775][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.11-15.47.57:776][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.11-15.47.57:776][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.11-15.47.57:776][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.12.11-15.47.57:780][  0]LogHAL: Display: Platform has ~ 8 GB [8462237696 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.12.11-15.47.57:781][  0]LogInit: Going up to parent DeviceProfile []
-[2019.12.11-15.47.57:781][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.11-15.47.57:781][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.11-15.47.57:782][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.12.11-15.47.57:783][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.12.11-15.47.57:783][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.12.11-15.47.57:783][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
-[2019.12.11-15.47.57:783][  0]LogInit: Computer: LAPTOP-7TARG8CR
-[2019.12.11-15.47.57:783][  0]LogInit: User: TheKB1000
-[2019.12.11-15.47.57:783][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.12.11-15.47.57:783][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.12.11-15.47.57:783][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.12.11-15.47.57:783][  0]LogMemory: Platform Memory Stats for Windows
-[2019.12.11-15.47.57:783][  0]LogMemory: Process Physical Memory: 100.85 MB used, 100.86 MB peak
-[2019.12.11-15.47.57:783][  0]LogMemory: Process Virtual Memory: 100.36 MB used, 100.36 MB peak
-[2019.12.11-15.47.57:783][  0]LogMemory: Physical Memory: 7180.80 MB used,  889.42 MB free, 8070.22 MB total
-[2019.12.11-15.47.57:783][  0]LogMemory: Virtual Memory: 4656.42 MB used,  134213072.00 MB free, 134217728.00 MB total
-[2019.12.11-15.47.57:792][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.12.11-15.47.57:879][  0]LogInit: Using OS detected language (en-US).
-[2019.12.11-15.47.57:879][  0]LogInit: Using OS detected locale (en-US).
-[2019.12.11-15.47.57:880][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.12.11-15.47.58:136][  0]LogInit: Setting process to per monitor DPI aware
-[2019.12.11-15.47.58:196][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.12.11-15.47.58:196][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.12.11-15.47.58:454][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.11-15.47.58:454][  0]LogD3D11RHI: D3D11 adapters:
-[2019.12.11-15.47.58:539][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2019.12.11-15.47.58:539][  0]LogD3D11RHI:       4055/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.12.11-15.47.58:558][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2019.12.11-15.47.58:559][  0]LogD3D11RHI:       128/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.12.11-15.47.58:564][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.12.11-15.47.58:564][  0]LogD3D11RHI:       0/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.12.11-15.47.58:564][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.12.11-15.47.58:638][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.12.11-15.47.58:638][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2019.12.11-15.47.58:638][  0]LogWindows: EnumDisplayDevices:
-[2019.12.11-15.47.58:639][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2019.12.11-15.47.58:639][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.12.11-15.47.58:640][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.12.11-15.47.58:640][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.12.11-15.47.58:640][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2019.12.11-15.47.58:640][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.12.11-15.47.58:640][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.12.11-15.47.58:640][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
-[2019.12.11-15.47.58:705][  0]LogD3D11RHI: Async texture creation enabled
-[2019.12.11-15.47.58:725][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.12.11-15.47.59:402][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.12.11-15.47.59:420][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.12.11-15.47.59:438][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.12.11-15.47.59:458][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.12.11-15.47.59:476][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.12.11-15.47.59:494][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.12.11-15.47.59:512][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.12.11-15.47.59:531][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.12.11-15.47.59:545][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.12.11-15.47.59:602][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.12.11-15.47.59:611][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.12.11-15.47.59:651][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.12.11-15.47.59:651][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.12.11-15.47.59:674][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.12.11-15.47.59:674][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.12.11-15.47.59:689][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.12.11-15.47.59:702][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.12.11-15.47.59:716][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.12.11-15.47.59:730][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.12.11-15.47.59:768][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.12.11-15.47.59:768][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.12.11-15.47.59:768][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.12.11-15.47.59:804][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.12.11-15.47.59:972][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Intermediate/Shaders/WorkingDirectory/63804/).
-[2019.12.11-15.47.59:972][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TheK-B1000/AppData/Local/Temp/UnrealShaderWorkingDir/6240BD234220C7C4B7FD8BBD77724E6B/'.
-[2019.12.11-15.47.59:976][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.12.11-15.47.59:976][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.12.11-15.47.59:976][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.12.11-15.48.00:786][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.12.11-15.48.00:864][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.12.11-15.48.00:864][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.12.11-15.48.00:864][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.12.11-15.48.00:864][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.12.11-15.48.00:864][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.11-15.48.00:864][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.12.11-15.48.00:880][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.12.11-15.48.00:882][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
-[2019.12.11-15.48.00:883][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.12.11-15.48.00:883][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.12.11-15.48.00:883][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.12.11-15.48.00:913][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.12.11-15.48.00:916][  0]LogSlate: Using FreeType 2.6.0
-[2019.12.11-15.48.00:917][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.12.11-15.48.01:034][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
-[2019.12.11-15.48.01:405][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.11-15.48.01:634][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.12.11-15.48.01:634][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.12.11-15.48.01:634][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.12.11-15.48.01:634][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.12.11-15.48.01:634][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.12.11-15.48.01:648][  0]LogNetVersion: BattleStarship 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3960972345)
-[2019.12.11-15.48.02:218][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.084859 seconds
-[2019.12.11-15.48.02:226][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.12.11-15.48.02:226][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.12.11-15.48.02:226][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.12.11-15.48.03:570][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.12.11-15.48.03:577][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.12.11-15.48.03:724][  0]SourceControl: Source control is disabled
-[2019.12.11-15.48.03:724][  0]SourceControl: Source control is disabled
-[2019.12.11-15.48.03:729][  0]SourceControl: Source control is disabled
-[2019.12.11-15.48.03:734][  0]SourceControl: Source control is disabled
-[2019.12.11-15.48.04:246][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.12.11-15.48.04:547][  0]LogOcInput: OculusInput pre-init called
-[2019.12.11-15.48.04:567][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.12.11-15.48.04:567][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.12.11-15.48.08:190][  0]LogEngine: Initializing Engine...
-[2019.12.11-15.48.08:191][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.11-15.48.08:192][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.12.11-15.48.08:520][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.12.11-15.48.08:546][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.12.11-15.48.08:580][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.12.11-15.48.09:166][  0]LogInit: FAudioDevice initialized.
-[2019.12.11-15.48.09:166][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.12.11-15.48.09:477][  0]LogDerivedDataCache: Saved boot cache 0.31s 74MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.12.11-15.48.09:477][  0]LogInit: Texture streaming: Enabled
-[2019.12.11-15.48.09:531][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.12.11-15.48.09:609][  0]LogInit: Transaction tracking system initialized
-[2019.12.11-15.48.09:687][  0]BlueprintLog: New page: Editor Load
-[2019.12.11-15.48.09:861][  0]LocalizationService: Localization service is disabled
-[2019.12.11-15.48.09:962][  0]LogLinker: Warning: Failed to load '/Game/CloseCombat/CloseCombat_Greeting_Tutorial': Can't find file.
-[2019.12.11-15.48.09:962][  0]LogLinker: Warning: Failed to load '/Game/CloseCombat/CloseCombat_Greeting_Tutorial': Can't find file.
-[2019.12.11-15.48.09:962][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/CloseCombat/CloseCombat_Greeting_Tutorial.CloseCombat_Greeting_Tutorial_C'
-[2019.12.11-15.48.10:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/' took 0.01s
-[2019.12.11-15.48.10:218][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.12.11-15.48.10:218][  0]LogCook: Display: Mobile HDR setting 1
-[2019.12.11-15.48.12:330][  0]SourceControl: Source control is disabled
-[2019.12.11-15.48.12:330][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/Space.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.11-15.48.12:330][  0]LightingResults: New page: Lighting Build
-[2019.12.11-15.48.12:334][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.12.11-15.48.12:334][  0]MapCheck: New page: Map Check
-[2019.12.11-15.48.12:334][  0]LightingResults: New page: Lighting Build
-[2019.12.11-15.48.12:370][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
-[2019.12.11-15.48.12:527][  0]LogAIModule: Creating AISystem for world Space
-[2019.12.11-15.48.12:542][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.11-15.48.12:574][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
-[2019.12.11-15.48.12:574][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.11-15.48.12:575][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.238ms to complete.
-[2019.12.11-15.48.12:575][  0]LogFileHelpers: Loading map 'Space' took 0.244
-[2019.12.11-15.48.12:803][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-15.48.12:813][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-15.48.12:823][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-15.48.12:832][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.11-15.48.12:860][  0]LogCollectionManager: Loaded 0 collections in 0.002886 seconds
-[2019.12.11-15.48.12:898][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Collections/' took 0.00s
-[2019.12.11-15.48.12:898][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/Developers/TheKB1000/Collections/' took 0.00s
-[2019.12.11-15.48.12:898][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/Collections/' took 0.00s
-[2019.12.11-15.48.12:898][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2019.12.11-15.48.12:914][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 3049 classes and 768 folders.
-[2019.12.11-15.48.12:935][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.12.11-15.48.13:138][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.12.11-15.48.13:149][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 0 folders.
-[2019.12.11-15.48.13:368][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.12.11-15.48.13:371][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.12.11-15.48.13:381][  0]LogSlate: Took 0.001049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.12.11-15.48.13:488][  0]LogRenderer: Reallocating scene render targets to support 980x456 Format 10 NumSamples 1 (Frame:1).
-[2019.12.11-15.48.13:600][  0]LogSlate: Took 0.001311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.11-15.48.13:719][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.12.11-15.48.13:719][  0]LogLoad: (Engine Initialization) Total time: 17.89 seconds
-[2019.12.11-15.48.13:719][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.12.11-15.48.13:794][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.12.11-15.48.13:949][  2]LogAssetRegistry: Asset discovery search completed in 12.9163 seconds
-[2019.12.11-15.48.13:954][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
-[2019.12.11-15.48.13:954][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000101 seconds (updated 0 objects)
-[2019.12.11-15.48.15:283][  6]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.11-15.48.24:627][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.11-15.48.24:664][ 36]LogTemp: Repeating last play command: Selected Viewport
-[2019.12.11-15.48.24:677][ 36]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
-[2019.12.11-15.48.24:679][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.12.11-15.48.24:681][ 36]PIE: New page: PIE session: Space (Dec 11, 2019, 5:48:24 AM)
-[2019.12.11-15.48.24:683][ 36]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2019.12.11-15.48.24:687][ 36]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Space
-[2019.12.11-15.48.24:692][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005542s)
-[2019.12.11-15.48.24:694][ 36]LogAIModule: Creating AISystem for world Space
-[2019.12.11-15.48.24:694][ 36]LogPlayLevel: PIE: World Init took: (0.002098s)
-[2019.12.11-15.48.24:694][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Space.Space to /Game/UEDPIE_0_Space.Space (0.008094s)
-[2019.12.11-15.48.24:724][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
-[2019.12.11-15.48.24:747][ 36]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.12.11-15.48.24:843][ 36]LogInit: FAudioDevice initialized.
-[2019.12.11-15.48.24:862][ 36]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
-[2019.12.11-15.48.24:873][ 36]LogWorld: Bringing World /Game/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.11-10.48.24
-[2019.12.11-15.48.24:885][ 36]LogWorld: Bringing up level for play took: 0.012839
-[2019.12.11-15.48.24:887][ 36]LogOnline: OSS: Creating online subsystem instance for: :Context_2
-[2019.12.11-15.48.24:909][ 36]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
-[2019.12.11-15.48.24:918][ 36]LogTemp: Warning: AI Controller cannot find the Player!
-[2019.12.11-15.48.24:918][ 36]LogTemp: Warning: PlayerController BeginPlay
-[2019.12.11-15.48.24:918][ 36]LogTemp: Warning: PlayerController is possessed by: Starship_BP_C_0
-[2019.12.11-15.48.24:918][ 36]PIE: Play in editor start time for /Game/UEDPIE_0_Space -0.56
-[2019.12.11-15.48.24:918][ 36]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Space.Space_C' with ClassGeneratedBy '/Game/Space.Space:PersistentLevel.Space'
-[2019.12.11-15.48.26:395][120]LogSlate: Took 0.001075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2019.12.11-15.49.02:851][120]LogAssetEditorManager: Opening Asset editor for Class /Script/BattleStarship.StarshipAIController
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
+[2019.12.12-16.21.44:114][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.12-16.21.44:114][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
+[2019.12.12-16.21.44:115][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
+[2019.12.12-16.21.44:123][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.12-16.21.44:124][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.12-16.21.44:125][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.12-16.21.44:125][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.12-16.21.44:125][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.12-16.21.44:131][  0]LogHAL: Display: Platform has ~ 8 GB [8462237696 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.12-16.21.44:131][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.12-16.21.44:131][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.12-16.21.44:131][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.12-16.21.44:132][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.12-16.21.44:133][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.12-16.21.44:133][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.12-16.21.44:133][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.12-16.21.44:133][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.12-16.21.44:133][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.12-16.21.44:133][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.12-16.21.44:133][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-16.21.44:133][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.12-16.21.44:133][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.12-16.21.44:133][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.12-16.21.44:133][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.12-16.21.44:133][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.12-16.21.44:133][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Config/Windows/Engine.ini]
+[2019.12.12-16.21.44:133][  0]LogInit: Computer: LAPTOP-7TARG8CR
+[2019.12.12-16.21.44:133][  0]LogInit: User: TheKB1000
+[2019.12.12-16.21.44:133][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.12-16.21.44:133][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.12-16.21.44:133][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.12.12-16.21.44:134][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.12-16.21.44:134][  0]LogMemory: Process Physical Memory: 100.79 MB used, 100.79 MB peak
+[2019.12.12-16.21.44:134][  0]LogMemory: Process Virtual Memory: 100.18 MB used, 100.18 MB peak
+[2019.12.12-16.21.44:134][  0]LogMemory: Physical Memory: 7035.97 MB used,  1034.25 MB free, 8070.22 MB total
+[2019.12.12-16.21.44:134][  0]LogMemory: Virtual Memory: 4656.42 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.12.12-16.21.44:172][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.12.12-16.21.44:539][  0]LogInit: Using OS detected language (en-US).
+[2019.12.12-16.21.44:539][  0]LogInit: Using OS detected locale (en-US).
+[2019.12.12-16.21.44:540][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.12.12-16.21.44:843][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.12-16.21.45:047][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.12-16.21.45:047][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.12-16.21.45:512][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.12-16.21.45:513][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.12-16.21.46:461][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.12.12-16.21.46:461][  0]LogD3D11RHI:       4055/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.12.12-16.21.46:564][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.12.12-16.21.46:564][  0]LogD3D11RHI:       128/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.12.12-16.21.46:597][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.12-16.21.46:597][  0]LogD3D11RHI:       0/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.12-16.21.46:597][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.12-16.21.46:704][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.12-16.21.46:704][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.12.12-16.21.46:704][  0]LogWindows: EnumDisplayDevices:
+[2019.12.12-16.21.46:704][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.12.12-16.21.46:704][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.12.12-16.21.46:705][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.12.12-16.21.46:705][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.12-16.21.46:705][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.12.12-16.21.46:705][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.12-16.21.46:705][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.12-16.21.46:706][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2019.12.12-16.21.46:924][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.12-16.21.46:947][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.12.12-16.21.48:794][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.12-16.21.48:893][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.12-16.21.48:929][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.12-16.21.48:960][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.12-16.21.48:983][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.12-16.21.49:021][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.12-16.21.49:043][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.12-16.21.49:066][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.12-16.21.49:103][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.12-16.21.49:174][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.12-16.21.49:187][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.12-16.21.49:302][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.12-16.21.49:302][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.12-16.21.49:374][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.12-16.21.49:374][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.12-16.21.49:411][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.12-16.21.49:446][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.12-16.21.49:481][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.12-16.21.49:596][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.12-16.21.49:690][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.12-16.21.49:690][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.12-16.21.49:690][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.12-16.21.49:743][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.12-16.21.50:015][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Intermediate/Shaders/WorkingDirectory/81720/).
+[2019.12.12-16.21.50:016][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TheK-B1000/AppData/Local/Temp/UnrealShaderWorkingDir/E2CA6C244A4C865AFB051AAD507F8B69/'.
+[2019.12.12-16.21.50:024][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.12-16.21.50:024][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.12-16.21.50:024][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.12-16.21.51:495][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.12-16.21.51:922][  0]LogDerivedDataCache: Loaded boot cache 0.43s 74MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.12-16.21.51:922][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.12.12-16.21.51:923][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.12-16.21.51:923][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.12-16.21.51:924][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.12-16.21.51:924][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.12-16.21.51:944][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.12-16.21.51:947][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.12.12-16.21.51:950][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.12-16.21.51:950][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.12-16.21.51:950][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.12-16.21.51:987][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.12-16.21.51:993][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.12-16.21.51:995][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.12-16.21.52:275][  0]LogAssetRegistry: FAssetRegistry took 0.0710 seconds to start up
+[2019.12.12-16.21.53:495][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.12-16.21.54:308][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.12-16.21.54:308][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.12-16.21.54:308][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.12-16.21.54:308][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.12-16.21.54:308][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.12-16.21.54:328][  0]LogNetVersion: BattleStarship 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3960972345)
+[2019.12.12-16.21.55:173][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.103039 seconds
+[2019.12.12-16.21.55:183][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.12.12-16.21.55:183][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.12.12-16.21.55:183][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.12-16.21.59:460][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.12-16.21.59:520][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.12-16.22.00:331][  0]SourceControl: Source control is disabled
+[2019.12.12-16.22.00:331][  0]SourceControl: Source control is disabled
+[2019.12.12-16.22.00:409][  0]SourceControl: Source control is disabled
+[2019.12.12-16.22.00:445][  0]SourceControl: Source control is disabled
+[2019.12.12-16.22.02:366][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.12-16.22.03:383][  0]LogOcInput: OculusInput pre-init called
+[2019.12.12-16.22.03:414][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.12.12-16.22.03:414][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.12.12-16.22.09:910][  0]LogEngine: Initializing Engine...
+[2019.12.12-16.22.09:916][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.12-16.22.09:926][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2019.12.12-16.22.10:782][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.12-16.22.11:084][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.12-16.22.11:337][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-16.22.11:976][  0]LogInit: FAudioDevice initialized.
+[2019.12.12-16.22.12:039][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.12-16.22.12:392][  0]LogDerivedDataCache: Saved boot cache 0.35s 74MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.12-16.22.12:408][  0]LogInit: Texture streaming: Enabled
+[2019.12.12-16.22.12:777][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.12-16.22.13:142][  0]LogInit: Transaction tracking system initialized
+[2019.12.12-16.22.13:484][  0]BlueprintLog: New page: Editor Load
+[2019.12.12-16.22.14:326][  0]LocalizationService: Localization service is disabled
+[2019.12.12-16.22.15:258][  0]LogLinker: Warning: Failed to load '/Game/CloseCombat/CloseCombat_Greeting_Tutorial': Can't find file.
+[2019.12.12-16.22.15:259][  0]LogLinker: Warning: Failed to load '/Game/CloseCombat/CloseCombat_Greeting_Tutorial': Can't find file.
+[2019.12.12-16.22.15:259][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/CloseCombat/CloseCombat_Greeting_Tutorial.CloseCombat_Greeting_Tutorial_C'
+[2019.12.12-16.22.16:176][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/' took 0.06s
+[2019.12.12-16.22.16:177][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.12-16.22.16:177][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.12-16.22.22:001][  0]SourceControl: Source control is disabled
+[2019.12.12-16.22.22:006][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/Space.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-16.22.22:012][  0]LightingResults: New page: Lighting Build
+[2019.12.12-16.22.22:040][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-16.22.22:043][  0]MapCheck: New page: Map Check
+[2019.12.12-16.22.22:043][  0]LightingResults: New page: Lighting Build
+[2019.12.12-16.22.25:490][  0]LogUObjectHash: Compacting FUObjectHashTables data took  29.82ms
+[2019.12.12-16.22.26:182][  0]LogAIModule: Creating AISystem for world Space
+[2019.12.12-16.22.26:313][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-16.22.26:424][  0]LogUObjectHash: Compacting FUObjectHashTables data took   7.91ms
+[2019.12.12-16.22.26:425][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-16.22.26:426][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.657ms to complete.
+[2019.12.12-16.22.26:427][  0]LogFileHelpers: Loading map 'Space' took 4.423
+[2019.12.12-16.22.27:089][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-16.22.27:110][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-16.22.27:130][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-16.22.27:149][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-16.22.27:291][  0]LogCollectionManager: Loaded 0 collections in 0.005193 seconds
+[2019.12.12-16.22.27:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Collections/' took 0.03s
+[2019.12.12-16.22.27:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/Developers/TheKB1000/Collections/' took 0.00s
+[2019.12.12-16.22.27:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/Collections/' took 0.01s
+[2019.12.12-16.22.27:391][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2019.12.12-16.22.27:507][  0]LogContentBrowser: Native class hierarchy populated in 0.1131 seconds. Added 3049 classes and 768 folders.
+[2019.12.12-16.22.27:539][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.12.12-16.22.27:903][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.12-16.22.27:917][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 0 folders.
+[2019.12.12-16.22.28:414][  0]LogSlate: Took 0.001062 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.12-16.22.28:427][  0]LogSlate: Took 0.001384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.12-16.22.28:451][  0]LogSlate: Took 0.001997 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.12-16.22.28:660][  0]LogRenderer: Reallocating scene render targets to support 980x456 Format 10 NumSamples 1 (Frame:1).
+[2019.12.12-16.22.29:023][  0]LogSlate: Took 0.001245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.12-16.22.29:259][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.12.12-16.22.29:259][  0]LogLoad: (Engine Initialization) Total time: 48.40 seconds
+[2019.12.12-16.22.29:259][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.12-16.22.29:405][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.12-16.22.31:209][  5]LogAssetRegistry: Asset discovery search completed in 38.9992 seconds
+[2019.12.12-16.22.31:218][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
+[2019.12.12-16.22.31:219][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000135 seconds (updated 0 objects)
+[2019.12.12-16.23.52:578][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.12-16.24.03:003][ 40]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.12-16.24.03:400][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2019.12.12-16.24.03:400][ 40]LogMetaData: Removing '/Game/_Levels/Space.Space_C' ref from Metadata '/Game/Space.PackageMetaData'
+[2019.12.12-16.24.03:400][ 40]LogMetaData: Removing '/Game/_Levels/Space.Space:PersistentLevel.Space.EventGraph.K2Node_Event_0' ref from Metadata '/Game/Space.PackageMetaData'
+[2019.12.12-16.24.03:400][ 40]LogMetaData: Removing '/Game/_Levels/Space.Space:PersistentLevel.Space.EventGraph.K2Node_Event_1' ref from Metadata '/Game/Space.PackageMetaData'
+[2019.12.12-16.24.03:400][ 40]LogMetaData: Removing '/Game/_Levels/Space.SKEL_Space_C' ref from Metadata '/Game/Space.PackageMetaData'
+[2019.12.12-16.24.03:479][ 40]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Space_BuiltDataE1EDA8C548425AED226DBAB57453AD12.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space_BuiltData.uasset'
+[2019.12.12-16.24.03:524][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.12.12-16.24.03:702][ 40]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/SpaceD8EF089D4893E6CF9BA46C96E5B5F098.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap'
+[2019.12.12-16.24.03:729][ 40]LogFileHelpers: Saving map 'Space' took 0.239
+[2019.12.12-16.24.03:975][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2019.12.12-16.24.04:007][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.12.12-16.24.04:044][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2019.12.12-16.24.04:074][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.12.12-16.24.33:115][487]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.12.12-16.24.33:271][487]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/SpaceD5C472394BD6A357EDC634986C1F0503.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space.umap'
+[2019.12.12-16.24.33:316][487]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/Space_BuiltData00A477D945F00BDBCF2F39BC5B421DE3.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/Space_BuiltData.uasset'
+[2019.12.12-16.24.37:524][568]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/PlayerUI.PlayerUI
+[2019.12.12-16.24.38:031][568]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 121 classes and 0 folders.
+[2019.12.12-16.24.40:469][568]LogSlate: Took 0.001361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.12-16.25.30:778][804]LogEditorTransaction: Undo Move Anchor
+[2019.12.12-16.28.31:881][122]LogSlate: Window 'PlayerUI' being destroyed
+[2019.12.12-16.28.31:886][122]LogRenderer: Reallocating scene render targets to support 1228x568 Format 10 NumSamples 1 (Frame:20).
+[2019.12.12-16.28.32:513][158]BlueprintLog: New page: Compile PlayerUI
+[2019.12.12-16.28.32:607][158]LogUObjectHash: Compacting FUObjectHashTables data took   6.80ms
+[2019.12.12-16.28.33:027][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerUI" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/PlayerUI.uasset" SILENT=true
+[2019.12.12-16.28.33:037][177]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/PlayerUI427FAC41467F0E373C37F7A57E399996.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/PlayerUI.uasset'
+[2019.12.12-16.29.01:025][346]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/StarshipPlayerController_BP.StarshipPlayerController_BP
+[2019.12.12-16.29.04:111][421]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-16.29.04:269][421]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/StarshipPlayerController_BP.StarshipPlayerController_BP
+[2019.12.12-16.29.13:765][735]LogSlate: Took 0.005400 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.12-16.29.40:746][ 46]BlueprintLog: New page: Compile StarshipPlayerController_BP
+[2019.12.12-16.29.40:753][ 46]LogBlueprint: Error: [Compiler StarshipPlayerController_BP] This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2019.12.12-16.29.41:015][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   6.12ms
+[2019.12.12-16.29.41:408][ 65]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/StarshipPlayerController_BP0821F5254621AB03B51D21BE0347B91E.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/StarshipPlayerController_BP.uasset'
+[2019.12.12-16.29.44:557][242]BlueprintLog: New page: Compile StarshipPlayerController_BP
+[2019.12.12-16.29.44:812][242]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2019.12.12-16.29.45:062][252]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/StarshipPlayerController_BP768A1BBF4FE97F0D360A078DCF3402F4.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/StarshipPlayerController_BP.uasset'
+[2019.12.12-16.29.47:204][369]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-16.29.47:228][369]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-16.29.47:230][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-16.29.47:233][369]PIE: New page: PIE session: Space (Dec 12, 2019, 6:29:47 AM)
+[2019.12.12-16.29.47:248][369]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.12.12-16.29.47:257][369]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-16.29.47:263][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005466s)
+[2019.12.12-16.29.47:266][369]LogAIModule: Creating AISystem for world Space
+[2019.12.12-16.29.47:268][369]LogPlayLevel: PIE: World Init took: (0.004334s)
+[2019.12.12-16.29.47:268][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/Space.Space to /Game/_Levels/UEDPIE_0_Space.Space (0.010978s)
+[2019.12.12-16.29.47:318][369]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2019.12.12-16.29.47:348][369]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-16.29.47:466][369]LogInit: FAudioDevice initialized.
+[2019.12.12-16.29.47:506][369]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-16.29.47:510][369]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-11.29.47
+[2019.12.12-16.29.47:526][369]LogWorld: Bringing up level for play took: 0.018675
+[2019.12.12-16.29.47:529][369]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2019.12.12-16.29.47:567][369]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 20 classes and 0 folders.
+[2019.12.12-16.29.47:575][369]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-16.29.47:576][369]LogTemp: Warning: PlayerController BeginPlay
+[2019.12.12-16.29.47:576][369]LogTemp: Warning: PlayerController is possessed by: Starship_BP_C_0
+[2019.12.12-16.29.47:577][369]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_Space 0.172
+[2019.12.12-16.29.47:578][369]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-16.29.49:538][459]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-16.29.49:539][459]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-16.29.49:539][459]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-16.29.49:539][459]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-16.29.49:550][459]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-16.29.49:550][459]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-16.29.49:616][459]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-16.29.49:646][459]LogUObjectHash: Compacting FUObjectHashTables data took   5.89ms
+[2019.12.12-16.29.49:666][460]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.12.12-16.29.54:243][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.12-16.29.54:341][736]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-16.29.54:363][736]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-16.29.54:363][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-16.29.54:363][736]PIE: New page: PIE session: Space (Dec 12, 2019, 6:29:54 AM)
+[2019.12.12-16.29.54:363][736]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-16.29.54:366][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003022s)
+[2019.12.12-16.29.54:368][736]LogAIModule: Creating AISystem for world Space
+[2019.12.12-16.29.54:368][736]LogPlayLevel: PIE: World Init took: (0.001748s)
+[2019.12.12-16.29.54:368][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/Space.Space to /Game/_Levels/UEDPIE_0_Space.Space (0.004991s)
+[2019.12.12-16.29.54:418][736]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2019.12.12-16.29.54:439][736]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-16.29.54:537][736]LogInit: FAudioDevice initialized.
+[2019.12.12-16.29.54:548][736]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-16.29.54:550][736]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-11.29.54
+[2019.12.12-16.29.54:550][736]LogWorld: Bringing up level for play took: 0.000980
+[2019.12.12-16.29.54:550][736]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2019.12.12-16.29.54:553][736]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-16.29.54:553][736]LogTemp: Warning: PlayerController BeginPlay
+[2019.12.12-16.29.54:553][736]LogTemp: Warning: PlayerController is possessed by: Starship_BP_C_0
+[2019.12.12-16.29.54:553][736]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_Space 1.148
+[2019.12.12-16.29.54:554][736]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-16.29.55:983][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-16.29.55:984][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-16.29.55:984][817]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-16.29.55:984][817]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-16.29.55:997][817]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-16.29.55:997][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-16.29.56:052][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-16.29.56:061][817]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2019.12.12-16.29.56:123][819]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.12.12-16.30.08:751][ 15]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.12-16.30.09:523][ 47]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player_StarShip/BattleStarshipGameMode_BP.BattleStarshipGameMode_BP
+[2019.12.12-16.30.13:683][261]BlueprintLog: New page: Compile BattleStarshipGameMode_BP
+[2019.12.12-16.30.13:987][261]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2019.12.12-16.30.14:293][274]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/BattleStarshipGameMode_BPA0922BAA4D4BF5DB2DADD18DB3B42595.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/Player_StarShip/BattleStarshipGameMode_BP.uasset'
+[2019.12.12-16.30.17:922][486]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-16.30.17:948][486]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-16.30.17:948][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-16.30.17:948][486]PIE: New page: PIE session: Space (Dec 12, 2019, 6:30:17 AM)
+[2019.12.12-16.30.17:948][486]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-16.30.17:950][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002783s)
+[2019.12.12-16.30.17:952][486]LogAIModule: Creating AISystem for world Space
+[2019.12.12-16.30.17:952][486]LogPlayLevel: PIE: World Init took: (0.002082s)
+[2019.12.12-16.30.17:952][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/Space.Space to /Game/_Levels/UEDPIE_0_Space.Space (0.005160s)
+[2019.12.12-16.30.18:003][486]LogUObjectHash: Compacting FUObjectHashTables data took   5.87ms
+[2019.12.12-16.30.18:024][486]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-16.30.18:123][486]LogInit: FAudioDevice initialized.
+[2019.12.12-16.30.18:133][486]LogLoad: Game class is 'BattleStarshipGameMode_BP_C'
+[2019.12.12-16.30.18:135][486]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2019.12.12-11.30.18
+[2019.12.12-16.30.18:135][486]LogWorld: Bringing up level for play took: 0.001210
+[2019.12.12-16.30.18:135][486]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2019.12.12-16.30.18:138][486]LogTemp: Warning: AI Controller cannot find the Player!
+[2019.12.12-16.30.18:147][486]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_Space 0.743
+[2019.12.12-16.30.18:148][486]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-16.30.22:775][761]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.12-16.30.23:129][782]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-16.30.23:129][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-16.30.23:129][782]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Space
+[2019.12.12-16.30.23:129][782]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-16.30.23:143][782]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-16.30.23:143][782]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/_Levels/Space.Space_C' with ClassGeneratedBy '/Game/_Levels/Space.Space:PersistentLevel.Space'
+[2019.12.12-16.30.23:198][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-16.30.23:208][782]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2019.12.12-16.30.23:255][784]LogPlayLevel: Display: Destroying online subsystem :Context_9

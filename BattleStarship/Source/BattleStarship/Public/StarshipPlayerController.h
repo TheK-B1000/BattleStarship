@@ -1,5 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+// K-B Enterprises
 #pragma once
 
 #include "Starship.h"
@@ -18,6 +17,14 @@ class BATTLESTARSHIP_API AStarshipPlayerController : public APlayerController
 public:
 	AStarship* GetControlledStarship() const;
 
+	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	// Start the Starship moving the gun turrets so that the shot would be where 
+	// the crosshair interscts the world
+	void AimTowardsCrosshair();
 
 };
