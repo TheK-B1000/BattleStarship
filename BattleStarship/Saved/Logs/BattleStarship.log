@@ -694,3 +694,123 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.12-16.30.23:198][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.12.12-16.30.23:208][782]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
 [2019.12.12-16.30.23:255][784]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.12.12-16.31.51:301][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.12-16.31.57:317][477]LogAssetEditorManager: Opening Asset editor for World /Game/_Levels/MainMenu.MainMenu
+[2019.12.12-16.31.57:406][477]LogUObjectHash: Compacting FUObjectHashTables data took  14.16ms
+[2019.12.12-16.31.58:576][477]LogSlate: Window 'Save Content' being destroyed
+[2019.12.12-16.31.58:695][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2019.12.12-16.31.58:725][477]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenuAE826979477B49023E6FA299C6B731F2.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap'
+[2019.12.12-16.31.58:728][477]LogFileHelpers: Saving map 'MainMenu' took 0.130
+[2019.12.12-16.31.58:739][477]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-16.31.58:740][477]LightingResults: New page: Lighting Build
+[2019.12.12-16.31.58:748][477]LoadErrors: New page: Loading map: MainMenu.umap
+[2019.12.12-16.31.58:754][477]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-16.31.58:759][477]MapCheck: New page: Map Check
+[2019.12.12-16.31.58:760][477]LightingResults: New page: Lighting Build
+[2019.12.12-16.31.58:879][477]LogUObjectHash: Compacting FUObjectHashTables data took  10.95ms
+[2019.12.12-16.31.59:151][477]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-16.31.59:153][477]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-16.31.59:267][477]LogUObjectHash: Compacting FUObjectHashTables data took  18.13ms
+[2019.12.12-16.31.59:301][477]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-16.31.59:301][477]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.159ms to complete.
+[2019.12.12-16.31.59:308][477]LogFileHelpers: Loading map 'MainMenu' took 0.578
+[2019.12.12-16.32.39:799][682]LogEditorViewport: Clicking Background
+[2019.12.12-16.33.06:813][799]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.12-16.33.25:097][395]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.12-16.33.35:131][535]LogEditorTransaction: Undo Move Node
+[2019.12.12-16.33.35:557][559]LogEditorTransaction: Undo Move Node
+[2019.12.12-16.33.35:984][584]LogEditorTransaction: Undo Add Node
+[2019.12.12-16.33.37:728][683]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/StarshipPlayerController_BP47B3BFF64077412729058DA2BCC7DFD3.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/StarshipPlayerController_BP.uasset'
+[2019.12.12-16.33.38:104][704]BlueprintLog: New page: Compile StarshipPlayerController_BP
+[2019.12.12-16.33.38:421][704]LogUObjectHash: Compacting FUObjectHashTables data took   7.15ms
+[2019.12.12-16.33.47:701][971]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2019.12.12-16.34.14:552][ 88]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MainMenu.MainMenu
+[2019.12.12-16.35.00:825][631]BlueprintLog: New page: Compile MainMenu
+[2019.12.12-16.35.01:211][631]LogUObjectHash: Compacting FUObjectHashTables data took   8.93ms
+[2019.12.12-16.35.01:263][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu.uasset" SILENT=true
+[2019.12.12-16.35.01:281][631]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenuACA85AD14BDA064DFB659EA48FCF637A.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu.uasset'
+[2019.12.12-16.35.01:539][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu.uasset" SILENT=true
+[2019.12.12-16.35.01:567][637]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu34FFE07645B12D3F780CC8A8EA524FFF.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu.uasset'
+[2019.12.12-16.35.02:828][683]LogUObjectHash: Compacting FUObjectHashTables data took   9.63ms
+[2019.12.12-16.35.02:835][683]LogBlueprint: Error: [Compiler PersistentLevel.MainMenu] Spawn node  Create Widget  must have a class specified.
+[2019.12.12-16.35.03:184][683]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu950DAA5F41C2BD2E213F33AC31DD3E62.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap'
+[2019.12.12-16.35.03:740][705]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-16.35.03:786][705]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-16.35.03:787][705]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.12.12-16.35.03:787][705]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2019.12.12-16.35.03:788][705]LogBlueprint: Error: [Compiler PersistentLevel.MainMenu] Spawn node  Create Widget  must have a class specified.
+[2019.12.12-16.35.04:195][705]LogUObjectHash: Compacting FUObjectHashTables data took   8.51ms
+[2019.12.12-16.35.04:200][705]LogPlayLevel: PlayLevel: Blueprint regeneration took 413 ms (1 blueprints)
+[2019.12.12-16.35.04:201][705]BlueprintLog: Warning: Blueprint failed to compile:  MainMenu
+[2019.12.12-16.35.04:203][705]LogCustomDialog: Dialog displayed:
+[2019.12.12-16.35.06:701][705]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2019.12.12-16.35.08:612][807]LogBlueprint: Warning: Unknown type of hyperlinked object (MainMenu), cannot focus it
+[2019.12.12-16.35.08:612][807]LogBlueprint: Warning: Unknown type of hyperlinked object (MainMenu), cannot focus it
+[2019.12.12-16.35.10:148][889]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.12-16.35.11:943][985]BlueprintLog: New page: Compile MainMenu
+[2019.12.12-16.35.12:326][985]LogUObjectHash: Compacting FUObjectHashTables data took   9.86ms
+[2019.12.12-16.35.14:816][120]LogEditorTransaction: Undo Move Node
+[2019.12.12-16.35.37:902][116]BlueprintLog: New page: Compile MainMenu
+[2019.12.12-16.35.38:227][116]LogUObjectHash: Compacting FUObjectHashTables data took   5.88ms
+[2019.12.12-16.35.38:449][122]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2019.12.12-16.35.38:728][122]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenuDE13EBBF486782A27D0D268DE41BC6D2.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap'
+[2019.12.12-16.35.38:755][122]LogFileHelpers: Saving map 'MainMenu' took 0.364
+[2019.12.12-16.35.39:818][176]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2019.12.12-16.35.40:114][176]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenuD4304C6A40032BADEFDB56B74616A913.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap'
+[2019.12.12-16.35.42:004][281]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-16.35.42:037][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-16.35.42:037][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-16.35.42:038][281]PIE: New page: PIE session: MainMenu (Dec 12, 2019, 6:35:42 AM)
+[2019.12.12-16.35.42:038][281]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-16.35.42:043][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005054s)
+[2019.12.12-16.35.42:044][281]LogAIModule: Creating AISystem for world MainMenu
+[2019.12.12-16.35.42:045][281]LogPlayLevel: PIE: World Init took: (0.001493s)
+[2019.12.12-16.35.42:045][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/MainMenu.MainMenu to /Game/_Levels/UEDPIE_0_MainMenu.MainMenu (0.006960s)
+[2019.12.12-16.35.42:103][281]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2019.12.12-16.35.42:129][281]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.12-16.35.42:272][281]LogInit: FAudioDevice initialized.
+[2019.12.12-16.35.42:288][281]LogLoad: Game class is 'GameMode'
+[2019.12.12-16.35.42:288][281]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.12.12-11.35.42
+[2019.12.12-16.35.42:289][281]LogWorld: Bringing up level for play took: 0.000411
+[2019.12.12-16.35.42:289][281]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2019.12.12-16.35.42:292][281]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-16.35.42:292][281]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.12-16.35.42:293][281]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-16.35.42:296][281]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.12-16.35.42:296][281]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_MainMenu 0.892
+[2019.12.12-16.35.42:297][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-16.35.43:676][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-16.35.43:678][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-16.35.43:678][353]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_MainMenu
+[2019.12.12-16.35.43:678][353]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-16.35.43:688][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-16.35.43:688][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/_Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/_Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.12.12-16.35.43:773][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-16.35.43:780][353]LogUObjectHash: Compacting FUObjectHashTables data took   5.98ms
+[2019.12.12-16.35.43:804][354]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.12.12-16.36.07:349][788]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2019.12.12-16.36.07:744][788]LogUObjectHash: Compacting FUObjectHashTables data took  11.46ms
+[2019.12.12-16.36.07:747][788]LogMetaData: Removing '/Game/MainMenu_BP.SKEL_MainMenu_BP_C' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2019.12.12-16.36.07:747][788]LogMetaData: Removing '/Game/MainMenu_BP.MainMenu_BP_C' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2019.12.12-16.36.07:747][788]LogMetaData: Removing '/Game/MainMenu_BP.MainMenu_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2019.12.12-16.36.07:747][788]LogMetaData: Removing '/Game/MainMenu_BP.MainMenu_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2019.12.12-16.36.07:747][788]LogMetaData: Removing '/Game/MainMenu_BP.MainMenu_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2019.12.12-16.36.07:795][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu_BP" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset" SILENT=true
+[2019.12.12-16.36.07:808][788]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu_BPDB3F533C4D7041D1B91404897CE4E12F.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu_BP.uasset'
+[2019.12.12-16.36.07:816][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu.uasset" SILENT=true
+[2019.12.12-16.36.07:827][788]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu398F2EEC4B69B83A431E30B198906BF0.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/MainMenu.uasset'
+[2019.12.12-16.36.14:981][126]LogUObjectHash: Compacting FUObjectHashTables data took   7.34ms
+[2019.12.12-16.36.15:442][126]LogUObjectHash: Compacting FUObjectHashTables data took  11.49ms
+[2019.12.12-16.36.15:446][126]LogMetaData: Removing '/Game/PlayerUI_BP.SKEL_PlayerUI_BP_C' ref from Metadata '/Game/PlayerUI.PackageMetaData'
+[2019.12.12-16.36.15:447][126]LogMetaData: Removing '/Game/PlayerUI_BP.PlayerUI_BP_C' ref from Metadata '/Game/PlayerUI.PackageMetaData'
+[2019.12.12-16.36.15:447][126]LogMetaData: Removing '/Game/PlayerUI_BP.PlayerUI_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/PlayerUI.PackageMetaData'
+[2019.12.12-16.36.15:447][126]LogMetaData: Removing '/Game/PlayerUI_BP.PlayerUI_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/PlayerUI.PackageMetaData'
+[2019.12.12-16.36.15:447][126]LogMetaData: Removing '/Game/PlayerUI_BP.PlayerUI_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/PlayerUI.PackageMetaData'
+[2019.12.12-16.36.15:493][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerUI_BP" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/PlayerUI_BP.uasset" SILENT=true
+[2019.12.12-16.36.15:507][126]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/PlayerUI_BP4F1F54C74D4BC800288B8C9B091B98F7.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/PlayerUI_BP.uasset'
+[2019.12.12-16.36.15:886][126]LogUObjectHash: Compacting FUObjectHashTables data took   7.91ms
+[2019.12.12-16.36.15:961][126]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2019.12.12-16.36.16:020][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2019.12.12-16.36.16:067][126]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/StarshipPlayerController_BPB29A7FCD4A02EB60287FDAA0493DAABC.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/StarshipPlayerController_BP.uasset'
+[2019.12.12-16.36.16:675][141]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2019.12.12-16.36.17:023][141]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Saved/MainMenu26714EFE4340409447FC0CA29804053F.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/Section 4/BattleStarship/Content/_Levels/MainMenu.umap'
