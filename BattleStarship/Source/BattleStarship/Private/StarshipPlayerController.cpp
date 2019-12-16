@@ -2,6 +2,7 @@
 
 #include "Starship.h"
 #include "StarshipPlayerController.h"
+#include "Engine/World.h"
 
 
 void AStarshipPlayerController::BeginPlay()
@@ -25,7 +26,6 @@ void AStarshipPlayerController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	AimTowardsCrosshair();
-
 }
 
 AStarship* AStarshipPlayerController::GetControlledStarship() const
@@ -36,8 +36,18 @@ AStarship* AStarshipPlayerController::GetControlledStarship() const
 void AStarshipPlayerController::AimTowardsCrosshair()
 {
 	if (!GetControlledStarship()) { return; }
-
-	// Get world location if linetrace through crosshair
-	// if it hits the landscape
-		// Tell controlled starship to aim at this point
+	FVector OutHitLocation; // OUT Parameter
+	if (GetSightRayHitLocation(OutHitLocation)) // has "side-effect", is going to line trace
+	{
+		UE_LOG(LogTemp, Warning, TEXT("You are aiming at this point: %s"), *(OutHitLocation.ToString()));
+		// TODO tell controlled starship to aim at this point
+	}
 }
+
+// Get World Location if linetrace through crosshair, true if hits land
+bool AStarshipPlayerController::GetSightRayHitLocation(FVector& OutHitLocation) const // GetSightRayHitLocation
+{
+	OutHitLocation = FVector(1.0);
+	return false;
+}
+

@@ -10,19 +10,19 @@ void AStarshipAIController::BeginPlay()
 {
 	Super::BeginPlay();
 
-	auto Player = GetPlayerStarship();
+	auto ControlledStarship = GetControlledStarship();
 
-	if (!Player)
+	if (!ControlledStarship)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("AI Controller cannot find the Player!"));
 	}
 	else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("AI Controller found player: %s!"), *(Player->GetName()));
+		UE_LOG(LogTemp, Warning, TEXT("AI Controller found player: %s!"), *(ControlledStarship->GetName()));
 	}
 
 }
-	AStarship* AStarshipAIController::GetEnemyStarship() const
+	AStarship* AStarshipAIController::GetControlledStarship() const
 	{
 		return Cast<AStarship>(GetPawn());
 	}

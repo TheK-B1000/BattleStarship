@@ -20,7 +20,7 @@ public:
 	void virtual BeginPlay() override;
 
 private:
-	AStarship* GetEnemyStarship() const;
+	AStarship* GetControlledStarship() const;
 
 	AStarship* GetPlayerStarship() const;
 

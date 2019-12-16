@@ -24,7 +24,9 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	// Start the Starship moving the gun turrets so that the shot would be where 
-	// the crosshair interscts the world
+	// the crosshair intersects the world
 	void AimTowardsCrosshair();
 
+private:
+	bool GetSightRayHitLocation(FVector& OutHitLocation) const; // return an OUT parameter, true if hit landscape
 };
