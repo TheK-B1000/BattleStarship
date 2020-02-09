@@ -36,18 +36,22 @@ AStarship* AStarshipPlayerController::GetControlledStarship() const
 void AStarshipPlayerController::AimTowardsCrosshair()
 {
 	if (!GetControlledStarship()) { return; }
-	FVector OutHitLocation; // OUT Parameter
-	if (GetSightRayHitLocation(OutHitLocation)) // has "side-effect", is going to line trace
+	FVector HitLocation; // OUT Parameter
+	if (GetSightRayHitLocation(HitLocation)) // has "side-effect", is going to line trace
 	{
-		UE_LOG(LogTemp, Warning, TEXT("You are aiming at this point: %s"), *(OutHitLocation.ToString()));
+		UE_LOG(LogTemp, Warning, TEXT("Look direction: %s"), *(HitLocation.ToString()));
 		// TODO tell controlled starship to aim at this point
 	}
 }
 
 // Get World Location if linetrace through crosshair, true if hits land
-bool AStarshipPlayerController::GetSightRayHitLocation(FVector& OutHitLocation) const // GetSightRayHitLocation
+bool AStarshipPlayerController::GetSightRayHitLocation(FVector& HitLocation) const // GetSightRayHitLocation
 {
-	OutHitLocation = FVector(1.0);
+	// Find the crosshair position
+	// "de-project" the screen position of the crosshair to the world direction
+	// Line-trace along that look direction, and swee what we hit (up to maximum range)
+	int32 ViewportSizeX, ViewportSizeY;
+	GetViewportSize(ViewportSizeX, ViewportSizeY);
 	return false;
 }
 

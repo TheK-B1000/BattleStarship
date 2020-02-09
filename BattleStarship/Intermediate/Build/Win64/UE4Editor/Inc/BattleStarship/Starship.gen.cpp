@@ -50,18 +50,18 @@ void EmptyLinkFunctionForGeneratedCodeStarship() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AStarship_Statics::ClassParams = {
 		&AStarship::StaticClass,
-		nullptr,
+		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_AStarship_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AStarship_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AStarship_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AStarship_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AStarship()
 	{
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeStarship() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStarship, 2592234889);
+	IMPLEMENT_CLASS(AStarship, 770496939);
 	template<> BATTLESTARSHIP_API UClass* StaticClass<AStarship>()
 	{
 		return AStarship::StaticClass();

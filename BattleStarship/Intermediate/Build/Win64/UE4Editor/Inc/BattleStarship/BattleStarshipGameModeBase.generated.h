@@ -13,6 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BATTLESTARSHIP_BattleStarshipGameModeBase_generated_h
 
+#define BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_SPARSE_DATA
 #define BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_RPC_WRAPPERS
 #define BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
 #define BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
@@ -20,7 +21,7 @@ private: \
 	static void StaticRegisterNativesABattleStarshipGameModeBase(); \
 	friend struct Z_Construct_UClass_ABattleStarshipGameModeBase_Statics; \
 public: \
-	DECLARE_CLASS(ABattleStarshipGameModeBase, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/BattleStarship"), NO_API) \
+	DECLARE_CLASS(ABattleStarshipGameModeBase, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/BattleStarship"), NO_API) \
 	DECLARE_SERIALIZER(ABattleStarshipGameModeBase)
 
 
@@ -29,7 +30,7 @@ private: \
 	static void StaticRegisterNativesABattleStarshipGameModeBase(); \
 	friend struct Z_Construct_UClass_ABattleStarshipGameModeBase_Statics; \
 public: \
-	DECLARE_CLASS(ABattleStarshipGameModeBase, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/BattleStarship"), NO_API) \
+	DECLARE_CLASS(ABattleStarshipGameModeBase, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/BattleStarship"), NO_API) \
 	DECLARE_SERIALIZER(ABattleStarshipGameModeBase)
 
 
@@ -65,6 +66,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABattleStarshipGameModeBase); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_SPARSE_DATA \
 	BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_RPC_WRAPPERS \
 	BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_INCLASS \
 	BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_STANDARD_CONSTRUCTORS \
@@ -76,6 +78,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_SPARSE_DATA \
 	BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 	BattleStarship_Source_BattleStarship_BattleStarshipGameModeBase_h_15_ENHANCED_CONSTRUCTORS \

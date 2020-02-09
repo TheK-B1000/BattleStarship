@@ -13,6 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BATTLESTARSHIP_Starship_generated_h
 
+#define BattleStarship_Source_BattleStarship_Public_Starship_h_12_SPARSE_DATA
 #define BattleStarship_Source_BattleStarship_Public_Starship_h_12_RPC_WRAPPERS
 #define BattleStarship_Source_BattleStarship_Public_Starship_h_12_RPC_WRAPPERS_NO_PURE_DECLS
 #define BattleStarship_Source_BattleStarship_Public_Starship_h_12_INCLASS_NO_PURE_DECLS \
@@ -20,7 +21,7 @@ private: \
 	static void StaticRegisterNativesAStarship(); \
 	friend struct Z_Construct_UClass_AStarship_Statics; \
 public: \
-	DECLARE_CLASS(AStarship, APawn, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/BattleStarship"), NO_API) \
+	DECLARE_CLASS(AStarship, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/BattleStarship"), NO_API) \
 	DECLARE_SERIALIZER(AStarship)
 
 
@@ -29,7 +30,7 @@ private: \
 	static void StaticRegisterNativesAStarship(); \
 	friend struct Z_Construct_UClass_AStarship_Statics; \
 public: \
-	DECLARE_CLASS(AStarship, APawn, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/BattleStarship"), NO_API) \
+	DECLARE_CLASS(AStarship, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/BattleStarship"), NO_API) \
 	DECLARE_SERIALIZER(AStarship)
 
 
@@ -63,6 +64,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStarship); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	BattleStarship_Source_BattleStarship_Public_Starship_h_12_PRIVATE_PROPERTY_OFFSET \
+	BattleStarship_Source_BattleStarship_Public_Starship_h_12_SPARSE_DATA \
 	BattleStarship_Source_BattleStarship_Public_Starship_h_12_RPC_WRAPPERS \
 	BattleStarship_Source_BattleStarship_Public_Starship_h_12_INCLASS \
 	BattleStarship_Source_BattleStarship_Public_Starship_h_12_STANDARD_CONSTRUCTORS \
@@ -74,6 +76,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	BattleStarship_Source_BattleStarship_Public_Starship_h_12_PRIVATE_PROPERTY_OFFSET \
+	BattleStarship_Source_BattleStarship_Public_Starship_h_12_SPARSE_DATA \
 	BattleStarship_Source_BattleStarship_Public_Starship_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	BattleStarship_Source_BattleStarship_Public_Starship_h_12_INCLASS_NO_PURE_DECLS \
 	BattleStarship_Source_BattleStarship_Public_Starship_h_12_ENHANCED_CONSTRUCTORS \

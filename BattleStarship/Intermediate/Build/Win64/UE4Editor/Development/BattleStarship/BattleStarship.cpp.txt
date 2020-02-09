@@ -1,2 +1,2 @@
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\Section 4\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\Definitions.BattleStarship.h
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\Section 4\BattleStarship\Source\BattleStarship\BattleStarship.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\Definitions.BattleStarship.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Source\BattleStarship\BattleStarship.h

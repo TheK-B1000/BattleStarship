@@ -52,18 +52,18 @@ void EmptyLinkFunctionForGeneratedCodeBattleStarshipGameModeBase() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ABattleStarshipGameModeBase_Statics::ClassParams = {
 		&ABattleStarshipGameModeBase::StaticClass,
-		nullptr,
+		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
 		0,
-		0x009002A8u,
-		METADATA_PARAMS(Z_Construct_UClass_ABattleStarshipGameModeBase_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ABattleStarshipGameModeBase_Statics::Class_MetaDataParams))
+		0x009002ACu,
+		METADATA_PARAMS(Z_Construct_UClass_ABattleStarshipGameModeBase_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABattleStarshipGameModeBase_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ABattleStarshipGameModeBase()
 	{
@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeBattleStarshipGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABattleStarshipGameModeBase, 1999565690);
+	IMPLEMENT_CLASS(ABattleStarshipGameModeBase, 1298159120);
 	template<> BATTLESTARSHIP_API UClass* StaticClass<ABattleStarshipGameModeBase>()
 	{
 		return ABattleStarshipGameModeBase::StaticClass();

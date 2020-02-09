@@ -51,18 +51,18 @@ void EmptyLinkFunctionForGeneratedCodeStarshipAIController() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AStarshipAIController_Statics::ClassParams = {
 		&AStarshipAIController::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
 		0,
-		0x009002A0u,
-		METADATA_PARAMS(Z_Construct_UClass_AStarshipAIController_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AStarshipAIController_Statics::Class_MetaDataParams))
+		0x009002A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AStarshipAIController_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AStarshipAIController_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AStarshipAIController()
 	{
@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeStarshipAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStarshipAIController, 2630274331);
+	IMPLEMENT_CLASS(AStarshipAIController, 3645532577);
 	template<> BATTLESTARSHIP_API UClass* StaticClass<AStarshipAIController>()
 	{
 		return AStarshipAIController::StaticClass();

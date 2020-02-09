@@ -13,6 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BATTLESTARSHIP_StarshipAIController_generated_h
 
+#define BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_SPARSE_DATA
 #define BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_RPC_WRAPPERS
 #define BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_RPC_WRAPPERS_NO_PURE_DECLS
 #define BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_INCLASS_NO_PURE_DECLS \
@@ -20,7 +21,7 @@ private: \
 	static void StaticRegisterNativesAStarshipAIController(); \
 	friend struct Z_Construct_UClass_AStarshipAIController_Statics; \
 public: \
-	DECLARE_CLASS(AStarshipAIController, AAIController, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/BattleStarship"), NO_API) \
+	DECLARE_CLASS(AStarshipAIController, AAIController, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/BattleStarship"), NO_API) \
 	DECLARE_SERIALIZER(AStarshipAIController)
 
 
@@ -29,7 +30,7 @@ private: \
 	static void StaticRegisterNativesAStarshipAIController(); \
 	friend struct Z_Construct_UClass_AStarshipAIController_Statics; \
 public: \
-	DECLARE_CLASS(AStarshipAIController, AAIController, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/BattleStarship"), NO_API) \
+	DECLARE_CLASS(AStarshipAIController, AAIController, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/BattleStarship"), NO_API) \
 	DECLARE_SERIALIZER(AStarshipAIController)
 
 
@@ -65,6 +66,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStarshipAIController); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_PRIVATE_PROPERTY_OFFSET \
+	BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_SPARSE_DATA \
 	BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_RPC_WRAPPERS \
 	BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_INCLASS \
 	BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_STANDARD_CONSTRUCTORS \
@@ -76,6 +78,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_PRIVATE_PROPERTY_OFFSET \
+	BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_SPARSE_DATA \
 	BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
 	BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_INCLASS_NO_PURE_DECLS \
 	BattleStarship_Source_BattleStarship_Public_StarshipAIController_h_17_ENHANCED_CONSTRUCTORS \

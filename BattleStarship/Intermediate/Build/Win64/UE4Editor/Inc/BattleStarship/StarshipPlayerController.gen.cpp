@@ -57,12 +57,12 @@ void EmptyLinkFunctionForGeneratedCodeStarshipPlayerController() {}
 		nullptr,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
 		0,
 		0x009002A4u,
-		METADATA_PARAMS(Z_Construct_UClass_AStarshipPlayerController_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AStarshipPlayerController_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_AStarshipPlayerController_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AStarshipPlayerController_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AStarshipPlayerController()
 	{
@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeStarshipPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStarshipPlayerController, 2117483144);
+	IMPLEMENT_CLASS(AStarshipPlayerController, 2018061274);
 	template<> BATTLESTARSHIP_API UClass* StaticClass<AStarshipPlayerController>()
 	{
 		return AStarshipPlayerController::StaticClass();
