@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\BattleStarship\\BattleStarship\\Source\\BattleStarship\\BattleStarship.Build.cs",
-		"C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\BattleStarship\\BattleStarship\\Source\\BattleStarship.Target.cs",
-		"C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\BattleStarship\\BattleStarship\\Source\\BattleStarshipEditor.Target.cs"
+		"C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\BattleStarship\\BattleStarship\\BattleStarship\\Source\\BattleStarship\\BattleStarship.Build.cs",
+		"C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\BattleStarship\\BattleStarship\\BattleStarship\\Source\\BattleStarship.Target.cs",
+		"C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\BattleStarship\\BattleStarship\\BattleStarship\\Source\\BattleStarshipEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.1"
 }

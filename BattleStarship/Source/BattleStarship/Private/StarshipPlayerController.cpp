@@ -39,8 +39,7 @@ void AStarshipPlayerController::AimTowardsCrosshair()
 	FVector HitLocation; // OUT Parameter
 	if (GetSightRayHitLocation(HitLocation)) // has "side-effect", is going to line trace
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Look direction: %s"), *(HitLocation.ToString()));
-		// TODO tell controlled starship to aim at this point
+		GetControlledStarship()->AimAt(HitLocation);
 	}
 }
 
@@ -48,10 +47,20 @@ void AStarshipPlayerController::AimTowardsCrosshair()
 bool AStarshipPlayerController::GetSightRayHitLocation(FVector& HitLocation) const // GetSightRayHitLocation
 {
 	// Find the crosshair position
-	// "de-project" the screen position of the crosshair to the world direction
-	// Line-trace along that look direction, and swee what we hit (up to maximum range)
 	int32 ViewportSizeX, ViewportSizeY;
 	GetViewportSize(ViewportSizeX, ViewportSizeY);
+	//UE_LOG(LogTemp, Warning, TEXT("ViewportSizeX: %d ViewportSizeY: %d"), ViewportSizeX, ViewportSizeY);
+	FVector2D ScreenLocation
+	(
+		OUT CrossHairXLocation * ViewportSizeX,
+		OUT CrossHairYLocation * ViewportSizeY
+	);
+
+
+	// "de-project" the screen position of the crosshair to the world direction
+
+	// Line-trace along that look direction, and see what we hit (up to maximum range)
+
 	return false;
 }
 

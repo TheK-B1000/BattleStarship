@@ -1,7 +1,7 @@
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\Definitions.BattleStarship.h
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Source\BattleStarship\Public\Starship.h
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Inc\BattleStarship\Starship.generated.h
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Source\BattleStarship\Public\StarshipAIController.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\Definitions.BattleStarship.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\Starship.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Inc\BattleStarship\Starship.generated.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\StarshipAIController.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\AIController.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavFilters/NavigationQueryFilter.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavAreas/NavArea.h
@@ -41,4 +41,4 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Inc\BattleStarship\StarshipAIController.generated.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Inc\BattleStarship\StarshipAIController.generated.h

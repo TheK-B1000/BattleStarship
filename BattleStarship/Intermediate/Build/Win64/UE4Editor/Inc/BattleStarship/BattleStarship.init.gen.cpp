@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeBattleStarship_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xE22193A1,
+				0x44A3A7E1,
 				0xB1902EE2,
 				METADATA_PARAMS(nullptr, 0)
 			};

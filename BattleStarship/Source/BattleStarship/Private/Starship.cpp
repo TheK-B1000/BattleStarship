@@ -32,3 +32,8 @@ void AStarship::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 }
 
+void AStarship::AimAt(FVector HitLocation)
+{
+	auto OurStarshipName = GetName();
+	UE_LOG(LogTemp, Warning, TEXT("%s aiming at %s"), *OurStarshipName, *(HitLocation.ToString()));
+}

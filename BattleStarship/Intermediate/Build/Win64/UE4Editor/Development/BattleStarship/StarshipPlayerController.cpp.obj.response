@@ -28,7 +28,7 @@
 /wd4838
 /we4668
 /I .
-/I "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Source\BattleStarship\Private"
+/I "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -525,10 +525,10 @@
 /I Runtime\ClothingSystemRuntimeInterface
 /I Runtime\AudioMixerCore\Public
 /I Runtime\AudioMixerCore
-/I "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Inc\BattleStarship"
-/I "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Source"
-/I "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Source\BattleStarship\Public"
-/I "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Source\BattleStarship"
+/I "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Inc\BattleStarship"
+/I "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source"
+/I "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public"
+/I "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -552,18 +552,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.21.27619\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Source\BattleStarship\Private\StarshipPlayerController.cpp"
-/FI"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\Definitions.BattleStarship.h"
-/Fo"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\StarshipPlayerController.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Private\StarshipPlayerController.cpp"
+/FI"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\Definitions.BattleStarship.h"
+/Fo"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\StarshipPlayerController.cpp.obj"
 /TP
 /GR-
 /W4

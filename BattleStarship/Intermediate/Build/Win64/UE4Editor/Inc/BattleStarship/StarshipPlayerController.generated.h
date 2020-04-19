@@ -60,7 +60,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStarshipPlayerController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AStarshipPlayerController)
 
 
-#define BattleStarship_Source_BattleStarship_Public_StarshipPlayerController_h_15_PRIVATE_PROPERTY_OFFSET
+#define BattleStarship_Source_BattleStarship_Public_StarshipPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CrossHairXLocation() { return STRUCT_OFFSET(AStarshipPlayerController, CrossHairXLocation); } \
+	FORCEINLINE static uint32 __PPO__CrossHairYLocation() { return STRUCT_OFFSET(AStarshipPlayerController, CrossHairYLocation); }
+
+
 #define BattleStarship_Source_BattleStarship_Public_StarshipPlayerController_h_12_PROLOG
 #define BattleStarship_Source_BattleStarship_Public_StarshipPlayerController_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
