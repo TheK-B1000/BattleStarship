@@ -6,22 +6,26 @@
 #include "GameFramework/PlayerController.h"
 
 
-void AStarshipAIController::BeginPlay()
-{
-	Super::BeginPlay();
-
-	auto ControlledStarship = GetControlledStarship();
-
-	if (!ControlledStarship)
+	void AStarshipAIController::BeginPlay()
 	{
-		UE_LOG(LogTemp, Warning, TEXT("AI Controller cannot find the Player!"));
+		Super::BeginPlay();
+		FindPlayerStarship();
 	}
-	else
+	void AStarshipAIController::Tick(float DeltaTime)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("AI Controller found player: %s!"), *(ControlledStarship->GetName()));
+		// Called every frame
+		Super::Tick(DeltaTime);
+		if (GetPlayerStarship())
+		{
+			// TODO move to player
+
+			// AimAt Player Starship
+			GetControlledStarship()->AimAt(GetPlayerStarship()->GetActorLocation());
+
+			// Fire when ready
+		}
 	}
 
-}
 	AStarship* AStarshipAIController::GetControlledStarship() const
 	{
 		return Cast<AStarship>(GetPawn());
@@ -34,3 +38,16 @@ void AStarshipAIController::BeginPlay()
 		return Cast<AStarship>(PlayerController);
 	}
 
+	AStarship* AStarshipAIController::FindPlayerStarship() const
+	{
+		auto PlayerStarship = GetPlayerStarship();
+
+		if (!PlayerStarship)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("AI Controller cannot find Player Starship!"));
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("AI Controller found player: %s!"), *(PlayerStarship->GetName()));
+		}
+	}

@@ -18,11 +18,15 @@ class BATTLESTARSHIP_API AStarshipAIController : public AAIController
 	
 public: 
 	void virtual BeginPlay() override;
+	
+	void virtual Tick(float DeltaTime) override;
 
 private:
 	AStarship* GetControlledStarship() const;
 
 	AStarship* GetPlayerStarship() const;
+
+	AStarship* FindPlayerStarship() const;
 
 
 };
