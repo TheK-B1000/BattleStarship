@@ -32,6 +32,10 @@ void EmptyLinkFunctionForGeneratedCodeStarshipPlayerController() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LineTraceRange_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LineTraceRange;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CrossHairYLocation_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CrossHairYLocation;
@@ -56,6 +60,13 @@ void EmptyLinkFunctionForGeneratedCodeStarshipPlayerController() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarshipPlayerController_Statics::NewProp_LineTraceRange_MetaData[] = {
+		{ "Category", "StarshipPlayerController" },
+		{ "ModuleRelativePath", "Public/StarshipPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarshipPlayerController_Statics::NewProp_LineTraceRange = { "LineTraceRange", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarshipPlayerController, LineTraceRange), METADATA_PARAMS(Z_Construct_UClass_AStarshipPlayerController_Statics::NewProp_LineTraceRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarshipPlayerController_Statics::NewProp_LineTraceRange_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarshipPlayerController_Statics::NewProp_CrossHairYLocation_MetaData[] = {
 		{ "Category", "StarshipPlayerController" },
 		{ "ModuleRelativePath", "Public/StarshipPlayerController.h" },
@@ -65,13 +76,12 @@ void EmptyLinkFunctionForGeneratedCodeStarshipPlayerController() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarshipPlayerController_Statics::NewProp_CrossHairXLocation_MetaData[] = {
 		{ "Category", "StarshipPlayerController" },
-		{ "Comment", "// return an OUT parameter, true if hit landscape\n" },
 		{ "ModuleRelativePath", "Public/StarshipPlayerController.h" },
-		{ "ToolTip", "return an OUT parameter, true if hit landscape" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarshipPlayerController_Statics::NewProp_CrossHairXLocation = { "CrossHairXLocation", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarshipPlayerController, CrossHairXLocation), METADATA_PARAMS(Z_Construct_UClass_AStarshipPlayerController_Statics::NewProp_CrossHairXLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarshipPlayerController_Statics::NewProp_CrossHairXLocation_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AStarshipPlayerController_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStarshipPlayerController_Statics::NewProp_LineTraceRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStarshipPlayerController_Statics::NewProp_CrossHairYLocation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStarshipPlayerController_Statics::NewProp_CrossHairXLocation,
 	};
@@ -102,7 +112,7 @@ void EmptyLinkFunctionForGeneratedCodeStarshipPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStarshipPlayerController, 2254649483);
+	IMPLEMENT_CLASS(AStarshipPlayerController, 1673746096);
 	template<> BATTLESTARSHIP_API UClass* StaticClass<AStarshipPlayerController>()
 	{
 		return AStarshipPlayerController::StaticClass();

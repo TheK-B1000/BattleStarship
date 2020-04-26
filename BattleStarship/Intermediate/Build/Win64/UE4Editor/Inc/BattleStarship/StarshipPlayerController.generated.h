@@ -62,7 +62,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStarshipPlayerController); \
 
 #define BattleStarship_Source_BattleStarship_Public_StarshipPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CrossHairXLocation() { return STRUCT_OFFSET(AStarshipPlayerController, CrossHairXLocation); } \
-	FORCEINLINE static uint32 __PPO__CrossHairYLocation() { return STRUCT_OFFSET(AStarshipPlayerController, CrossHairYLocation); }
+	FORCEINLINE static uint32 __PPO__CrossHairYLocation() { return STRUCT_OFFSET(AStarshipPlayerController, CrossHairYLocation); } \
+	FORCEINLINE static uint32 __PPO__LineTraceRange() { return STRUCT_OFFSET(AStarshipPlayerController, LineTraceRange); }
 
 
 #define BattleStarship_Source_BattleStarship_Public_StarshipPlayerController_h_12_PROLOG

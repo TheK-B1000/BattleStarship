@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28315.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{07004C0C-015C-4EC6-A483-4E40397033C9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{5C9D8338-DEC2-44D5-BCCA-E210E76BE940}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{BC1C760F-6221-4C69-B718-938179AA72E6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{75C08833-EA33-4CDE-8306-046A0EB13DBE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{982CACA9-810C-4629-AF77-5FFE8790CD40}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BattleStarship", "Intermediate\ProjectFiles\BattleStarship.vcxproj", "{F9A9F945-2A64-403D-B075-764919C69DE2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{CD93CA54-6F81-43D4-BCE1-63EBCC4710B9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{C56E2DD2-0F14-4BD4-92E5-95F896CEC5AF}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.24\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.24\Engine\Extras\VisualStudioDebugging\UE4.natvis
+		..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.24\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.24\Engine\Extras\VisualStudioDebugging\UE4.natvis
 	EndProjectSection
 EndProject
 Global
@@ -81,7 +81,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{982CACA9-810C-4629-AF77-5FFE8790CD40} = {07004C0C-015C-4EC6-A483-4E40397033C9}
-		{F9A9F945-2A64-403D-B075-764919C69DE2} = {BC1C760F-6221-4C69-B718-938179AA72E6}
+		{982CACA9-810C-4629-AF77-5FFE8790CD40} = {5C9D8338-DEC2-44D5-BCCA-E210E76BE940}
+		{F9A9F945-2A64-403D-B075-764919C69DE2} = {75C08833-EA33-4CDE-8306-046A0EB13DBE}
 	EndGlobalSection
 EndGlobal

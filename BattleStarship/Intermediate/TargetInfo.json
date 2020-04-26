@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "BattleStarship",
-			"Path": "C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\BattleStarship\\BattleStarship\\Source\\BattleStarship.Target.cs",
+			"Path": "C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\BattleStarship\\BattleStarship\\BattleStarship\\Source\\BattleStarship.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "BattleStarshipEditor",
-			"Path": "C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\BattleStarship\\BattleStarship\\Source\\BattleStarshipEditor.Target.cs",
+			"Path": "C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\BattleStarship\\BattleStarship\\BattleStarship\\Source\\BattleStarshipEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
