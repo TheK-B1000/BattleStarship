@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "StarshipAimingComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "Starship.generated.h"
@@ -13,6 +14,12 @@ class BATTLESTARSHIP_API AStarship : public APawn
 
 public:
 	void AimAt(FVector HitLocation);
+
+	UFUNCTION(BlueprintCallable, Category = Setup)
+	void SetCannonReference(UStaticMeshComponent* CannonToSet);
+
+protected:
+	UStarshipAimingComponent* StarshipAimingComponent = nullptr;
 
 private:
 	// Sets default values for this pawn's properties

@@ -117,4 +117,14 @@
       <Filter>Source\BattleStarship\Public</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BattleStarship\Public\StarshipAimingComponent.h">
+      <Filter>Source\BattleStarship\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BattleStarship\Private\StarshipAimingComponent.cpp">
+      <Filter>Source\BattleStarship\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

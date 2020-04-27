@@ -50,4 +50,5 @@
 		{
 			UE_LOG(LogTemp, Warning, TEXT("AI Controller found player: %s!"), *(PlayerStarship->GetName()));
 		}
+		return PlayerStarship;
 	}

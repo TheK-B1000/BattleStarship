@@ -1,13 +1,20 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+// Social Cube Media 2020
 
 #include "Starship.h"
+#include "UObject/UObjectGlobals.h"
+
+void AStarship::SetCannonReference(UStaticMeshComponent* CannonToSet)
+{
+	StarshipAimingComponent->SetCannonReference(CannonToSet);
+}
 
 // Sets default values
-AStarship::AStarship()
+AStarship::AStarship() // Constructor 
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	StarshipAimingComponent = CreateDefaultSubobject<UStarshipAimingComponent>(FName(" Aiming Component "));
 
 }
 
@@ -34,6 +41,5 @@ void AStarship::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 void AStarship::AimAt(FVector HitLocation)
 {
-	auto OurStarshipName = GetName();
-	UE_LOG(LogTemp, Warning, TEXT("%s aiming at %s"), *OurStarshipName, *(HitLocation.ToString()));
-}
+	StarshipAimingComponent->AimAt(HitLocation);
+} 

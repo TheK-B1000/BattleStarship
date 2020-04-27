@@ -9,6 +9,11 @@ void AStarshipPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
+	FindControlledStarship();
+}
+
+void AStarshipPlayerController::FindControlledStarship()
+{
 	auto ControlledStarship = GetControlledStarship();
 
 	if (!ControlledStarship)
