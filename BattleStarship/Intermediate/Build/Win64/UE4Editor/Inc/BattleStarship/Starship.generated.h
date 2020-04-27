@@ -81,7 +81,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStarship); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AStarship)
 
 
-#define BattleStarship_Source_BattleStarship_Public_Starship_h_13_PRIVATE_PROPERTY_OFFSET
+#define BattleStarship_Source_BattleStarship_Public_Starship_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__LaunchSpeed() { return STRUCT_OFFSET(AStarship, LaunchSpeed); }
+
+
 #define BattleStarship_Source_BattleStarship_Public_Starship_h_10_PROLOG
 #define BattleStarship_Source_BattleStarship_Public_Starship_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

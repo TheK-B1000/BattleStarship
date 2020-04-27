@@ -5916,3 +5916,179 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.27-20.24.35:639][593]LogUObjectHash: Compacting FUObjectHashTables data took  13.70ms
 [2020.04.27-20.24.35:893][593]LogContentBrowser: Native class hierarchy populated in 0.0356 seconds. Added 3022 classes and 723 folders.
 [2020.04.27-20.24.35:895][593]Display: HotReload took 31.6s.
+[2020.04.27-21.11.23:494][270]Candidate modules for hot reload:
+[2020.04.27-21.11.23:494][270]  BattleStarship
+[2020.04.27-21.11.23:495][270]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleStarship,7970 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject"  -IgnoreJunk]
+[2020.04.27-21.11.23:543][270]Warning: Starting HotReload took  0.1s.
+[2020.04.27-21.11.45:662][361]CompilerResultsLog: New page: Compilation - Apr 27, 2020, 7:11:45 AM
+[2020.04.27-21.11.45:679][361]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.04.27-21.11.45:679][361]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship).
+[2020.04.27-21.11.45:682][361]CompilerResultsLog: Parsing headers for BattleStarshipEditor
+[2020.04.27-21.11.45:683][361]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\BattleStarship.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\BattleStarshipEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.27-21.11.45:683][361]CompilerResultsLog: Error: C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/Source/BattleStarship/Public/Starship.h(22)  : Error: 'BlueprintCallable' is only allowed on a property when it is a multicast delegate
+[2020.04.27-21.11.45:683][361]LogMainFrame: MainFrame: Module compiling took 22.207 seconds
+[2020.04.27-21.11.45:684][361]Warning: HotReload failed, recompile failed
+[2020.04.27-21.12.23:307][685]Candidate modules for hot reload:
+[2020.04.27-21.12.23:307][685]  BattleStarship
+[2020.04.27-21.12.23:307][685]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleStarship,3443 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject"  -IgnoreJunk]
+[2020.04.27-21.12.23:331][685]Warning: Starting HotReload took  0.1s.
+[2020.04.27-21.14.10:405][ 65]CompilerResultsLog: New page: Compilation - Apr 27, 2020, 7:14:10 AM
+[2020.04.27-21.14.10:443][ 65]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.04.27-21.14.10:443][ 65]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship).
+[2020.04.27-21.14.10:443][ 65]CompilerResultsLog: Parsing headers for BattleStarshipEditor
+[2020.04.27-21.14.10:443][ 65]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\BattleStarship.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\BattleStarshipEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.27-21.14.10:443][ 65]CompilerResultsLog: Reflection code generated for BattleStarshipEditor in 13.2049201 seconds
+[2020.04.27-21.14.10:443][ 65]CompilerResultsLog: Building BattleStarshipEditor...
+[2020.04.27-21.14.10:443][ 65]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.27-21.14.10:443][ 65]CompilerResultsLog: [Upgrade]
+[2020.04.27-21.14.10:443][ 65]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.27-21.14.10:443][ 65]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.27-21.14.10:443][ 65]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.27-21.14.10:443][ 65]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in BattleStarshipEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog: [Upgrade]
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog: Building 11 actions with 4 processes...
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog:   [1/11] StarshipPlayerController.gen.cpp
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog:   [2/11] Starship.gen.cpp
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog:   [3/11] BattleStarship.init.gen.cpp
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog:   [4/11] StarshipAimingComponent.cpp
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog:   [5/11] StarshipPlayerController.cpp
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog:   [6/11] StarshipAIController.gen.cpp
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog:   [7/11] Starship.cpp
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog:   [8/11] StarshipAIController.cpp
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog:   [9/11] UE4Editor-BattleStarship-3443.lib
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\UE4Editor-BattleStarship-3443.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\UE4Editor-BattleStarship-3443.exp
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog:   [10/11] UE4Editor-BattleStarship-3443.dll
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\UE4Editor-BattleStarship-3443.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\UE4Editor-BattleStarship-3443.suppressed.exp
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog:   [11/11] BattleStarshipEditor.target
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog: Total time in Parallel executor: 89.40 seconds
+[2020.04.27-21.14.10:444][ 65]CompilerResultsLog: Total execution time: 106.41 seconds
+[2020.04.27-21.14.10:446][ 65]LogMainFrame: MainFrame: Module compiling took 107.167 seconds
+[2020.04.27-21.14.12:817][ 65]LogUObjectHash: Compacting FUObjectHashTables data took  40.31ms
+[2020.04.27-21.14.16:142][ 65]LogClass: Could not find existing class Starship in package /Script/BattleStarship for HotReload, assuming new class
+[2020.04.27-21.14.16:145][ 65]LogClass: Function SetCannonReference is new.
+[2020.04.27-21.14.16:283][ 65]LogHotReload: Re-instancing Starship after hot-reload.
+[2020.04.27-21.14.18:741][ 65]LogContentBrowser: Native class hierarchy updated for 'BattleStarship' in 0.3556 seconds. Added 5 classes and 3 folders.
+[2020.04.27-21.14.18:790][ 65]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.27-21.14.19:850][ 65]LogUObjectHash: Compacting FUObjectHashTables data took  10.48ms
+[2020.04.27-21.14.20:218][ 65]LogContentBrowser: Native class hierarchy populated in 0.0905 seconds. Added 3022 classes and 723 folders.
+[2020.04.27-21.14.20:222][ 65]Display: HotReload took 117.0s.
+[2020.04.27-21.14.32:475][464]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player_StarShip/Starship_BP.Starship_BP
+[2020.04.27-21.53.43:919][196]Candidate modules for hot reload:
+[2020.04.27-21.53.43:922][196]  BattleStarship
+[2020.04.27-21.53.43:925][196]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleStarship,9169 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject"  -IgnoreJunk]
+[2020.04.27-21.53.43:986][196]Warning: Starting HotReload took  0.2s.
+[2020.04.27-21.53.52:972][290]CompilerResultsLog: New page: Compilation - Apr 27, 2020, 7:53:52 AM
+[2020.04.27-21.53.52:998][290]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.04.27-21.53.52:998][290]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship).
+[2020.04.27-21.53.52:998][290]CompilerResultsLog: Parsing headers for BattleStarshipEditor
+[2020.04.27-21.53.52:998][290]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\BattleStarship.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\BattleStarshipEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.27-21.53.53:000][290]LogMainFrame: MainFrame: Module compiling took 9.128 seconds
+[2020.04.27-21.53.53:005][290]Warning: HotReload failed, recompile failed
+[2020.04.27-21.54.25:019][454]Candidate modules for hot reload:
+[2020.04.27-21.54.25:020][454]  BattleStarship
+[2020.04.27-21.54.25:020][454]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleStarship,9883 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject"  -IgnoreJunk]
+[2020.04.27-21.54.25:044][454]Warning: Starting HotReload took  0.1s.
+[2020.04.27-21.54.43:878][517]CompilerResultsLog: New page: Compilation - Apr 27, 2020, 7:54:43 AM
+[2020.04.27-21.54.43:927][517]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.04.27-21.54.43:927][517]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship).
+[2020.04.27-21.54.43:927][517]CompilerResultsLog: Parsing headers for BattleStarshipEditor
+[2020.04.27-21.54.43:927][517]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\BattleStarship.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\BattleStarshipEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.27-21.54.43:932][517]CompilerResultsLog: Error: C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/Source/BattleStarship/Public/StarshipAimingComponent.h(43)  : Error: Unexpected '}'. Did you miss a semi-colon?
+[2020.04.27-21.54.43:932][517]LogMainFrame: MainFrame: Module compiling took 18.944 seconds
+[2020.04.27-21.54.43:938][517]Warning: HotReload failed, recompile failed
+[2020.04.27-21.54.50:843][563]Candidate modules for hot reload:
+[2020.04.27-21.54.50:843][563]  BattleStarship
+[2020.04.27-21.54.50:843][563]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleStarship,2636 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject"  -IgnoreJunk]
+[2020.04.27-21.54.50:903][563]Warning: Starting HotReload took  0.2s.
+[2020.04.27-21.54.51:045][564]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.27-21.55.10:423][628]CompilerResultsLog: New page: Compilation - Apr 27, 2020, 7:55:10 AM
+[2020.04.27-21.55.10:430][628]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.04.27-21.55.10:430][628]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship).
+[2020.04.27-21.55.10:430][628]CompilerResultsLog: Parsing headers for BattleStarshipEditor
+[2020.04.27-21.55.10:430][628]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\BattleStarship.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\BattleStarshipEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.27-21.55.10:430][628]CompilerResultsLog: Error: C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/Source/BattleStarship/Public/StarshipAimingComponent.h(43)  : Error: Unexpected '}'. Did you miss a semi-colon?
+[2020.04.27-21.55.10:430][628]LogMainFrame: MainFrame: Module compiling took 19.612 seconds
+[2020.04.27-21.55.10:430][628]Warning: HotReload failed, recompile failed
+[2020.04.27-21.57.09:070][  8]Candidate modules for hot reload:
+[2020.04.27-21.57.09:070][  8]  BattleStarship
+[2020.04.27-21.57.09:070][  8]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleStarship,2063 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject"  -IgnoreJunk]
+[2020.04.27-21.57.09:101][  8]Warning: Starting HotReload took  0.1s.
+[2020.04.27-21.58.44:804][358]CompilerResultsLog: New page: Compilation - Apr 27, 2020, 7:58:44 AM
+[2020.04.27-21.58.44:820][358]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.04.27-21.58.44:820][358]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship).
+[2020.04.27-21.58.44:820][358]CompilerResultsLog: Parsing headers for BattleStarshipEditor
+[2020.04.27-21.58.44:820][358]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\BattleStarship.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\BattleStarshipEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.27-21.58.44:820][358]CompilerResultsLog: Reflection code generated for BattleStarshipEditor in 17.3564223 seconds
+[2020.04.27-21.58.44:820][358]CompilerResultsLog: Building BattleStarshipEditor...
+[2020.04.27-21.58.44:821][358]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.27-21.58.44:821][358]CompilerResultsLog: [Upgrade]
+[2020.04.27-21.58.44:821][358]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.27-21.58.44:821][358]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.27-21.58.44:821][358]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.27-21.58.44:821][358]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.27-21.58.44:821][358]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in BattleStarshipEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.27-21.58.44:821][358]CompilerResultsLog: [Upgrade]
+[2020.04.27-21.58.44:821][358]CompilerResultsLog: Building 12 actions with 4 processes...
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:   [1/12] StarshipAIController.gen.cpp
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:   [2/12] StarshipPlayerController.gen.cpp
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:   [3/12] Starship.gen.cpp
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:   [4/12] StarshipAimingComponent.gen.cpp
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:   [5/12] BattleStarship.init.gen.cpp
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:   [6/12] StarshipPlayerController.cpp
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Private\StarshipPlayerController.cpp(46) : error C2660: 'AStarship::AimAt': function does not take 1 arguments
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\Starship.h(16): note: see declaration of 'AStarship::AimAt'
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:   [7/12] StarshipAimingComponent.cpp
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:   [8/12] Starship.cpp
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Private\Starship.cpp(42): warning C4458: declaration of 'LaunchSpeed' hides class member
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\Starship.h(38): note: see declaration of 'AStarship::LaunchSpeed'
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:   [9/12] StarshipAIController.cpp
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Private\StarshipAIController.cpp(23) : error C2660: 'AStarship::AimAt': function does not take 1 arguments
+[2020.04.27-21.58.44:821][358]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\Starship.h(16): note: see declaration of 'AStarship::AimAt'
+[2020.04.27-21.58.44:821][358]LogMainFrame: MainFrame: Module compiling took 95.769 seconds
+[2020.04.27-21.58.44:821][358]Warning: HotReload failed, recompile failed
+[2020.04.27-23.10.09:661][667]LogEditorViewport: Clicking on Actor (LMB): Starship_BP_C (Starship_BP)
+[2020.04.27-23.22.47:319][492]LogRenderer: Reallocating scene render targets to support 1176x544 Format 10 NumSamples 1 (Frame:483).
+[2020.04.27-23.26.29:240][261]LogHttp: Warning: 0000023ADA1D2980: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBB288792-4422-08DD-92A2-99BAD0C5052A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.04.27-23.26.29:240][261]LogHttp: Warning: 0000023ADA1D2980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.04.27-23.26.29:240][261]LogHttp: Warning: 0000023ADA1D2980: libcurl info message cache 0 (Connection 385 seems to be dead!)
+[2020.04.27-23.26.29:240][261]LogHttp: Warning: 0000023ADA1D2980: libcurl info message cache 1 (Closing connection 385)
+[2020.04.27-23.26.29:240][261]LogHttp: Warning: 0000023ADA1D2980: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.04.27-23.26.29:240][261]LogHttp: Warning: 0000023ADA1D2980: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.04.27-23.26.29:240][261]LogHttp: Warning: 0000023ADA1D2980: libcurl info message cache 4 (Closing connection 386)
+[2020.04.27-23.26.29:573][262]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBB288792-4422-08DD-92A2-99BAD0C5052A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.04.27-23.36.02:902][ 61]Candidate modules for hot reload:
+[2020.04.27-23.36.02:902][ 61]  BattleStarship
+[2020.04.27-23.36.02:903][ 61]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleStarship,2933 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject"  -IgnoreJunk]
+[2020.04.27-23.36.02:963][ 61]Warning: Starting HotReload took  0.1s.
+[2020.04.27-23.37.25:716][327]CompilerResultsLog: New page: Compilation - Apr 27, 2020, 9:37:25 AM
+[2020.04.27-23.37.25:725][327]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.04.27-23.37.25:726][327]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship).
+[2020.04.27-23.37.25:726][327]CompilerResultsLog: Parsing headers for BattleStarshipEditor
+[2020.04.27-23.37.25:726][327]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\BattleStarship.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\BattleStarshipEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.27-23.37.25:726][327]CompilerResultsLog: Reflection code generated for BattleStarshipEditor in 17.846192 seconds
+[2020.04.27-23.37.25:726][327]CompilerResultsLog: Building BattleStarshipEditor...
+[2020.04.27-23.37.25:726][327]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.27-23.37.25:726][327]CompilerResultsLog: [Upgrade]
+[2020.04.27-23.37.25:726][327]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.27-23.37.25:726][327]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.27-23.37.25:727][327]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.27-23.37.25:727][327]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.27-23.37.25:727][327]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in BattleStarshipEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.27-23.37.25:727][327]CompilerResultsLog: [Upgrade]
+[2020.04.27-23.37.25:727][327]CompilerResultsLog: Building 10 actions with 4 processes...
+[2020.04.27-23.37.25:727][327]CompilerResultsLog:   [1/10] StarshipPlayerController.cpp
+[2020.04.27-23.37.25:727][327]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Private\StarshipPlayerController.cpp(46) : error C2660: 'AStarship::AimAt': function does not take 1 arguments
+[2020.04.27-23.37.25:727][327]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\Starship.h(16): note: see declaration of 'AStarship::AimAt'
+[2020.04.27-23.37.25:727][327]CompilerResultsLog:   [2/10] StarshipAimingComponent.cpp
+[2020.04.27-23.37.25:727][327]CompilerResultsLog:   [3/10] Starship.gen.cpp
+[2020.04.27-23.37.25:727][327]CompilerResultsLog:   [4/10] StarshipPlayerController.gen.cpp
+[2020.04.27-23.37.25:727][327]CompilerResultsLog:   [5/10] StarshipAIController.gen.cpp
+[2020.04.27-23.37.25:727][327]CompilerResultsLog:   [6/10] Starship.cpp
+[2020.04.27-23.37.25:727][327]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Private\Starship.cpp(42): warning C4458: declaration of 'LaunchSpeed' hides class member
+[2020.04.27-23.37.25:727][327]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\Starship.h(38): note: see declaration of 'AStarship::LaunchSpeed'
+[2020.04.27-23.37.25:728][327]CompilerResultsLog:   [7/10] StarshipAIController.cpp
+[2020.04.27-23.37.25:728][327]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Private\StarshipAIController.cpp(23) : error C2660: 'AStarship::AimAt': function does not take 1 arguments
+[2020.04.27-23.37.25:728][327]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\Starship.h(16): note: see declaration of 'AStarship::AimAt'
+[2020.04.27-23.37.25:728][327]LogMainFrame: MainFrame: Module compiling took 82.851 seconds
+[2020.04.27-23.37.25:729][327]Warning: HotReload failed, recompile failed

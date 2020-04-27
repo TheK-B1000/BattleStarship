@@ -31,9 +31,11 @@ void UStarshipAimingComponent::TickComponent(float DeltaTime, ELevelTick TickTyp
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 }
 
- void UStarshipAimingComponent::AimAt(FVector HitLocation)
+ void UStarshipAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 {
-	auto OurStarshipName = GetOwner()->GetName();
-	auto CannonBarrel = Cannon->GetComponentLocation().ToString();
-	UE_LOG(LogTemp, Warning, TEXT("%s aiming at %s from %s"), *OurStarshipName, *(HitLocation.ToString()), *CannonBarrel);
+	UE_LOG(LogTemp, Warning, TEXT("Firing at %f"), LaunchSpeed);
+
+	// Get the projectile velocity
+	//UGameplayStatics::SuggestProjectileVelocity
+
 } 

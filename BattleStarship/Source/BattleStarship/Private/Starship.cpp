@@ -39,7 +39,7 @@ void AStarship::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 }
 
-void AStarship::AimAt(FVector HitLocation)
+void AStarship::AimAt(FVector HitLocation, float LaunchSpeed)
 {
-	StarshipAimingComponent->AimAt(HitLocation);
+	StarshipAimingComponent->AimAt(HitLocation, LaunchSpeed);
 } 

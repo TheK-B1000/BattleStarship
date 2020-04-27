@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Kismet/GameplayStatics.h"
 #include "StarshipAimingComponent.generated.h"
 
 
@@ -25,11 +26,16 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 		
-	void AimAt(FVector HitLocation);
+	void AimAt(FVector HitLocation, float LaunchSpeed);
 
 	// Create a setter
 	void SetCannonReference(UStaticMeshComponent* CannonToSet);
 
 private:
 	UStaticMeshComponent* Cannon = nullptr;
+
+	FVector* LaunchVelocity;
+
+	FVector* LaunchDirection;
+
 };

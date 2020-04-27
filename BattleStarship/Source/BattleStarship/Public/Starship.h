@@ -13,7 +13,7 @@ class BATTLESTARSHIP_API AStarship : public APawn
 	GENERATED_BODY()
 
 public:
-	void AimAt(FVector HitLocation);
+	void AimAt(FVector HitLocation, float LaunchSpeed);
 
 	UFUNCTION(BlueprintCallable, Category = Setup)
 	void SetCannonReference(UStaticMeshComponent* CannonToSet);
@@ -34,4 +34,6 @@ private:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY(EditAnywhere, Category = Firing)
+		float LaunchSpeed = 100000; //  TODO find sensible default
 };
