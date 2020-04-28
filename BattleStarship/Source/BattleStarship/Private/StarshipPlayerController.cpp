@@ -4,7 +4,6 @@
 #include "StarshipPlayerController.h"
 #include "Engine/World.h"
 
-
 void AStarshipPlayerController::BeginPlay()
 {
 	Super::BeginPlay();

@@ -40,7 +40,6 @@ void EmptyLinkFunctionForGeneratedCodeStarshipAIController() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarshipAIController_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "StarshipAIController.h" },
 		{ "ModuleRelativePath", "Public/StarshipAIController.h" },
@@ -73,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeStarshipAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStarshipAIController, 3645532577);
+	IMPLEMENT_CLASS(AStarshipAIController, 15906887);
 	template<> BATTLESTARSHIP_API UClass* StaticClass<AStarshipAIController>()
 	{
 		return AStarshipAIController::StaticClass();

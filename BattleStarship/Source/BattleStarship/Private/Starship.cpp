@@ -1,6 +1,7 @@
 // Social Cube Media 2020
 
 #include "Starship.h"
+#include "StarshipAimingComponent.h"
 #include "UObject/UObjectGlobals.h"
 
 void AStarship::SetCannonReference(UStarshipCannon* CannonToSet)

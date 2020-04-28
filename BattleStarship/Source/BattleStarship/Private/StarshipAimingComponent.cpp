@@ -39,7 +39,10 @@ void UStarshipAimingComponent::BeginPlay()
 		OutLaunchVelocity,
 		StartLocation,
 		HitLocation,
-		LaserSpeed,
+		LaunchSpeed,
+		false,
+		0,
+		0,
 		ESuggestProjVelocityTraceOption::DoNotTrace
 	);
 

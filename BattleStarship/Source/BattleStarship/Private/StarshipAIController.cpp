@@ -6,39 +6,39 @@
 #include "GameFramework/PlayerController.h"
 
 
-	void AStarshipAIController::BeginPlay()
+void AStarshipAIController::BeginPlay()
+{
+	Super::BeginPlay();
+	FindPlayerStarship();
+}
+void AStarshipAIController::Tick(float DeltaTime)
+{
+	// Called every frame
+	Super::Tick(DeltaTime);
+	if (GetPlayerStarship())
 	{
-		Super::BeginPlay();
-		FindPlayerStarship();
+		// TODO move to player
+
+		// AimAt Player Starship
+		GetControlledStarship()->AimAt(GetPlayerStarship()->GetActorLocation());
+
+		// Fire when ready
 	}
-	void AStarshipAIController::Tick(float DeltaTime)
-	{
-		// Called every frame
-		Super::Tick(DeltaTime);
-		if (GetPlayerStarship())
-		{
-			// TODO move to player
+}
 
-			// AimAt Player Starship
-			//GetControlledStarship()->AimAt(GetPlayerStarship()->GetActorLocation(), DeltaTime);
-
-			// Fire when ready
-		}
-	}
-
-	AStarship* AStarshipAIController::GetControlledStarship() const
+AStarship* AStarshipAIController::GetControlledStarship() const
 	{
 		return Cast<AStarship>(GetPawn());
 	}
 
-	AStarship* AStarshipAIController::GetPlayerStarship() const
+AStarship* AStarshipAIController::GetPlayerStarship() const
 	{
 		auto PlayerController = GetWorld()->GetFirstPlayerController();
 		if (!PlayerController) { return nullptr; }
 		return Cast<AStarship>(PlayerController);
 	}
 
-	AStarship* AStarshipAIController::FindPlayerStarship() const
+AStarship* AStarshipAIController::FindPlayerStarship() const
 	{
 		auto PlayerStarship = GetPlayerStarship();
 

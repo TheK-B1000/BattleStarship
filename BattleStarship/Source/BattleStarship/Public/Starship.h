@@ -2,13 +2,13 @@
 
 #pragma once
 
-#include "StarshipAimingComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "Starship.generated.h"
 
 // Forward Declaration
 class UStarshipCannon; 
+class UStarshipAimingComponent;
 
 UCLASS()
 class BATTLESTARSHIP_API AStarship : public APawn

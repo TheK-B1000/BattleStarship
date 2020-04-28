@@ -1,14 +1,13 @@
 // K-B Enterprises
 #pragma once
 
-#include "Starship.h"
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "StarshipPlayerController.generated.h"
 
-/**
- * 
- */
+// Forward decelaration
+class AStarship;
+
 UCLASS()
 class BATTLESTARSHIP_API AStarshipPlayerController : public APlayerController
 {

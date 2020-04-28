@@ -5,12 +5,11 @@
 #include "CoreMinimal.h"
 #include "AIController.h"
 #include "Engine/World.h"
-#include "Starship.h"
 #include "StarshipAIController.generated.h"
 
-/**
- * 
- */
+// Forward decelaration
+class AStarship;
+
 UCLASS()
 class BATTLESTARSHIP_API AStarshipAIController : public AAIController
 {
