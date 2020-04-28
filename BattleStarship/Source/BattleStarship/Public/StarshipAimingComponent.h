@@ -35,6 +35,4 @@ public:
 
 private:
 	UStarshipCannon* Cannon = nullptr;
-
-	float LaserSpeed = 1000;
 };

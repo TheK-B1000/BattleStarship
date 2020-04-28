@@ -50,7 +50,6 @@ void UStarshipAimingComponent::BeginPlay()
 	{
 		auto AimDirection = OutLaunchVelocity.GetSafeNormal(); // Unit Vector
 		auto TankName = GetOwner()->GetName();
-		UE_LOG(LogTemp, Warning, TEXT("%s is aiming at %s!"), *TankName, *AimDirection.ToString());
 		MoveCannonTowards(AimDirection);
 	}
 } 
@@ -62,5 +61,5 @@ void UStarshipAimingComponent::BeginPlay()
 	 auto CannonRotator = GetOwner()->GetActorForwardVector();
 	 auto AimAtRotator = AimDirection.Rotation();
 
-	 Cannon->Elevate(5); // TODO remove magic number
+	 Cannon->Elevate(1); // TODO remove magic number
  }
