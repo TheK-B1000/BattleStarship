@@ -8,8 +8,10 @@
 #include "Kismet/GameplayStatics.h"
 #include "StarshipAimingComponent.generated.h"
 
-class UStarshipCannon; // Forward declaration
+ // Forward declaration
+class UStarshipCannon;
 
+// Holds Cannon's properties and Elevate method
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class BATTLESTARSHIP_API UStarshipAimingComponent : public UActorComponent
 {

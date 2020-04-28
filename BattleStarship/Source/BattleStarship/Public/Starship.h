@@ -7,7 +7,8 @@
 #include "GameFramework/Pawn.h"
 #include "Starship.generated.h"
 
-class UStarshipCannon; // Forward Declaration
+// Forward Declaration
+class UStarshipCannon; 
 
 UCLASS()
 class BATTLESTARSHIP_API AStarship : public APawn

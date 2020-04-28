@@ -42,10 +42,10 @@ void EmptyLinkFunctionForGeneratedCodeStarshipAimingComponent() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStarshipAimingComponent_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "Custom" },
-		{ "Comment", "// Forward declaration\n" },
+		{ "Comment", "// Holds Cannon's properties and Elevate method\n" },
 		{ "IncludePath", "StarshipAimingComponent.h" },
 		{ "ModuleRelativePath", "Public/StarshipAimingComponent.h" },
-		{ "ToolTip", "Forward declaration" },
+		{ "ToolTip", "Holds Cannon's properties and Elevate method" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UStarshipAimingComponent_Statics::StaticCppClassTypeInfo = {
@@ -75,7 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeStarshipAimingComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UStarshipAimingComponent, 549758183);
+	IMPLEMENT_CLASS(UStarshipAimingComponent, 3208974395);
 	template<> BATTLESTARSHIP_API UClass* StaticClass<UStarshipAimingComponent>()
 	{
 		return UStarshipAimingComponent::StaticClass();

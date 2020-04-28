@@ -60,7 +60,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UStarshipCannon); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UStarshipCannon)
 
 
-#define BattleStarship_Source_BattleStarship_Public_StarshipCannon_h_15_PRIVATE_PROPERTY_OFFSET
+#define BattleStarship_Source_BattleStarship_Public_StarshipCannon_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__MaxDegreesPerSeconds() { return STRUCT_OFFSET(UStarshipCannon, MaxDegreesPerSeconds); } \
+	FORCEINLINE static uint32 __PPO__MaxElevationInDegrees() { return STRUCT_OFFSET(UStarshipCannon, MaxElevationInDegrees); } \
+	FORCEINLINE static uint32 __PPO__MinElevationInDegrees() { return STRUCT_OFFSET(UStarshipCannon, MinElevationInDegrees); }
+
+
 #define BattleStarship_Source_BattleStarship_Public_StarshipCannon_h_12_PROLOG
 #define BattleStarship_Source_BattleStarship_Public_StarshipCannon_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

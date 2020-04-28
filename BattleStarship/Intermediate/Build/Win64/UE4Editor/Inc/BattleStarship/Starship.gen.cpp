@@ -97,11 +97,9 @@ void EmptyLinkFunctionForGeneratedCodeStarship() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarship_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "// Forward Declaration\n" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "Starship.h" },
 		{ "ModuleRelativePath", "Public/Starship.h" },
-		{ "ToolTip", "Forward Declaration" },
 	};
 #endif
 #if WITH_METADATA
@@ -141,7 +139,7 @@ void EmptyLinkFunctionForGeneratedCodeStarship() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStarship, 213166704);
+	IMPLEMENT_CLASS(AStarship, 2820985886);
 	template<> BATTLESTARSHIP_API UClass* StaticClass<AStarship>()
 	{
 		return AStarship::StaticClass();
