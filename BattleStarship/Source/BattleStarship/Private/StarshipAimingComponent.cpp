@@ -33,9 +33,29 @@ void UStarshipAimingComponent::TickComponent(float DeltaTime, ELevelTick TickTyp
 
  void UStarshipAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Firing at %f"), LaunchSpeed);
+	 if (!Cannon) { return; } // Pointer Protection
 
-	// Get the projectile velocity
-	//UGameplayStatics::SuggestProjectileVelocity
-
+	FVector StartLocation = Cannon->GetSocketLocation(FName("CannonHead"));
+	FVector OutLaunchVelocity(0); // OUT parameter
+	auto Trace = ESuggestProjVelocityTraceOption::DoNotTrace;
+	auto ResponseParam = FCollisionResponseParams::DefaultResponseParam;
+		
+	// Calculate Launch Velocity
+	if (UGameplayStatics::SuggestProjectileVelocity
+	(
+		this,
+		OutLaunchVelocity,
+		StartLocation,
+		HitLocation,
+		LaserSpeed,
+		Trace,
+		ResponseParam
+	)
+		)
+	{
+		auto AimDirection = OutLaunchVelocity.GetSafeNormal(); // Unit Vector
+		auto TankName = GetOwner()->GetName();
+		UE_LOG(LogTemp, Warning, TEXT("%s is aiming at %s!"), *TankName, *AimDirection.ToString());
+	}
+		// if no solution found do nothing	
 } 

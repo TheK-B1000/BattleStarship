@@ -41,9 +41,10 @@ void AStarshipPlayerController::AimTowardsCrosshair()
 {
 	if (!GetControlledStarship()) { return; }
 	FVector HitLocation; // OUT Parameter
+	float LaunchSpeed = 100000; // OUT Parameter
 	if (GetSightRayHitLocation(HitLocation))  // has "side-effect", is going to line trace
 	{
-		GetControlledStarship()->AimAt(HitLocation);
+		GetControlledStarship()->AimAt(HitLocation, LaunchSpeed);
 	}
 }
 

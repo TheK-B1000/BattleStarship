@@ -13,6 +13,7 @@
 	}
 	void AStarshipAIController::Tick(float DeltaTime)
 	{
+		float LaunchSpeed = 100000; // OUT Parameter
 		// Called every frame
 		Super::Tick(DeltaTime);
 		if (GetPlayerStarship())
@@ -20,7 +21,7 @@
 			// TODO move to player
 
 			// AimAt Player Starship
-			GetControlledStarship()->AimAt(GetPlayerStarship()->GetActorLocation());
+			GetControlledStarship()->AimAt(GetPlayerStarship()->GetActorLocation(), LaunchSpeed);
 
 			// Fire when ready
 		}

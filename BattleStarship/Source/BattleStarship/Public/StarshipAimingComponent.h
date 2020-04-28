@@ -34,8 +34,5 @@ public:
 private:
 	UStaticMeshComponent* Cannon = nullptr;
 
-	FVector* LaunchVelocity;
-
-	FVector* LaunchDirection;
-
+	float LaserSpeed = 1000;
 };
