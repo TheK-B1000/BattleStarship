@@ -8,6 +8,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "StarshipAimingComponent.generated.h"
 
+class UStarshipCannon; // Forward declaration
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class BATTLESTARSHIP_API UStarshipAimingComponent : public UActorComponent
@@ -23,16 +24,15 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-		
 	void AimAt(FVector HitLocation, float LaunchSpeed);
 
 	// Create a setter
-	void SetCannonReference(UStaticMeshComponent* CannonToSet);
+	void SetCannonReference(UStarshipCannon* CannonToSet);
+
+	void MoveCannonTowards(FVector AimDirection);
 
 private:
-	UStaticMeshComponent* Cannon = nullptr;
+	UStarshipCannon* Cannon = nullptr;
 
 	float LaserSpeed = 1000;
 };

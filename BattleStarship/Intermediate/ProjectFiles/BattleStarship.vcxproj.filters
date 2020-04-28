@@ -121,9 +121,15 @@
     <ClInclude Include="..\..\Source\BattleStarship\Public\StarshipAimingComponent.h">
       <Filter>Source\BattleStarship\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\BattleStarship\Public\StarshipCannon.h">
+      <Filter>Source\BattleStarship\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BattleStarship\Private\StarshipAimingComponent.cpp">
+      <Filter>Source\BattleStarship\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BattleStarship\Private\StarshipCannon.cpp">
       <Filter>Source\BattleStarship\Private</Filter>
     </ClCompile>
   </ItemGroup>

@@ -3,7 +3,7 @@
 #include "Starship.h"
 #include "UObject/UObjectGlobals.h"
 
-void AStarship::SetCannonReference(UStaticMeshComponent* CannonToSet)
+void AStarship::SetCannonReference(UStarshipCannon* CannonToSet)
 {
 	StarshipAimingComponent->SetCannonReference(CannonToSet);
 }
@@ -39,7 +39,7 @@ void AStarship::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 }
 
-void AStarship::AimAt(FVector HitLocation, float LaunchSpeed)
+void AStarship::AimAt(FVector HitLocation)
 {
 	StarshipAimingComponent->AimAt(HitLocation, LaunchSpeed);
 } 

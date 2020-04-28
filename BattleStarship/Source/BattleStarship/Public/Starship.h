@@ -7,6 +7,8 @@
 #include "GameFramework/Pawn.h"
 #include "Starship.generated.h"
 
+class UStarshipCannon; // Forward Declaration
+
 UCLASS()
 class BATTLESTARSHIP_API AStarship : public APawn
 {
@@ -16,7 +18,10 @@ public:
 	void AimAt(FVector HitLocation, float LaunchSpeed);
 
 	UFUNCTION(BlueprintCallable, Category = Setup)
-	void SetCannonReference(UStaticMeshComponent* CannonToSet);
+	void SetCannonReference(UStarshipCannon* CannonToSet);
+
+	UPROPERTY(EditAnywhere, Category = Firing)
+	float LaunchSpeed = 100000; //  TODO find sensible default
 
 protected:
 	UStarshipAimingComponent* StarshipAimingComponent = nullptr;
@@ -34,6 +39,7 @@ private:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	UPROPERTY(EditAnywhere, Category = Firing)
-	float LaunchSpeed = 100000; //  TODO find sensible default
+	void AimAt(FVector HitLocation);
+
+
 };

@@ -387,10 +387,12 @@
     <ClCompile Include="..\..\Source\BattleStarship\Private\Starship.cpp" />
     <ClCompile Include="..\..\Source\BattleStarship\Private\StarshipAIController.cpp" />
     <ClCompile Include="..\..\Source\BattleStarship\Private\StarshipAimingComponent.cpp" />
+    <ClCompile Include="..\..\Source\BattleStarship\Private\StarshipCannon.cpp" />
     <ClCompile Include="..\..\Source\BattleStarship\Private\StarshipPlayerController.cpp" />
     <ClInclude Include="..\..\Source\BattleStarship\Public\Starship.h" />
     <ClInclude Include="..\..\Source\BattleStarship\Public\StarshipAIController.h" />
     <ClInclude Include="..\..\Source\BattleStarship\Public\StarshipAimingComponent.h" />
+    <ClInclude Include="..\..\Source\BattleStarship\Public\StarshipCannon.h" />
     <ClInclude Include="..\..\Source\BattleStarship\Public\StarshipPlayerController.h" />
   </ItemGroup>
   <PropertyGroup>

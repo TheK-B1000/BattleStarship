@@ -18,7 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeStarship() {}
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_BattleStarship();
 	BATTLESTARSHIP_API UFunction* Z_Construct_UFunction_AStarship_SetCannonReference();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	BATTLESTARSHIP_API UClass* Z_Construct_UClass_UStarshipCannon_NoRegister();
 // End Cross Module References
 	void AStarship::StaticRegisterNativesAStarship()
 	{
@@ -32,7 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeStarship() {}
 	{
 		struct Starship_eventSetCannonReference_Parms
 		{
-			UStaticMeshComponent* CannonToSet;
+			UStarshipCannon* CannonToSet;
 		};
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CannonToSet_MetaData[];
@@ -49,7 +49,7 @@ void EmptyLinkFunctionForGeneratedCodeStarship() {}
 		{ "EditInline", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AStarship_SetCannonReference_Statics::NewProp_CannonToSet = { "CannonToSet", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Starship_eventSetCannonReference_Parms, CannonToSet), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AStarship_SetCannonReference_Statics::NewProp_CannonToSet_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AStarship_SetCannonReference_Statics::NewProp_CannonToSet_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AStarship_SetCannonReference_Statics::NewProp_CannonToSet = { "CannonToSet", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Starship_eventSetCannonReference_Parms, CannonToSet), Z_Construct_UClass_UStarshipCannon_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AStarship_SetCannonReference_Statics::NewProp_CannonToSet_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AStarship_SetCannonReference_Statics::NewProp_CannonToSet_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AStarship_SetCannonReference_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AStarship_SetCannonReference_Statics::NewProp_CannonToSet,
 	};
@@ -93,13 +93,15 @@ void EmptyLinkFunctionForGeneratedCodeStarship() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_BattleStarship,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AStarship_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AStarship_SetCannonReference, "SetCannonReference" }, // 1247624366
+		{ &Z_Construct_UFunction_AStarship_SetCannonReference, "SetCannonReference" }, // 1394481736
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStarship_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "// Forward Declaration\n" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "Starship.h" },
 		{ "ModuleRelativePath", "Public/Starship.h" },
+		{ "ToolTip", "Forward Declaration" },
 	};
 #endif
 #if WITH_METADATA
@@ -108,7 +110,7 @@ void EmptyLinkFunctionForGeneratedCodeStarship() {}
 		{ "ModuleRelativePath", "Public/Starship.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarship_Statics::NewProp_LaunchSpeed = { "LaunchSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarship, LaunchSpeed), METADATA_PARAMS(Z_Construct_UClass_AStarship_Statics::NewProp_LaunchSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarship_Statics::NewProp_LaunchSpeed_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStarship_Statics::NewProp_LaunchSpeed = { "LaunchSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStarship, LaunchSpeed), METADATA_PARAMS(Z_Construct_UClass_AStarship_Statics::NewProp_LaunchSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStarship_Statics::NewProp_LaunchSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AStarship_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStarship_Statics::NewProp_LaunchSpeed,
 	};
@@ -139,7 +141,7 @@ void EmptyLinkFunctionForGeneratedCodeStarship() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStarship, 3399406929);
+	IMPLEMENT_CLASS(AStarship, 213166704);
 	template<> BATTLESTARSHIP_API UClass* StaticClass<AStarship>()
 	{
 		return AStarship::StaticClass();
