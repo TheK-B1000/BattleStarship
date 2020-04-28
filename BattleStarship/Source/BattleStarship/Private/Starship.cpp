@@ -12,7 +12,7 @@ void AStarship::SetCannonReference(UStarshipCannon* CannonToSet)
 AStarship::AStarship() // Constructor 
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
 
 	StarshipAimingComponent = CreateDefaultSubobject<UStarshipAimingComponent>(FName(" Aiming Component "));
 
@@ -23,13 +23,6 @@ void AStarship::BeginPlay()
 {
 	Super::BeginPlay();
 	
-}
-
-// Called every frame
-void AStarship::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
 }
 
 // Called to bind functionality to input

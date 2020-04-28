@@ -16,7 +16,7 @@ class BATTLESTARSHIP_API AStarship : public APawn
 	GENERATED_BODY()
 
 public:
-	void AimAt(FVector HitLocation, float LaunchSpeed);
+	void AimAt(FVector HitLocation);
 
 	UFUNCTION(BlueprintCallable, Category = Setup)
 	void SetCannonReference(UStarshipCannon* CannonToSet);
@@ -34,13 +34,7 @@ private:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	void AimAt(FVector HitLocation);
-
 
 };

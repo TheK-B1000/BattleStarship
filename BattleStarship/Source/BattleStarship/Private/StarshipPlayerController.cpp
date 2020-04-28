@@ -43,7 +43,7 @@ void AStarshipPlayerController::AimTowardsCrosshair()
 	FVector HitLocation; // OUT Parameter
 	if (GetSightRayHitLocation(HitLocation))  // has "side-effect", is going to line trace
 	{
-		//GetControlledStarship()->AimAt(HitLocation, 0);
+		GetControlledStarship()->AimAt(HitLocation);
 	}
 }
 

@@ -15,7 +15,8 @@ class BATTLESTARSHIP_API UStarshipCannon : public UStaticMeshComponent
 	GENERATED_BODY()
 	
 public:
-	void Elevate(float DegreesPerSecond);
+	// -1 is a max downward speed, +1 is a max up movement
+	void Elevate(float RelativeSpeed);
 
 private: 
 	UPROPERTY(EditAnywhere, Category = Setup)

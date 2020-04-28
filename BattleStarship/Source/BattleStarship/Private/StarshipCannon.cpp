@@ -3,7 +3,7 @@
 
 #include "StarshipCannon.h"
 
-void UStarshipCannon::Elevate(float DegreesPerSecond)
+void UStarshipCannon::Elevate(float RelativeSpeed)
 {
 	// Move the cannon the right amount this frame
 
