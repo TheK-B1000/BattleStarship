@@ -6040,3 +6040,60 @@ Scale3D: 1.000000 1.000000 1.000000
 [2020.04.29-19.33.53:930][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.04.29-19.33.53:939][778]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
 [2020.04.29-19.33.53:982][779]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.04.29-19.36.06:844][581]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.04.29-19.36.06:845][581]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.29-19.36.09:067][666]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.29-19.36.16:633][959]Candidate modules for hot reload:
+[2020.04.29-19.36.16:633][959]  BattleStarship
+[2020.04.29-19.36.16:634][959]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleStarship,6887 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/BattleStarship/BattleStarship/BattleStarship/BattleStarship.uproject"  -IgnoreJunk]
+[2020.04.29-19.37.44:657][959]CompilerResultsLog: New page: Compilation - Apr 29, 2020, 5:37:44 AM
+[2020.04.29-19.37.44:657][959]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.04.29-19.37.44:657][959]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship).
+[2020.04.29-19.37.44:657][959]CompilerResultsLog: Invalidating makefile for BattleStarshipEditor (source file added)
+[2020.04.29-19.37.44:657][959]CompilerResultsLog: Parsing headers for BattleStarshipEditor
+[2020.04.29-19.37.44:657][959]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\BattleStarship.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\BattleStarshipEditor\Development\BattleStarshipEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.29-19.37.44:658][959]CompilerResultsLog: Reflection code generated for BattleStarshipEditor in 30.7355577 seconds
+[2020.04.29-19.37.44:658][959]CompilerResultsLog: Building BattleStarshipEditor...
+[2020.04.29-19.37.44:658][959]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.29-19.37.44:658][959]CompilerResultsLog: [Upgrade]
+[2020.04.29-19.37.44:658][959]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.29-19.37.44:658][959]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.29-19.37.44:658][959]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.29-19.37.44:658][959]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.29-19.37.44:658][959]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in BattleStarshipEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.29-19.37.44:658][959]CompilerResultsLog: [Upgrade]
+[2020.04.29-19.37.44:658][959]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.29-19.37.44:658][959]CompilerResultsLog:   [1/6] BattleStarship.init.gen.cpp
+[2020.04.29-19.37.44:658][959]CompilerResultsLog:   [2/6] Projectile.cpp
+[2020.04.29-19.37.44:658][959]CompilerResultsLog:   [3/6] Projectile.gen.cpp
+[2020.04.29-19.37.44:658][959]CompilerResultsLog:   [4/6] UE4Editor-BattleStarship-6887.lib
+[2020.04.29-19.37.44:658][959]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\UE4Editor-BattleStarship-6887.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\UE4Editor-BattleStarship-6887.exp
+[2020.04.29-19.37.44:658][959]CompilerResultsLog:   [5/6] UE4Editor-BattleStarship-6887.dll
+[2020.04.29-19.37.44:658][959]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\UE4Editor-BattleStarship-6887.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\UE4Editor-BattleStarship-6887.suppressed.exp
+[2020.04.29-19.37.44:658][959]CompilerResultsLog:   [6/6] BattleStarshipEditor.target
+[2020.04.29-19.37.44:658][959]CompilerResultsLog: Total time in Parallel executor: 44.59 seconds
+[2020.04.29-19.37.44:658][959]CompilerResultsLog: Total execution time: 87.74 seconds
+[2020.04.29-19.37.44:658][959]LogMainFrame: MainFrame: Module compiling took 88.040 seconds
+[2020.04.29-19.37.44:736][959]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2020.04.29-19.37.46:038][959]LogClass: Could not find existing class Projectile in package /Script/BattleStarship for HotReload, assuming new class
+[2020.04.29-19.37.46:091][959]LogHotReload: Re-instancing StarshipTurret after hot-reload.
+[2020.04.29-19.37.46:466][959]LogContentBrowser: Native class hierarchy updated for 'BattleStarship' in 0.0024 seconds. Added 8 classes and 3 folders.
+[2020.04.29-19.37.46:475][959]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.29-19.37.46:676][959]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2020.04.29-19.37.46:706][959]LogContentBrowser: Native class hierarchy populated in 0.0149 seconds. Added 3025 classes and 723 folders.
+[2020.04.29-19.37.46:706][959]Display: HotReload took 90.1s.
+[2020.04.29-19.37.46:723][959]Warning: HotReload operation took 90.1s.
+[2020.04.29-19.37.47:472][959]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.04.29-19.37.48:474][959]LogHotReload: New module detected: UE4Editor-BattleStarship-6887.dll
+[2020.04.29-19.37.48:609][960]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.29-19.37.48:820][960]LogUObjectHash: Compacting FUObjectHashTables data took  13.49ms
+[2020.04.29-19.37.48:836][960]LogContentBrowser: Native class hierarchy updated for 'BattleStarship' in 0.0006 seconds. Added 8 classes and 3 folders.
+[2020.04.29-19.37.48:844][960]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.29-19.37.48:925][960]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.04.29-19.37.48:959][960]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 3025 classes and 723 folders.
+[2020.04.29-19.37.48:975][960]Display: HotReload took  0.4s.
+[2020.04.29-19.38.46:036][234]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.04.29-19.38.46:036][234]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.29-19.38.54:110][630]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Projectile_BP.Projectile_BP
+[2020.04.29-19.38.55:104][630]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.04.29-19.38.55:232][630]LogRenderer: Reallocating scene render targets to support 940x524 Format 10 NumSamples 1 (Frame:1).

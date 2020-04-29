@@ -135,4 +135,14 @@
       <Filter>Source\BattleStarship\Public</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BattleStarship\Public\Projectile.h">
+      <Filter>Source\BattleStarship\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BattleStarship\Private\Projectile.cpp">
+      <Filter>Source\BattleStarship\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
