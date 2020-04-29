@@ -1,13 +1,12 @@
 // K-B Enterprises
 
-#include "Starship.h"
 #include "StarshipPlayerController.h"
+#include "Starship.h"
 #include "Engine/World.h"
 
 void AStarshipPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
-
 	FindControlledStarship();
 }
 
@@ -46,7 +45,6 @@ void AStarshipPlayerController::AimTowardsCrosshair()
 	}
 }
 
-// Get World Location if linetrace through crosshair, true if hits land
 bool AStarshipPlayerController::GetSightRayHitLocation(FVector& HitLocation) const // GetSightRayHitLocation
 {
 	// Find the crosshair position
@@ -55,16 +53,35 @@ bool AStarshipPlayerController::GetSightRayHitLocation(FVector& HitLocation) con
 	GetViewportSize(ViewportSizeX, ViewportSizeY);
 	auto ScreenLocation = FVector2D
 	(
-		OUT CrossHairXLocation * ViewportSizeX,
-		OUT CrossHairYLocation * ViewportSizeY
+		OUT ViewportSizeX * CrossHairXLocation,
+		OUT ViewportSizeY * CrossHairYLocation
 	);
 	if (GetLookDirection(ScreenLocation, LookDirection))
 	{
 		// Line-trace along that look direction, and see what we hit (up to maximum range)
-		GetLookVectorHitLocation(HitLocation, LookDirection);
+		GetLookVectorHitLocation(LookDirection, HitLocation);
 	}
 
 	return true;
+}
+
+bool AStarshipPlayerController::GetLookVectorHitLocation(FVector& HitLocation, FVector& LookDirection) const
+{
+	FHitResult HitResult;
+	auto StartLocation = PlayerCameraManager->GetCameraLocation();
+	auto EndLocation = StartLocation + (LookDirection * LineTraceRange);
+	if (GetWorld()->LineTraceSingleByChannel(
+		HitResult,
+		StartLocation,
+		EndLocation,
+		ECollisionChannel::ECC_Visibility)
+		)
+	{
+		HitLocation = HitResult.Location;
+		return true;
+	}
+	HitLocation = FVector(0);
+	return false; // If line trace fails
 }
 
 bool AStarshipPlayerController::GetLookDirection(FVector2D& ScreenLocation, FVector& LookDirection) const
@@ -80,24 +97,3 @@ bool AStarshipPlayerController::GetLookDirection(FVector2D& ScreenLocation, FVec
 	);
 }
 
-bool AStarshipPlayerController::GetLookVectorHitLocation(FVector& HitLocation, FVector& LookDirection) const
-{
-	// calculate ray start point, ray end point, hit result, collision parameters
-	// ray start point is the camera location
-	// ray end point is a ray cast through the middle of the screen
-	FHitResult HitResult;
-	auto TraceStartPoint = PlayerCameraManager->GetCameraLocation();
-	auto TraceEndPoint = TraceStartPoint + (LookDirection * LineTraceRange);
-	if (GetWorld()->LineTraceSingleByChannel(
-		HitResult,
-		TraceStartPoint,
-		TraceEndPoint,
-		ECollisionChannel::ECC_Visibility)
-		)
-	{
-		HitLocation = HitResult.Location;
-		return true;
-	}
-	HitLocation = FVector(0);
-	return false; // If line trace fails
-}

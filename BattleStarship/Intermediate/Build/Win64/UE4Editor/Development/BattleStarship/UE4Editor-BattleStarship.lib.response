@@ -12,6 +12,7 @@
 "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\StarshipAimingComponent.cpp.obj"
 "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\StarshipCannon.cpp.obj"
 "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\StarshipPlayerController.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\StarshipTurret.cpp.obj"
 "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\BattleStarship.cpp.obj"
 "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\BattleStarshipGameModeBase.cpp.obj"
 "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\BattleStarship.init.gen.cpp.obj"
@@ -21,6 +22,7 @@
 "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\StarshipAimingComponent.gen.cpp.obj"
 "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\StarshipCannon.gen.cpp.obj"
 "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\StarshipPlayerController.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\StarshipTurret.gen.cpp.obj"
 "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\Default.rc2.res"
 /OUT:"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\UE4Editor-BattleStarship.lib"
 /INCLUDE:IMPLEMENT_MODULE_BattleStarship

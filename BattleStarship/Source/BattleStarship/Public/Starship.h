@@ -9,6 +9,7 @@
 // Forward Declaration
 class UStarshipCannon; 
 class UStarshipAimingComponent;
+class UStarshipTurret;
 
 UCLASS()
 class BATTLESTARSHIP_API AStarship : public APawn
@@ -21,8 +22,14 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Setup)
 	void SetCannonReference(UStarshipCannon* CannonToSet);
 
+	UFUNCTION(BlueprintCallable, Category = Setup)
+	void SetTurretReference(UStarshipTurret* TurretToSet);
+
+	UFUNCTION(BlueprintCallable, Category = Setup)
+	void Fire();
+
 	UPROPERTY(EditAnywhere, Category = Firing)
-	float LaunchSpeed = 100000; //  TODO find sensible default
+	float LaunchSpeed = 4000; //  TODO find sensible default
 
 protected:
 	UStarshipAimingComponent* StarshipAimingComponent = nullptr;

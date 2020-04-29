@@ -4,16 +4,9 @@
 
 void UStarshipCannon::Elevate(float RelativeSpeed)
 {
-	// Move the cannon the right amount this frame
-
-	// Given a max elevation speed, and the frame time
+	RelativeSpeed = FMath::Clamp<float>(RelativeSpeed, -1, +1);
 	auto ElevationChange = RelativeSpeed * MaxDegreesPerSeconds * GetWorld()->DeltaTimeSeconds;
-
-	// unclamped new elevation
-	auto RawNewElevation = RelativeRotation.Pitch + ElevationChange;
-	UE_LOG(LogTemp, Warning, TEXT("Elevation change is: %f"), ElevationChange);
-
-	auto ClampedElevation = FMath::Clamp(RawNewElevation, MinElevationInDegrees, MaxElevationInDegrees);
-
-	SetRelativeRotation(FRotator(ClampedElevation, 0, 0));
+	auto RawNewElevation = GetRelativeRotation().Pitch + ElevationChange;
+	auto Elevation = FMath::Clamp(RawNewElevation, MinElevationInDegrees, MaxElevationInDegrees);
+	SetRelativeRotation(FRotator(0, Elevation, 0));
 }

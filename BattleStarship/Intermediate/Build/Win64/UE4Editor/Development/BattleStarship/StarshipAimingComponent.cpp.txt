@@ -1,8 +1,4 @@
 C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Development\BattleStarship\Definitions.BattleStarship.h
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\Starship.h
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Inc\BattleStarship\Starship.generated.h
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\StarshipCannon.h
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Inc\BattleStarship\StarshipCannon.generated.h
 C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\StarshipAimingComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
@@ -15,3 +11,9 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet\
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Inc\BattleStarship\StarshipAimingComponent.generated.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\Starship.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Inc\BattleStarship\Starship.generated.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\StarshipCannon.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Inc\BattleStarship\StarshipCannon.generated.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Source\BattleStarship\Public\StarshipTurret.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\BattleStarship\BattleStarship\BattleStarship\Intermediate\Build\Win64\UE4Editor\Inc\BattleStarship\StarshipTurret.generated.h

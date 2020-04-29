@@ -10,6 +10,7 @@
 
  // Forward declaration
 class UStarshipCannon;
+class UStarshipTurret;
 
 // Holds Cannon's properties and Elevate method
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -21,18 +22,18 @@ public:
 	// Sets default values for this component's properties
 	UStarshipAimingComponent();
 
-protected:
-	// Called when the game starts
-	virtual void BeginPlay() override;
-
 public:	
 	void AimAt(FVector HitLocation, float LaunchSpeed);
 
-	// Create a setter
 	void SetCannonReference(UStarshipCannon* CannonToSet);
 
-	void MoveCannonTowards(FVector AimDirection);
+	void SetTurretReference(UStarshipTurret* TurretToSet);
 
 private:
 	UStarshipCannon* Cannon = nullptr;
+
+	UStarshipTurret* Turret = nullptr;
+
+	void MoveCannonTowards(FVector AimDirection);
+
 };

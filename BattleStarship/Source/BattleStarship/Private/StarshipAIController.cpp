@@ -1,7 +1,7 @@
 // K-B Enterprises
 
-#include "Starship.h"
 #include "StarshipAIController.h"
+#include "Starship.h"
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
 

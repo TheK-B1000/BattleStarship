@@ -4,11 +4,6 @@
 #include "StarshipAimingComponent.h"
 #include "UObject/UObjectGlobals.h"
 
-void AStarship::SetCannonReference(UStarshipCannon* CannonToSet)
-{
-	StarshipAimingComponent->SetCannonReference(CannonToSet);
-}
-
 // Sets default values
 AStarship::AStarship() // Constructor 
 {
@@ -19,11 +14,20 @@ AStarship::AStarship() // Constructor
 
 }
 
+void AStarship::SetCannonReference(UStarshipCannon* CannonToSet)
+{
+	StarshipAimingComponent->SetCannonReference(CannonToSet);
+}
+
+void AStarship::SetTurretReference(UStarshipTurret* TurretToSet)
+{
+	StarshipAimingComponent->SetTurretReference(TurretToSet);
+}
+
 // Called when the game starts or when spawned
 void AStarship::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called to bind functionality to input
@@ -31,9 +35,15 @@ void AStarship::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	InputComponent->BindAction("Fire", IE_Pressed, this, &AStarship::Fire);
 }
 
 void AStarship::AimAt(FVector HitLocation)
 {
 	StarshipAimingComponent->AimAt(HitLocation, LaunchSpeed);
 } 
+
+void AStarship::Fire()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Starship is Firing!"));
+}
